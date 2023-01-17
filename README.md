@@ -1,4 +1,4 @@
-# Outer Wilds planet creation template
+# Uranium: An Outer Wilds Story Mod
  A template project for adding planets to Outer Wilds with [New Horizons](https://github.com/xen-42/outer-wilds-new-horizons).
 
 The source code for the dll used is [here](https://github.com/xen-42/ow-new-horizons-mod-template).

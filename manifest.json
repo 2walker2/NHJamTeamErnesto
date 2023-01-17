@@ -1,9 +1,9 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "[your name]",
-  "name": "[your readable mod name]",
-  "uniqueName": "[your name].[your unique mod ID]",
+  "author": "Samster68, 2walker2, and Texture_Turtle",
+  "name": "Best Taco Bell Deals",
+  "uniqueName": "2walker2.bestTacoBellDeals",
   "version": "0.0.0",
-  "owmlVersion": "2.7.2",
+  "owmlVersion": "2.9.0",
   "dependencies": [ "xen.NewHorizons" ]
 }
