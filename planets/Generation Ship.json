@@ -20,17 +20,9 @@
 	},
 	"Spawn": {
 		"playerSpawnPoint": {
-			"z": 100.0
+			"z": 0.0
 		},
-		"startWithSuit": true,
-		"shipSpawnPoint": {
-			"y": 105.0,
-			"z": -50.0
-		},
-		"shipSpawnRotation": {
-			"x": -50.0,
-			"y": 50.0
-		}
+		"startWithSuit": true
 	},
 	"Props": {
 		"details": [
