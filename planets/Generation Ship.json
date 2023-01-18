@@ -30,13 +30,13 @@
 				"assetBundle": "planets/Assets/turtle.jam",
 				"path": "Assets/Jammer/Window.prefab",
 				"position": {
-					"x": -4.44232137E-06,
-					"y": -19.7999859,
-					"z": -0.000165939331
+					"x": -8.666284E-07,
+					"y": -19.7999668,
+					"z": -0.000217437744
 				},
 				"rotation": {
-					"x": 3.18571915E-06,
-					"y": -4.44298564E-07,
+					"x": 1.73104228E-12,
+					"y": 3.6250633E-06,
 					"z": 180.0
 				},
 				"scale": 7.0,
@@ -46,9 +46,9 @@
 				"assetBundle": "planets/Assets/turtle.jam",
 				"path": "Assets/Jammer/Station Floor2.prefab",
 				"position": {
-					"x": 2.363231E-08,
-					"y": 0.6673054,
-					"z": -0.000285506248
+					"x": 3.022069E-08,
+					"y": 0.6673551,
+					"z": -0.000112235546
 				},
 				"rotation": {
 					"x": 90.0,
@@ -60,14 +60,14 @@
 				"assetBundle": "planets/Assets/turtle.jam",
 				"path": "Assets/Jammer/Gravity.prefab",
 				"position": {
-					"x": -0.170002028,
-					"y": -1.20009267,
-					"z": -3.695488E-05
+					"x": -0.170005873,
+					"y": -1.20013809,
+					"z": -0.000233769417
 				},
 				"rotation": {
-					"x": 5.990606E-06,
-					"y": 30.0000019,
-					"z": -1.13457652E-07
+					"x": 8.879926E-06,
+					"y": 30.0000038,
+					"z": -4.10299072E-06
 				},
 				"scale": 8.9,
 				"stretch": {
@@ -79,9 +79,9 @@
 			{
 				"path": "Moon_Body/Sector_THM/Lighting_TM/Props_HEA_Lantern",
 				"position": {
-					"x": 2.340689,
-					"y": 5.62483025,
-					"z": -3.724637
+					"x": 2.34068727,
+					"y": 5.62482643,
+					"z": -3.72440386
 				},
 				"rotation": {
 					"x": 20.511385,
@@ -92,61 +92,61 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
 				"position": {
-					"x": 2.62166381,
-					"y": -15.8184757,
-					"z": 3.886033
+					"x": 2.62166214,
+					"y": -15.8185282,
+					"z": 3.885868
 				},
 				"rotation": {
 					"x": 271.796143,
-					"y": 209.999924,
-					"z": 89.99995
+					"y": 210.000076,
+					"z": 89.99979
 				}
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
 				"position": {
-					"x": 1.16420352,
-					"y": -15.8210888,
-					"z": 1.42738914
+					"x": 1.16420078,
+					"y": -15.8210659,
+					"z": 1.42739868
 				},
 				"rotation": {
-					"x": 270.394653,
-					"y": 210.000854,
-					"z": 89.9990158
+					"x": 270.394165,
+					"y": 210.001328,
+					"z": 89.99827
 				}
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
 				"position": {
-					"x": -0.3080773,
-					"y": -15.8177176,
-					"z": -1.12255859
+					"x": -0.308076918,
+					"y": -15.8176765,
+					"z": -1.12240219
 				},
 				"rotation": {
-					"x": 270.314026,
-					"y": 29.9970646,
-					"z": 270.002472
+					"x": 270.312775,
+					"y": 29.9975739,
+					"z": 270.0022
 				}
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
 				"position": {
-					"x": -1.97734725,
-					"y": -15.8711424,
-					"z": -3.84097481
+					"x": -1.97734582,
+					"y": -15.8711948,
+					"z": -3.841157
 				},
 				"rotation": {
-					"x": 272.746216,
-					"y": 210.000458,
-					"z": 89.9994659
+					"x": 272.7461,
+					"y": 210.000549,
+					"z": 89.99936
 				}
 			},
 			{
 				"path": "Moon_Body/Sector_THM/Lighting_TM/Props_HEA_Lantern",
 				"position": {
-					"x": -1.02131069,
-					"y": 1.97506917,
-					"z": 5.01565266
+					"x": -1.021311,
+					"y": 1.97513115,
+					"z": 5.01569939
 				},
 				"rotation": {
 					"x": 342.2004,
@@ -157,51 +157,51 @@
 			{
 				"path": "Moon_Body/Sector_THM/Lighting_TM/Props_HEA_Lantern",
 				"position": {
-					"x": 1.4078697,
-					"y": -15.8255644,
-					"z": 1.810421
+					"x": 1.40786874,
+					"y": -15.825531,
+					"z": 1.81044769
 				},
 				"rotation": {
 					"x": 304.6713,
-					"y": 210.219177,
-					"z": 89.73515
+					"y": 210.219162,
+					"z": 89.73517
 				}
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
 				"position": {
-					"x": 2.68882251,
-					"y": 4.355166,
-					"z": 3.9951992
+					"x": 2.68882465,
+					"y": 4.355237,
+					"z": 3.9953506
 				},
 				"rotation": {
-					"x": 272.695221,
-					"y": 209.999985,
-					"z": 90.0
+					"x": 272.69516,
+					"y": 210.000031,
+					"z": 89.99996
 				}
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
 				"position": {
-					"x": 2.10994244,
-					"y": 2.722837,
-					"z": 2.99602342
+					"x": 2.10994315,
+					"y": 2.722848,
+					"z": 2.995946
 				},
 				"rotation": {
-					"x": 2.11592531,
-					"y": 210.198547,
+					"x": 2.115929,
+					"y": 210.198532,
 					"z": 90.14335
 				}
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
 				"position": {
-					"x": 2.11351848,
-					"y": -0.254850149,
-					"z": 2.9779532
+					"x": 2.113521,
+					"y": -0.2548325,
+					"z": 2.97819
 				},
 				"rotation": {
-					"x": 0.4891687,
+					"x": 0.489172131,
 					"y": 212.088409,
 					"z": 89.85431
 				}
@@ -209,14 +209,14 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
 				"position": {
-					"x": 2.12528682,
-					"y": -3.19033718,
-					"z": 3.04518485
+					"x": 2.12528563,
+					"y": -3.190311,
+					"z": 3.04512286
 				},
 				"rotation": {
-					"x": 0.325218648,
+					"x": 0.3252246,
 					"y": 210.000031,
-					"z": 89.9999847
+					"z": 89.99998
 				}
 			}
 		]

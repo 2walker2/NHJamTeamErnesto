@@ -20,7 +20,7 @@
 		"surfaceSize": 50.0
 	},
 	"Lava": {
-		"size": 1,
+		"size": 1.0,
 		"tint": {
 			"r": 200,
 			"g": 200,
@@ -29,11 +29,10 @@
 		},
 		"curve": [
 			{
-				"time": 0,
 				"value": 26.4
 			},
 			{
-				"time": 22,
+				"time": 22.0,
 				"value": 9.5
 			}
 		]
@@ -57,7 +56,7 @@
 				"path": "Assets/Jammer/Clocktower.prefab",
 				"position": {
 					"x": 22.0230541,
-					"y": 13.2399187,
+					"y": 13.2399216,
 					"z": 10.878273
 				},
 				"rotation": {
@@ -71,14 +70,54 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_NOM_RotatingDoor_Broken",
 				"position": {
 					"x": 15.1975231,
-					"y": 19.761137,
-					"z": 15.8189325
+					"y": 19.7611389,
+					"z": 15.8189316
 				},
 				"rotation": {
 					"x": 344.9868,
 					"y": 152.556854,
-					"z": 53.90546
+					"z": 53.905468
 				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
+				"position": {
+					"x": -5.16511536,
+					"y": 0.598175049,
+					"z": 26.8687553
+				},
+				"rotation": {
+					"x": 308.842377,
+					"y": 251.0586,
+					"z": 288.561462
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge20",
+				"position": {
+					"x": 9.719706,
+					"y": -0.206115723,
+					"z": -25.56827
+				},
+				"rotation": {
+					"x": 80.86271,
+					"y": 140.378571,
+					"z": 348.1063
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
+				"position": {
+					"x": -27.11542,
+					"y": 1.08966827,
+					"z": -2.61119461
+				},
+				"rotation": {
+					"x": 39.5981026,
+					"y": 1.298168,
+					"z": 105.504364
+				},
+				"scale": 1.1
 			}
 		]
 	},
@@ -86,22 +125,21 @@
 	"ShipLog": {},
 	"ShockEffect": {},
 	"Water": {
-		"size": 1,
+		"size": 1.0,
 		"tint": {
 			"r": 200,
 			"g": 230,
 			"b": 40,
 			"a": 0
 		},
-	"curve": [
-		{
-			"time": 0,
-			"value": 27
-		},
-		{
-			"time": 22,
-			"value": 10
-		}
-	]
+		"curve": [
+			{
+				"value": 27.0
+			},
+			{
+				"time": 22.0,
+				"value": 10.0
+			}
+		]
 	}
 }
