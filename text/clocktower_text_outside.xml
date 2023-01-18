@@ -1,0 +1,21 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CANARAE: I have unfortunate news my friends, the experiment has failed.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>CANARAE: My measurements indicate that stability is decreasing but my instruments lack accuracy. We need some means of more accurately measuring the time remaining.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>CEDRUS: I can begin construction of such a measuring device immediately. Perhaps a clock tower would be aesthetically pleasing.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>MIACEAE: While I appreciate your eye for aesthetics Cedrus, remember that speed of construction is key. Helian and the rest of the clan are eager to move on, particularly if there is a risk of destabilization.</Text>
+	</TextBlock>
+</NomaiObject>

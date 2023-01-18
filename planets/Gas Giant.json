@@ -2,7 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Gas Giant",
 	"starSystem": "2walker2.OogaBooga",
-	"canShowOnTitle": false,
 	"Atmosphere": {
 		"atmosphereTint": {
 			"r": 112,
@@ -18,7 +17,8 @@
 			"tint": {
 				"r": 127,
 				"g": 222,
-				"b": 124
+				"b": 124,
+				"a": 0
 			}
 		},
 		"fogDensity": 0.3,
@@ -26,7 +26,8 @@
 		"fogTint": {
 			"r": 180,
 			"g": 180,
-			"b": 180
+			"b": 180,
+			"a": 0
 		},
 		"hasOxygen": true,
 		"size": 180.0,
@@ -39,6 +40,7 @@
 		"surfaceGravity": 12.0,
 		"surfaceSize": 120.0
 	},
+	"canShowOnTitle": false,
 	"Orbit": {
 		"primaryBody": "White Sun",
 		"semiMajorAxis": 4000.0

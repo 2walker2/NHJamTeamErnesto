@@ -62,9 +62,9 @@
 		"rafts": [
 			{
 				"position": {
-					"y": 19
+					"y": 19.0
 				},
-				"acceleration": 1
+				"acceleration": 1.0
 			}
 		]
 	},

@@ -1,0 +1,153 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "LSD",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 135,
+			"g": 99,
+			"b": 27,
+			"a": 0
+		},
+		"size": 70.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 8.0,
+		"surfaceSize": 50.0
+	},
+	"Lava": {
+		"size": 1.0,
+		"tint": {
+			"r": 200,
+			"g": 200,
+			"b": 27,
+			"a": 0
+		},
+		"curve": [
+			{
+				"value": 26.4
+			},
+			{
+				"time": 22.0,
+				"value": 9.5
+			}
+		]
+	},
+	"Orbit": {
+		"primaryBody": "Gas Giant",
+		"semiMajorAxis": 500.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/AcidPlanet.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 30.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.tower",
+				"path": "Assets/Jammer/Clocktower.prefab",
+				"position": {
+					"x": 22.0230541,
+					"y": 13.2399216,
+					"z": 10.878273
+				},
+				"rotation": {
+					"x": 308.813477,
+					"y": 261.09613,
+					"z": 336.472443
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_NOM_RotatingDoor_Broken",
+				"position": {
+					"x": 15.1975231,
+					"y": 19.7611389,
+					"z": 15.8189316
+				},
+				"rotation": {
+					"x": 344.9868,
+					"y": 152.556854,
+					"z": 53.905468
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
+				"position": {
+					"x": -5.16511536,
+					"y": 0.598175049,
+					"z": 26.8687553
+				},
+				"rotation": {
+					"x": 308.842377,
+					"y": 251.0586,
+					"z": 288.561462
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge20",
+				"position": {
+					"x": 9.719706,
+					"y": -0.206115723,
+					"z": -25.56827
+				},
+				"rotation": {
+					"x": 80.86271,
+					"y": 140.378571,
+					"z": 348.1063
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
+				"position": {
+					"x": -27.11542,
+					"y": 1.08966827,
+					"z": -2.61119461
+				},
+				"rotation": {
+					"x": 39.5981026,
+					"y": 1.298168,
+					"z": 105.504364
+				},
+				"scale": 1.1
+			}
+		],
+		"nomaiText": [
+			{
+				"xmlFile": "text/clocktower_text_outside.xml"
+			},
+			{
+				"xmlFile": "text/clocktower_text_top.xml"
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Water": {
+		"size": 1.0,
+		"tint": {
+			"r": 200,
+			"g": 230,
+			"b": 40,
+			"a": 0
+		},
+		"curve": [
+			{
+				"value": 27.0
+			},
+			{
+				"time": 22.0,
+				"value": 10.0
+			}
+		]
+	}
+}

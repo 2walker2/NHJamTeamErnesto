@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Gas Giant",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 112,
+			"g": 135,
+			"b": 134,
+			"a": 155
+		},
+		"clouds": {
+			"fluidType": "cloud",
+			"innerCloudRadius": 130.0,
+			"outerCloudRadius": 180.0,
+			"texturePath": "planets/Assets/clouds.png",
+			"tint": {
+				"r": 127,
+				"g": 222,
+				"b": 124,
+				"a": 0
+			}
+		},
+		"fogDensity": 0.3,
+		"fogSize": 350.0,
+		"fogTint": {
+			"r": 180,
+			"g": 180,
+			"b": 180,
+			"a": 0
+		},
+		"hasOxygen": true,
+		"size": 180.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 12.0,
+		"surfaceSize": 120.0
+	},
+	"canShowOnTitle": false,
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"semiMajorAxis": 4000.0
+	},
+	"ReferenceFrame": {},
+	"Sand": {
+		"size": 18.0
+	},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Spawn": {
+		"shipSpawnPoint": {
+			"y": 105.0
+		}
+	},
+	"Water": {
+		"size": 20.0
+	}
+}

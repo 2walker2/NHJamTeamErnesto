@@ -1,0 +1,26 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CEDRUS: We have confirmation. Solar stability is indeed decreasing, albeit at a slow rate.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>MIACEAE: Perhaps we could restabilize the system at regular intervals. However, doing so would require the clan to remain here indefinitely.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>MIACEAE: We would do well to broadcast our results to the other clans. Though we may not have succeeded, what we have learned here may still be of some use.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>CANARAE: The rate at which supernovas are occuring continues to increase. Solar stabilization must be solved quickly before no more suitable stars remain.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>MIACEAE: It is time to move onwards. There is a festival shortly in the Blackrock system. Perhaps one of the other clans has found a solution.</Text>
+	</TextBlock>
+</NomaiObject>
