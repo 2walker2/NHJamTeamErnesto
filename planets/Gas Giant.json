@@ -2,16 +2,34 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Gas Giant",
 	"starSystem": "2walker2.OogaBooga",
+	"canShowOnTitle": false,
 	"Atmosphere": {
 		"atmosphereTint": {
-			"r": 51,
-			"g": 28,
-			"b": 173,
-			"a": 0
+			"r": 112,
+			"g": 135,
+			"b": 134,
+			"a": 155
+		},
+		"clouds": {
+			"fluidType": "cloud",
+			"innerCloudRadius": 130.0,
+			"outerCloudRadius": 180.0,
+			"texturePath": "planets/Assets/clouds.png",
+			"tint": {
+				"r": 127,
+				"g": 222,
+				"b": 124
+			}
+		},
+		"fogDensity": 0.3,
+		"fogSize": 350.0,
+		"fogTint": {
+			"r": 180,
+			"g": 180,
+			"b": 180
 		},
 		"hasOxygen": true,
-		"hasTrees": true,
-		"size": 120.0,
+		"size": 180.0,
 		"useAtmosphereShader": true
 	},
 	"Base": {
@@ -24,41 +42,6 @@
 	"Orbit": {
 		"primaryBody": "White Sun",
 		"semiMajorAxis": 4000.0
-	},
-	"Props": {
-		"details": [
-			{
-				"assetBundle": "planets/Assets/turtle.jam",
-				"path": "Assets/Jammer/LayerBot.prefab",
-				"position": {},
-				"rotation": {},
-				"scale": 40.0,
-				"keepLoaded": true
-			},
-			{
-				"assetBundle": "planets/Assets/turtle.jam",
-				"path": "Assets/Jammer/LayerBot.prefab",
-				"position": {},
-				"rotation": {
-					"x": 60.000042,
-					"y": 189.999985,
-					"z": 270.0
-				},
-				"scale": 100.0,
-				"keepLoaded": true
-			},
-			{
-				"assetBundle": "planets/Assets/turtle.jam",
-				"path": "Assets/Jammer/LayerBot.prefab",
-				"position": {},
-				"rotation": {
-					"x": 90.0,
-					"y": 100.0
-				},
-				"scale": 70.0,
-				"keepLoaded": true
-			}
-		]
 	},
 	"ReferenceFrame": {},
 	"Sand": {
