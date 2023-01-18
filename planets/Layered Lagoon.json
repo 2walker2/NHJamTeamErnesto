@@ -58,6 +58,14 @@
 				"scale": 70.0,
 				"keepLoaded": true
 			}
+		],
+		"rafts": [
+			{
+				"position": {
+					"y": 19
+				},
+				"acceleration": 1
+			}
 		]
 	},
 	"ReferenceFrame": {},
@@ -72,6 +80,6 @@
 		}
 	},
 	"Water": {
-		"size": 20.0
+		"size": 19.0
 	}
 }
