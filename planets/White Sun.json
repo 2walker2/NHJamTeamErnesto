@@ -16,7 +16,8 @@
 	},
 	"ReferenceFrame": {},
 	"removeChildren": [
-		"Sector/Star/DestructionFluidVolume"
+		"Sector/Star/DestructionFluidVolume",
+		"Sector/Star/PlanetDestructionVolume"
 	],
 	"ShipLog": {},
 	"Star": {
