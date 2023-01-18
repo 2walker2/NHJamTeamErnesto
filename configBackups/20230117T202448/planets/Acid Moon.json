@@ -1,0 +1,74 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "LSD",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"size": 70.0,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r":135,
+            "g":99,
+            "b":27,
+            "a":0
+		}
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"surfaceGravity": 8.0,
+		"surfaceSize": 50.0,
+		"hasMapMarker": true
+	},
+	"Water": {
+		"size": 27.0,
+		"tint": {
+			"r":200,
+            "g":200,
+            "b":27,
+            "a":0
+		}
+	},
+	"Lava": {
+		"size": 25.0,
+		"tint": {
+			"r":200,
+            "g":200,
+            "b":27,
+            "a":0
+		}
+	},
+	"Orbit": {
+		"primaryBody": "Gas Giant",
+		"semiMajorAxis": 500
+	},
+	"Props": {
+		"details": [
+
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/AcidPlanet.prefab",
+				"position": {
+				},
+				"rotation": {
+				},
+				"scale": 30.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.tower",
+				"path": "Assets/Jammer/Clocktower.prefab",
+				"position": {
+					"x":100000000000
+				},
+				"rotation": {
+				},
+				"scale": 0,
+				"keepLoaded": true
+			}
+
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {}
+}

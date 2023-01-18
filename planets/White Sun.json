@@ -2,7 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "White Sun",
 	"starSystem": "2walker2.OogaBooga",
-	"canShowOnTitle": false,
 	"Base": {
 		"centerOfSolarSystem": true,
 		"gravityFallOff": "inverseSquared",
@@ -11,15 +10,34 @@
 		"surfaceGravity": 100.0,
 		"surfaceSize": 700.0
 	},
+	"canShowOnTitle": false,
+	"Orbit": {
+		"isStatic": true
+	},
+	"ReferenceFrame": {},
+	"removeChildren": [
+		"Sector/Star/DestructionFluidVolume"
+	],
+	"ShipLog": {},
 	"Star": {
 		"size": 700.0,
 		"solarLuminosity": 0.8,
 		"tint": {
 			"r": 200,
 			"g": 220,
-			"b": 250
+			"b": 250,
+			"a": 0
 		},
-		"stellarDeathType": "default",
-		"stellarRemnantType": "default"
+		"stellarDeathType": "supernova",
+		"stellarRemnantType": "pulsar"
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"priority": 10,
+				"position": {},
+				"radius": 600.0
+			}
+		]
 	}
 }

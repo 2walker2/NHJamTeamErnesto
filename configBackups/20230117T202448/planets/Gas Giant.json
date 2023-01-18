@@ -1,0 +1,85 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Gas Giant",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"hasOxygen": true,
+		"size": 120.0,
+		"useAtmosphereShader": true,
+		"hasTrees": true,
+		"atmosphereTint": {
+			"r":51,
+			"g":28,
+			"b":173,
+			"a":0
+			
+
+		}
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"surfaceGravity": 12.0,
+		"surfaceSize": 120.0,
+		"hasMapMarker": true
+	},
+	"Water": {
+		"size": 20.0
+	},
+	"Sand": {
+		"size": 18
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"semiMajorAxis": 4000
+	},
+	"Props": {
+		"details": [
+
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/LayerBot.prefab",
+				"position": {
+				},
+				"rotation": {
+				},
+				"scale": 40.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/LayerBot.prefab",
+				"position": {
+				},
+				"rotation": {
+					"x": 120.0,
+					"y": 10,
+					"z": 90
+				},
+				"scale": 100.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/LayerBot.prefab",
+				"position": {
+				},
+				"rotation": {
+					"x": 90.0,
+					"y": 120,
+					"z": 20
+				},
+				"scale": 70.0,
+				"keepLoaded": true
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Spawn": {
+		"shipSpawnPoint": {
+			"y": 105.0
+		}
+	}
+}
