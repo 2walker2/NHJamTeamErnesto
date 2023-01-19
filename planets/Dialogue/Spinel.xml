@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Spinel</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>I'll be honest with you, hatchling, I did not bring enough fishing line to reach the water below.</Page>
+			<Page>I just don't want to help set up camp.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

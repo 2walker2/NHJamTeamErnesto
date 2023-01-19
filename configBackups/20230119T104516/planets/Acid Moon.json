@@ -1,0 +1,547 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "LSD",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 135,
+			"g": 99,
+			"b": 27,
+			"a": 0
+		},
+		"size": 70.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 8.0,
+		"surfaceSize": 50.0
+	},
+	"Lava": {
+		"size": 1.0,
+		"tint": {
+			"r": 200,
+			"g": 200,
+			"b": 27,
+			"a": 0
+		},
+		"curve": [
+			{
+				"value": 26.4
+			},
+			{
+				"time": 22.0,
+				"value": 9.5
+			}
+		]
+	},
+	"Orbit": {
+		"primaryBody": "Gas Giant",
+		"semiMajorAxis": 550.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/AcidPlanet.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 30.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.tower",
+				"path": "Assets/Jammer/Clocktower.prefab",
+				"position": {
+					"x": 22.02295,
+					"y": 13.2399216,
+					"z": 10.878418
+				},
+				"rotation": {
+					"x": 308.813477,
+					"y": 261.09613,
+					"z": 336.472443
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_NOM_RotatingDoor_Broken",
+				"position": {
+					"x": 15.1972656,
+					"y": 19.7611389,
+					"z": 15.8188477
+				},
+				"rotation": {
+					"x": 344.9868,
+					"y": 152.556854,
+					"z": 53.9055
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
+				"position": {
+					"x": -5.165039,
+					"y": 0.598175049,
+					"z": 26.8686523
+				},
+				"rotation": {
+					"x": 308.842377,
+					"y": 251.0586,
+					"z": 288.561462
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge20",
+				"position": {
+					"x": 9.719727,
+					"y": -0.206115723,
+					"z": -25.56836
+				},
+				"rotation": {
+					"x": 80.8630753,
+					"y": 140.37854,
+					"z": 348.106323
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
+				"position": {
+					"x": -27.1152344,
+					"y": 1.08966827,
+					"z": -2.61132813
+				},
+				"rotation": {
+					"x": 39.5981026,
+					"y": 1.29816806,
+					"z": 105.504364
+				},
+				"scale": 1.1
+			}
+		],
+		"geysers": [
+			{
+				"position": {
+					"x": 19.85303,
+					"y": 18.63333,
+					"z": 6.53116
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 23.72113,
+					"y": 13.58254,
+					"z": 6.06816
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 26.3124,
+					"y": 7.37484,
+					"z": 6.104856
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 23.78632,
+					"y": 3.61466,
+					"z": 14.32289
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 26.36515,
+					"y": -2.836619,
+					"z": 8.990679
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 20.56668,
+					"y": -6.306752,
+					"z": 17.92308
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 9.890314,
+					"y": -2.037814,
+					"z": 26.11568
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 3.408801,
+					"y": 3.057196,
+					"z": 27.62306
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -5.811319,
+					"y": -1.682723,
+					"z": 27.33856
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -15.98818,
+					"y": 2.909145,
+					"z": 22.80164
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -24.68003,
+					"y": 1.546902,
+					"z": 13.13405
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -27.7622,
+					"y": -2.374791,
+					"z": 2.760521
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -25.47633,
+					"y": 10.28635,
+					"z": 5.39884
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -26.66758,
+					"y": 4.682246,
+					"z": -7.135589
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -22.65501,
+					"y": -2.410094,
+					"z": -16.27704
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -14.63451,
+					"y": 3.305151,
+					"z": -23.64122
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -7.051869,
+					"y": 7.99528,
+					"z": -25.89105
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -0.8841677,
+					"y": -0.1952368,
+					"z": -27.98536
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 9.078927,
+					"y": 1.768768,
+					"z": -26.4281
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 16.6678,
+					"y": -1.970487,
+					"z": -22.41208
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 23.6985,
+					"y": 0.2147991,
+					"z": -14.9109
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 27.50525,
+					"y": 3.67739,
+					"z": -3.733354
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			}
+		],
+		"nomaiText": [
+			{
+				"arcInfo": [
+					{
+						"position": {},
+						"type": "adult",
+						"variation": 0
+					},
+					{
+						"position": {
+							"x": -1.5931,
+							"y": 0.4747
+						},
+						"type": "adult",
+						"variation": 20,
+						"zRotation": 140.0
+					},
+					{
+						"position": {
+							"x": -2.1031,
+							"y": -0.4452999
+						},
+						"type": "adult",
+						"variation": 19,
+						"zRotation": 225.0
+					},
+					{
+						"position": {
+							"x": -1.4185,
+							"y": -0.8140002
+						},
+						"type": "adult",
+						"variation": 29,
+						"zRotation": -53.0
+					}
+				],
+				"position": {
+					"x": 12.0226536,
+					"y": 24.92397,
+					"z": 9.881447
+				},
+				"rotation": {
+					"x": 301.5995,
+					"y": 53.13986,
+					"z": 241.7074
+				},
+				"type": "wall",
+				"location": "unspecified",
+				"xmlFile": "text/clocktower_text_outside.xml"
+			},
+			{
+				"arcInfo": [
+					{
+						"position": {},
+						"type": "adult",
+						"variation": 0
+					},
+					{
+						"position": {
+							"x": -1.5931,
+							"y": 0.9747
+						},
+						"type": "adult",
+						"variation": 19,
+						"zRotation": 76.0
+					},
+					{
+						"position": {
+							"x": -1.0031,
+							"y": 1.1547
+						},
+						"type": "adult",
+						"variation": 20,
+						"zRotation": 330.0
+					},
+					{
+						"position": {
+							"x": -0.2185,
+							"y": 2.086
+						},
+						"type": "adult",
+						"variation": 30,
+						"zRotation": -8.0
+					},
+					{
+						"position": {
+							"x": 0.0714998,
+							"y": 1.656
+						},
+						"type": "adult",
+						"variation": 30,
+						"zRotation": 270.0
+					}
+				],
+				"normal": {
+					"x": 0.449206948,
+					"y": 0.250207216,
+					"z": -0.857676864
+				},
+				"position": {
+					"x": 37.4895363,
+					"y": 30.5571976,
+					"z": 33.8047
+				},
+				"rotation": {
+					"x": 345.510223,
+					"y": 152.356766,
+					"z": -3.30683361E-06
+				},
+				"type": "wall",
+				"location": "unspecified",
+				"xmlFile": "text/clocktower_text_top.xml"
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Water": {
+		"size": 1.0,
+		"tint": {
+			"r": 200,
+			"g": 230,
+			"b": 40,
+			"a": 0
+		},
+		"curve": [
+			{
+				"value": 27.0
+			},
+			{
+				"time": 22.0,
+				"value": 10.0
+			}
+		]
+	}
+}

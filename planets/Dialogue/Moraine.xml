@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Moraine</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>I've been pointing my Signalscope at different objects in this solar system.</Page>
+			<Page>They don't sing like any of the planets at home do.</Page>
+			<Page>I already miss the village.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

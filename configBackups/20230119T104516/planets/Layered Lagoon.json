@@ -1,0 +1,537 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Layered Lagoon",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 51,
+			"g": 28,
+			"b": 173,
+			"a": 0
+		},
+		"hasOxygen": true,
+		"hasTrees": true,
+		"size": 120.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 12.0,
+		"surfaceSize": 120.0
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"semiMajorAxis": 2000.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/LayerBot.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 40.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/LayerBot.prefab",
+				"position": {},
+				"rotation": {
+					"x": 60.000042,
+					"y": 189.999985,
+					"z": 270.0
+				},
+				"scale": 100.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/LayerBot.prefab",
+				"position": {},
+				"rotation": {
+					"x": 90.0,
+					"y": 100.0
+				},
+				"scale": 70.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"position": {
+					"x": -8.1837,
+					"y": 99.8608,
+					"z": 9.3263
+				},
+				"rotation": {
+					"x": 0.0958999,
+					"y": 156.7742,
+					"z": 356.356964
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Rutile",
+				"position": {
+					"x": -11.413249,
+					"y": 99.61393,
+					"z": 10.8578434
+				},
+				"removeChildren": [
+					"ConversationZone"
+				],
+				"rotation": {
+					"x": 349.514832,
+					"y": 114.1512,
+					"z": 356.66275
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Marl",
+				"position": {
+					"x": -4.9888,
+					"y": 99.5827,
+					"z": 18.164
+				},
+				"removeChildren": [
+					"ConversationZone"
+				],
+				"rotation": {
+					"x": 14.8191986,
+					"y": 24.2828922,
+					"z": 9.649728
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -4.293495,
+					"y": 97.85896,
+					"z": 22.6396561
+				},
+				"rotation": {
+					"x": 22.1579914,
+					"y": 9.591459,
+					"z": 2.40416765
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 0.7201843,
+					"y": 99.11479,
+					"z": 17.499054
+				},
+				"rotation": {
+					"x": 5.76103449,
+					"y": 101.717674,
+					"z": 9.425703
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -12.606822,
+					"y": 99.0563,
+					"z": 17.9111977
+				},
+				"rotation": {
+					"x": 342.904175,
+					"y": 182.090454,
+					"z": 347.8428
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -0.6290474,
+					"y": 99.87358,
+					"z": 10.9546719
+				},
+				"rotation": {
+					"x": 4.189133,
+					"y": 77.91523,
+					"z": 358.859161
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -14.8955793,
+					"y": 99.0237,
+					"z": 9.195833
+				},
+				"rotation": {
+					"x": 351.213348,
+					"y": 104.636017,
+					"z": 357.183136
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss",
+				"position": {
+					"x": -10.929038,
+					"y": 99.6248,
+					"z": 8.004066
+				},
+				"removeChildren": [
+					"ConversationZone"
+				],
+				"rotation": {
+					"x": 351.6093,
+					"y": 64.92521,
+					"z": 356.2127
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine",
+				"position": {
+					"x": -22.6806,
+					"y": -98.58129,
+					"z": -12.6152992
+				},
+				"removeChildren": [
+					"ConversationZone"
+				],
+				"rotation": {
+					"x": 0.08120094,
+					"y": 86.7743,
+					"z": 184.8367
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -21.7491188,
+					"y": -98.75799,
+					"z": -7.8482933
+				},
+				"rotation": {
+					"x": 358.050232,
+					"y": 219.278992,
+					"z": 179.492462
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -22.890667,
+					"y": -97.03414,
+					"z": -18.47527
+				},
+				"rotation": {
+					"x": 9.413321,
+					"y": 329.8779,
+					"z": 164.14563
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -27.8997574,
+					"y": -95.82836,
+					"z": -16.9853172
+				},
+				"rotation": {
+					"x": 335.497864,
+					"y": 248.823,
+					"z": 175.465775
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -31.0016022,
+					"y": -94.53411,
+					"z": -5.05252838
+				},
+				"rotation": {
+					"x": 11.9244375,
+					"y": 173.3136,
+					"z": 209.866455
+				}
+			},
+			{
+				"path": "GabbroShip_Body/Sector_GabbroShip",
+				"position": {
+					"x": 11.4789009,
+					"y": 102.679688,
+					"z": 5.6222
+				},
+				"rotation": {
+					"x": 355.3685,
+					"y": 272.7678,
+					"z": 356.7054
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -13.5586081,
+					"y": 98.4125,
+					"z": 0.6673775
+				},
+				"rotation": {
+					"x": 7.12042427,
+					"y": 180.990158,
+					"z": 354.158783
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -19.0640068,
+					"y": 98.20956,
+					"z": 4.223648
+				},
+				"rotation": {
+					"x": 356.422058,
+					"y": 141.49881,
+					"z": 347.483032
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -21.3418846,
+					"y": 97.62836,
+					"z": 12.3214836
+				},
+				"rotation": {
+					"x": 351.055023,
+					"y": 173.721558,
+					"z": 345.13385
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -21.5948753,
+					"y": 95.7179,
+					"z": 22.8767681
+				},
+				"rotation": {
+					"x": 344.3107,
+					"y": 158.991013,
+					"z": 350.045227
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteSleepingBag/",
+				"position": {
+					"x": -6.023718,
+					"y": 100.231064,
+					"z": 12.5209341
+				},
+				"rotation": {
+					"x": 356.8201,
+					"y": 163.975769,
+					"z": 1.97550356
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteSleepingBag/",
+				"position": {
+					"x": -15.1097288,
+					"y": 99.26906,
+					"z": 13.118741
+				},
+				"rotation": {
+					"x": 350.040039,
+					"y": 69.80887,
+					"z": 1.71476257
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
+				"position": {
+					"x": -8.743928,
+					"y": 99.40929,
+					"z": 11.6971521
+				},
+				"rotation": {
+					"x": 0.5128518,
+					"y": 165.338547,
+					"z": 356.37912
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate",
+				"position": {
+					"x": -8.571799,
+					"y": 99.90941,
+					"z": 11.0963593
+				},
+				"removeChildren": [
+					"ConversationZone_RSci"
+				],
+				"rotation": {
+					"x": 0.472991943,
+					"y": 161.134155,
+					"z": 356.374817
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Porphy",
+				"position": {
+					"x": 10.4375153,
+					"y": 94.17958,
+					"z": 28.5342045
+				},
+				"removeChildren": [
+					"ConversationZone"
+				],
+				"rotation": {
+					"x": 337.907562,
+					"y": 178.161255,
+					"z": 3.329389
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 3.94233131,
+					"y": 94.74142,
+					"z": 28.1068115
+				},
+				"rotation": {
+					"x": 350.432739,
+					"y": 125.5492,
+					"z": 22.8443756
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 7.59563828,
+					"y": 92.2523956,
+					"z": 34.2826729
+				},
+				"rotation": {
+					"x": 340.58783,
+					"y": 193.345016,
+					"z": 359.292847
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 19.1470432,
+					"y": 92.71542,
+					"z": 30.012167
+				},
+				"rotation": {
+					"x": 354.008636,
+					"y": 270.752441,
+					"z": 339.369751
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 19.907795,
+					"y": 95.25814,
+					"z": 21.9600773
+				},
+				"rotation": {
+					"x": 10.3979645,
+					"y": 333.652222,
+					"z": 345.865875
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 7.4832,
+					"y": 98.17535,
+					"z": 17.88526
+				},
+				"rotation": {
+					"x": 4.83598471,
+					"y": 110.5248,
+					"z": 14.7135439
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -1.75438881,
+					"y": 95.1299,
+					"z": 28.435442
+				},
+				"rotation": {
+					"x": 345.163666,
+					"y": 132.608261,
+					"z": 22.2922668
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 14.313242,
+					"y": 92.0481,
+					"z": 34.26276
+				},
+				"rotation": {
+					"x": 346.459564,
+					"y": 190.469177,
+					"z": 5.477624
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Mica",
+				"position": {
+					"x": 12.2832,
+					"y": 94.2194,
+					"z": 28.178
+				},
+				"removeChildren": [
+					"ConversationZone"
+				],
+				"rotation": {
+					"x": 343.7463,
+					"y": 242.2553,
+					"z": 344.388
+				}
+			}
+		],
+		"rafts": [
+			{
+				"position": {
+					"y": 19.0
+				},
+				"acceleration": 1.0
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": 10.4375153,
+					"y": 97.17958,
+					"z": 28.5342045
+				},
+				"radius": 1.0,
+				"xmlFile": "planets/Dialogue/Porphy.xml"
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"Sand": {
+		"size": 18.0
+	},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"y": 100.0
+		},
+		"shipSpawnPoint": {
+			"y": 105.0
+		},
+		"startWithSuit": true
+	},
+	"Water": {
+		"size": 19.0
+	}
+}

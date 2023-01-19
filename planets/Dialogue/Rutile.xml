@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Rutile</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>"It's been so long since I last have seen our son lost to this monster,</Page>
+			<Page>The man behind the slaughter.</Page>
+			<Page>Since you've been gone, I've been singing this stupid song so I could ponder,</Page>
+			<Page>The sanity of your mother."</Page>
+			<Page>I don't know what that means, but the kids kept singing it on the ride here.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

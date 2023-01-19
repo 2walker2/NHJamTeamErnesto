@@ -40,11 +40,11 @@
 	"ShipLog": {},
 	"Star": {
 		"size": 700.0,
-		"solarLuminosity": 0.8,
+		"solarLuminosity": 0.5,
 		"tint": {
-			"r": 200,
-			"g": 220,
-			"b": 250,
+			"r": 171,
+			"g": 169,
+			"b": 79,
 			"a": 0
 		},
 		"stellarDeathType": "supernova",

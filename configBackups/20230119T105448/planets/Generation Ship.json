@@ -1,0 +1,235 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "The Campground",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"hasOxygen": true,
+		"size": 50.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"surfaceSize": 100.0
+	},
+	"Orbit": {
+		"primaryBody": "Layered Lagoon",
+		"isTidallyLocked": true,
+		"dottedOrbitLine": true,
+		"semiMajorAxis": 300.0
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "MiningRig_Body/Structure_TH_HEA_MiningRig",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/Window.prefab",
+				"position": {
+					"x": -1.291189E-05,
+					"y": -19.79998,
+					"z": -0.000217730645
+				},
+				"rotation": {
+					"x": 4.22329958E-06,
+					"y": 8.487731E-06,
+					"z": 180.0
+				},
+				"scale": 7.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/Station Floor2.prefab",
+				"position": {
+					"x": -7.441294E-08,
+					"y": 0.6673295,
+					"z": -1.24589642E-05
+				},
+				"rotation": {
+					"x": 90.0,
+					"y": 120.000015
+				},
+				"scale": 0.52
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/Gravity.prefab",
+				"position": {
+					"x": -0.170005664,
+					"y": -1.20009232,
+					"z": -0.0002453957
+				},
+				"rotation": {
+					"x": -6.70371674E-06,
+					"y": 30.0000248,
+					"z": -2.04591524E-05
+				},
+				"scale": 8.9,
+				"stretch": {
+					"x": 8.9,
+					"y": 36.0,
+					"z": 8.5
+				}
+			},
+			{
+				"path": "Moon_Body/Sector_THM/Lighting_TM/Props_HEA_Lantern",
+				"position": {
+					"x": 2.34069133,
+					"y": 5.62490368,
+					"z": -3.72434425
+				},
+				"rotation": {
+					"x": 20.511404,
+					"y": 29.8675976,
+					"z": 269.62384
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
+				"position": {
+					"x": 2.621652,
+					"y": -15.8185558,
+					"z": 3.88602042
+				},
+				"rotation": {
+					"x": 271.794281,
+					"y": 210.000656,
+					"z": 89.99924
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
+				"position": {
+					"x": 1.16418648,
+					"y": -15.8209925,
+					"z": 1.42735648
+				},
+				"rotation": {
+					"x": 270.391174,
+					"y": 210.002,
+					"z": 89.99775
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
+				"position": {
+					"x": -0.308087617,
+					"y": -15.8176489,
+					"z": -1.12255478
+				},
+				"rotation": {
+					"x": 270.300659,
+					"y": 29.9944382,
+					"z": 270.005524
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
+				"position": {
+					"x": -1.977368,
+					"y": -15.8711853,
+					"z": -3.84118867
+				},
+				"rotation": {
+					"x": 272.745026,
+					"y": 210.000641,
+					"z": 89.99922
+				}
+			},
+			{
+				"path": "Moon_Body/Sector_THM/Lighting_TM/Props_HEA_Lantern",
+				"position": {
+					"x": -1.02131093,
+					"y": 1.97514462,
+					"z": 5.01552773
+				},
+				"rotation": {
+					"x": 342.2004,
+					"y": 209.980164,
+					"z": 92.55107
+				}
+			},
+			{
+				"path": "Moon_Body/Sector_THM/Lighting_TM/Props_HEA_Lantern",
+				"position": {
+					"x": 1.40786922,
+					"y": -15.8255777,
+					"z": 1.81032932
+				},
+				"rotation": {
+					"x": 304.671265,
+					"y": 210.219131,
+					"z": 89.73516
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
+				"position": {
+					"x": 2.68882585,
+					"y": 4.355341,
+					"z": 3.99534488
+				},
+				"rotation": {
+					"x": 272.693329,
+					"y": 210.000046,
+					"z": 90.00004
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
+				"position": {
+					"x": 2.10994625,
+					"y": 2.72281837,
+					"z": 2.99600339
+				},
+				"rotation": {
+					"x": 2.11592364,
+					"y": 210.198471,
+					"z": 90.143364
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
+				"position": {
+					"x": 2.11352468,
+					"y": -0.254699469,
+					"z": 2.97812963
+				},
+				"rotation": {
+					"x": 0.489167,
+					"y": 212.088379,
+					"z": 89.8543
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/Structure_HEA_Fence (10)",
+				"position": {
+					"x": 2.125282,
+					"y": -3.19016719,
+					"z": 3.045197
+				},
+				"rotation": {
+					"x": 0.325216085,
+					"y": 210.000031,
+					"z": 90.00001
+				}
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"position": {},
+				"radius": 100.0
+			}
+		]
+	}
+}

@@ -1,0 +1,212 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Layered Lagoon",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 51,
+			"g": 28,
+			"b": 173,
+			"a": 0
+		},
+		"hasOxygen": true,
+		"hasTrees": true,
+		"size": 120.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 12.0,
+		"surfaceSize": 120.0
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"semiMajorAxis": 2000.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/LayerBot.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 40.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/LayerBot.prefab",
+				"position": {},
+				"rotation": {
+					"x": 60.000042,
+					"y": 189.999985,
+					"z": 270.0
+				},
+				"scale": 100.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/LayerBot.prefab",
+				"position": {},
+				"rotation": {
+					"x": 90.0,
+					"y": 100.0
+				},
+				"scale": 70.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"position": {
+					"x": -8.1837,
+					"y": 99.8608,
+					"z": 9.3263
+				},
+				"rotation": {
+					"x": 0.0958999,
+					"y": 156.7742,
+					"z": 356.356964
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Rutile",
+				"position": {
+					"x": -11.2132483,
+					"y": 99.61393,
+					"z": 10.8578434
+				},
+				"removeChildren": [
+					"ConversationZone_RSci"
+				],
+				"rotation": {
+					"x": 349.514832,
+					"y": 114.1512,
+					"z": 356.66275
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Marl",
+				"position": {
+					"x": -4.988844,
+					"y": 99.62265,
+					"z": 18.16395
+				},
+				"removeChildren": [
+					"ConversationZone_RSci"
+				],
+				"rotation": {
+					"x": 14.8191986,
+					"y": 24.2828922,
+					"z": 9.649728
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -4.293495,
+					"y": 97.85896,
+					"z": 22.6396561
+				},
+				"rotation": {
+					"x": 22.1579914,
+					"y": 9.591457,
+					"z": 2.40416741
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": 0.720183849,
+					"y": 99.11479,
+					"z": 17.499054
+				},
+				"rotation": {
+					"x": 5.76103258,
+					"y": 101.717674,
+					"z": 9.425705
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -12.6068211,
+					"y": 99.0563,
+					"z": 17.9111977
+				},
+				"rotation": {
+					"x": 342.904175,
+					"y": 182.090454,
+					"z": 347.8428
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -0.6290474,
+					"y": 99.87358,
+					"z": 10.9546719
+				},
+				"rotation": {
+					"x": 4.189133,
+					"y": 77.91523,
+					"z": 358.859161
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
+				"position": {
+					"x": -14.8955784,
+					"y": 99.0237,
+					"z": 9.195833
+				},
+				"rotation": {
+					"x": 351.213348,
+					"y": 104.636017,
+					"z": 357.183136
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss",
+				"position": {
+					"x": -10.9321251,
+					"y": 99.52571,
+					"z": 7.977049
+				},
+				"rotation": {
+					"x": 351.6093,
+					"y": 64.9252,
+					"z": 356.2127
+				}
+			}
+		],
+		"rafts": [
+			{
+				"position": {
+					"y": 19.0
+				},
+				"acceleration": 1.0
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"Sand": {
+		"size": 18.0
+	},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"y": 100.0
+		},
+		"shipSpawnPoint": {
+			"y": 105.0
+		},
+		"startWithSuit": true
+	},
+	"Water": {
+		"size": 19.0
+	}
+}
