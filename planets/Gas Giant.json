@@ -49,8 +49,9 @@
 		"details": [
 			{
 				"path": "DarkBramble_Body/Sector_DB/Geometry_DB",
+				"position": {},
 				"rotation": {
-					"x": 20.6621132,
+					"x": 20.6621246,
 					"y": 264.995483,
 					"z": 89.1658
 				},
@@ -65,6 +66,6 @@
 	"ShipLog": {},
 	"ShockEffect": {},
 	"Water": {
-		"size": 200
+		"size": 200.0
 	}
 }

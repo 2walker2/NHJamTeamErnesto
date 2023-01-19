@@ -55,9 +55,9 @@
 				"assetBundle": "planets/Assets/turtle.tower",
 				"path": "Assets/Jammer/Clocktower.prefab",
 				"position": {
-					"x": 22.02304,
+					"x": 22.02295,
 					"y": 13.2399216,
-					"z": 10.8782654
+					"z": 10.878418
 				},
 				"rotation": {
 					"x": 308.813477,
@@ -69,22 +69,22 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_NOM_RotatingDoor_Broken",
 				"position": {
-					"x": 15.19754,
+					"x": 15.1972656,
 					"y": 19.7611389,
-					"z": 15.8189392
+					"z": 15.8188477
 				},
 				"rotation": {
 					"x": 344.9868,
 					"y": 152.556854,
-					"z": 53.90549
+					"z": 53.9055
 				}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
 				"position": {
-					"x": -5.16513062,
+					"x": -5.165039,
 					"y": 0.598175049,
-					"z": 26.86876
+					"z": 26.8686523
 				},
 				"rotation": {
 					"x": 308.842377,
@@ -95,22 +95,22 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge20",
 				"position": {
-					"x": 9.719696,
+					"x": 9.719727,
 					"y": -0.206115723,
-					"z": -25.5682678
+					"z": -25.56836
 				},
 				"rotation": {
-					"x": 80.8628159,
+					"x": 80.86288,
 					"y": 140.378525,
-					"z": 348.1063
+					"z": 348.106323
 				}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
 				"position": {
-					"x": -27.1154175,
+					"x": -27.1152344,
 					"y": 1.08966827,
-					"z": -2.6111908
+					"z": -2.61132813
 				},
 				"rotation": {
 					"x": 39.5981026,
@@ -451,7 +451,7 @@
 				},
 				"rotation": {
 					"x": 301.5995,
-					"y": 53.13987,
+					"y": 53.13986,
 					"z": 241.7074
 				},
 				"type": "wall",
@@ -515,7 +515,7 @@
 				"rotation": {
 					"x": 345.510223,
 					"y": 152.356766,
-					"z": -2.20455576E-07
+					"z": -1.54318911E-06
 				},
 				"type": "wall",
 				"location": "unspecified",
@@ -526,12 +526,6 @@
 	"ReferenceFrame": {},
 	"ShipLog": {},
 	"ShockEffect": {},
-	"Spawn": {
-		"playerSpawnPoint": {
-			"y": 50.0
-		},
-		"startWithSuit": true
-	},
 	"Water": {
 		"size": 1.0,
 		"tint": {
