@@ -4,24 +4,24 @@
 	"starSystem": "2walker2.OogaBooga",
 	"Atmosphere": {
 		"atmosphereTint": {
-			"r": 112,
-			"g": 135,
-			"b": 134,
+			"r": 255,
+			"g": 234,
+			"b": 234,
 			"a": 155
 		},
 		"clouds": {
 			"fluidType": "cloud",
-			"innerCloudRadius": 130.0,
-			"outerCloudRadius": 180.0,
-			"texturePath": "planets/Assets/clouds.png",
+			"innerCloudRadius": 330.0,
+			"outerCloudRadius": 350.0,
+			"texturePath": "planets/Assets/WhiteClouds.png",
 			"tint": {
-				"r": 127,
-				"g": 222,
+				"r": 100,
+				"g": 100,
 				"b": 124,
 				"a": 0
 			}
 		},
-		"fogDensity": 0.3,
+		"fogDensity": 0.8,
 		"fogSize": 350.0,
 		"fogTint": {
 			"r": 180,
@@ -30,7 +30,7 @@
 			"a": 0
 		},
 		"hasOxygen": true,
-		"size": 180.0,
+		"size": 350.0,
 		"useAtmosphereShader": true
 	},
 	"Base": {
@@ -45,18 +45,26 @@
 		"primaryBody": "White Sun",
 		"semiMajorAxis": 4000.0
 	},
+	"Props": {
+		"details": [
+			{
+				"path": "DarkBramble_Body/Sector_DB/Geometry_DB",
+				"rotation": {
+					"x": 20.6621132,
+					"y": 264.995483,
+					"z": 89.1658
+				},
+				"scale": 0.4
+			}
+		]
+	},
 	"ReferenceFrame": {},
 	"Sand": {
 		"size": 18.0
 	},
 	"ShipLog": {},
 	"ShockEffect": {},
-	"Spawn": {
-		"shipSpawnPoint": {
-			"y": 105.0
-		}
-	},
 	"Water": {
-		"size": 20.0
+		"size": 200
 	}
 }

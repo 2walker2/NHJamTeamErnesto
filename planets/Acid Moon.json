@@ -39,7 +39,7 @@
 	},
 	"Orbit": {
 		"primaryBody": "Gas Giant",
-		"semiMajorAxis": 500.0
+		"semiMajorAxis": 550.0
 	},
 	"Props": {
 		"details": [
@@ -55,9 +55,9 @@
 				"assetBundle": "planets/Assets/turtle.tower",
 				"path": "Assets/Jammer/Clocktower.prefab",
 				"position": {
-					"x": 22.023056,
+					"x": 22.02304,
 					"y": 13.2399216,
-					"z": 10.878273
+					"z": 10.8782654
 				},
 				"rotation": {
 					"x": 308.813477,
@@ -69,22 +69,22 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_NOM_RotatingDoor_Broken",
 				"position": {
-					"x": 15.197525,
-					"y": 19.761137,
-					"z": 15.8189316
+					"x": 15.19754,
+					"y": 19.7611389,
+					"z": 15.8189392
 				},
 				"rotation": {
 					"x": 344.9868,
 					"y": 152.556854,
-					"z": 53.9054832
+					"z": 53.90549
 				}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
 				"position": {
-					"x": -5.16511536,
+					"x": -5.16513062,
 					"y": 0.598175049,
-					"z": 26.8687534
+					"z": 26.86876
 				},
 				"rotation": {
 					"x": 308.842377,
@@ -95,22 +95,22 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge20",
 				"position": {
-					"x": 9.719706,
+					"x": 9.719696,
 					"y": -0.206115723,
-					"z": -25.5682659
+					"z": -25.5682678
 				},
 				"rotation": {
-					"x": 80.86278,
-					"y": 140.378555,
-					"z": 348.106323
+					"x": 80.8628159,
+					"y": 140.378525,
+					"z": 348.1063
 				}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
 				"position": {
-					"x": -27.1154213,
+					"x": -27.1154175,
 					"y": 1.08966827,
-					"z": -2.61119652
+					"z": -2.6111908
 				},
 				"rotation": {
 					"x": 39.5981026,
@@ -451,7 +451,7 @@
 				},
 				"rotation": {
 					"x": 301.5995,
-					"y": 53.13988,
+					"y": 53.13987,
 					"z": 241.7074
 				},
 				"type": "wall",
@@ -515,7 +515,7 @@
 				"rotation": {
 					"x": 345.510223,
 					"y": 152.356766,
-					"z": 2.20455576E-07
+					"z": -2.20455576E-07
 				},
 				"type": "wall",
 				"location": "unspecified",
