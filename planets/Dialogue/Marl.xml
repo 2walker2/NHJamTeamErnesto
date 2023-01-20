@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Marl</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Rutile put me in charge of planting the trees around our camp.</Page>
+			<Page>It's not really my kind of thing, but that's alright. More trees means more chances to chop them down!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

@@ -5,11 +5,32 @@
 		<Name></Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>"It's been so long since I last have seen our son lost to this monster,</Page>
-			<Page>The man behind the slaughter.</Page>
-			<Page>Since you've been gone, I've been singing this stupid song so I could ponder,</Page>
-			<Page>The sanity of your mother."</Page>
-			<Page>I don't know what that means, but the kids kept singing it on the ride here.</Page>
+			<Page>Hello, hatchling!</Page>
+			<DialogueOptionsList>
+				<DialogueOption>
+					<Text>Where are we?</Text>
+					<DialogueTarget>1</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>What's going on?</Text>
+					<DialogueTarget>2</DialogueTarget>
+				</DialogueOption>
+			</DialogueOptionsList>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>We're on <![CDATA[<color=orange>Layered Lagoon</color>]]>, located a few kilometers away from the <![CDATA[<color=orange>Outer Wilds</color>]]>.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>We received a message a few days ago that told us we were in danger, so we had to evacuate here.</Page>
+			<Page>I recommend asking <![CDATA[<color=orange>Chert</color>]]> about it. He was the one that heard the signal.</Page>
 		</Dialogue>
 	</DialogueNode>
 
