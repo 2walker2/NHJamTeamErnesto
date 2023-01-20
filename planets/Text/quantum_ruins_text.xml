@@ -1,0 +1,21 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CEDRUS: We require some means of imparting energy to the experiment to establish initial stability. A key to wind it up of per-say.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>MIACEAE: That key will need to be charged. What means of doing so would function best?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>CANARAE: A singularity would work. However, we would need some means of moving it to and from the desired location.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>MIACEAE: Hypothesis: the raft we found on our previous warp would function well for this purpose.</Text>
+	</TextBlock>
+</NomaiObject>

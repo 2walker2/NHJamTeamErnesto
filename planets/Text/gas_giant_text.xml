@@ -1,0 +1,16 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<Text>CANARAE: These small-scale prototypes are proving promising. There is barely a sensation of heat when approaching them.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>HELIAN: Will we soon be ready to apply the same properties to Spark itself?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>CANARAE: Very likely. Though I do not envy the one of us who will have to make the first trip into its core.</Text>
+	</TextBlock>
+</NomaiObject>
