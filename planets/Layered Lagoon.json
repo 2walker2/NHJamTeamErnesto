@@ -63,7 +63,7 @@
 				"position": {
 					"x": -8.183594,
 					"y": 99.8607941,
-					"z": 9.326416
+					"z": 9.326172
 				},
 				"rotation": {
 					"x": 0.0958999,
@@ -173,7 +173,7 @@
 				"position": {
 					"x": -10.9289551,
 					"y": 99.6248,
-					"z": 8.00415
+					"z": 8.003906
 				},
 				"removeChildren": [
 					"ConversationZone"
@@ -189,13 +189,13 @@
 				"position": {
 					"x": -22.6806641,
 					"y": -98.5812759,
-					"z": -12.6152363
+					"z": -12.6152344
 				},
 				"removeChildren": [
 					"ConversationZone"
 				],
 				"rotation": {
-					"x": 0.08120372,
+					"x": 0.08120393,
 					"y": 86.7743,
 					"z": 184.8367
 				}
@@ -205,7 +205,7 @@
 				"position": {
 					"x": -21.7490234,
 					"y": -98.75797,
-					"z": -7.84838867
+					"z": -7.848633
 				},
 				"rotation": {
 					"x": 358.050232,
@@ -218,7 +218,7 @@
 				"position": {
 					"x": -22.890625,
 					"y": -97.03413,
-					"z": -18.4753437
+					"z": -18.4755859
 				},
 				"rotation": {
 					"x": 9.413321,
@@ -231,7 +231,7 @@
 				"position": {
 					"x": -27.8996582,
 					"y": -95.82835,
-					"z": -16.9853535
+					"z": -16.9853516
 				},
 				"rotation": {
 					"x": 335.497864,
@@ -244,7 +244,7 @@
 				"position": {
 					"x": -31.001709,
 					"y": -94.5340958,
-					"z": -5.05249
+					"z": -5.05273438
 				},
 				"rotation": {
 					"x": 11.9244547,
@@ -257,7 +257,7 @@
 				"position": {
 					"x": 11.4790039,
 					"y": 102.679688,
-					"z": 5.62231445
+					"z": 5.62207031
 				},
 				"rotation": {
 					"x": 355.3685,
@@ -296,7 +296,7 @@
 				"position": {
 					"x": -21.3417969,
 					"y": 97.62836,
-					"z": 12.3215332
+					"z": 12.3212891
 				},
 				"rotation": {
 					"x": 351.055023,
@@ -309,7 +309,7 @@
 				"position": {
 					"x": -21.59497,
 					"y": 95.7178955,
-					"z": 22.876709
+					"z": 22.8769531
 				},
 				"rotation": {
 					"x": 344.3107,
@@ -361,7 +361,7 @@
 				"position": {
 					"x": -8.571777,
 					"y": 99.90941,
-					"z": 11.0964355
+					"z": 11.09668
 				},
 				"removeChildren": [
 					"ConversationZone_RSci"
@@ -385,7 +385,7 @@
 				"rotation": {
 					"x": 337.907562,
 					"y": 178.161255,
-					"z": 3.32939243
+					"z": 3.329393
 				}
 			},
 			{
@@ -484,7 +484,7 @@
 				"position": {
 					"x": 12.2832031,
 					"y": 94.21939,
-					"z": 28.1779785
+					"z": 28.1777344
 				},
 				"removeChildren": [
 					"ConversationZone"
@@ -500,7 +500,7 @@
 				"position": {
 					"x": 13.2963867,
 					"y": 94.34607,
-					"z": 27.5402832
+					"z": 27.54004
 				},
 				"removeChildren": [
 					"ConversationZone"
@@ -516,7 +516,7 @@
 				"position": {
 					"x": 11.0568848,
 					"y": 95.75859,
-					"z": 27.904541
+					"z": 27.9042969
 				},
 				"removeChildren": [
 					"ConversationZone"
@@ -532,7 +532,7 @@
 				"position": {
 					"x": -38.55249,
 					"y": 89.76996,
-					"z": 20.6740723
+					"z": 20.6738281
 				},
 				"removeChildren": [
 					"ConversationZone"
@@ -561,7 +561,7 @@
 				"position": {
 					"x": -31.6289063,
 					"y": 91.55284,
-					"z": 21.73413
+					"z": 21.734375
 				},
 				"rotation": {
 					"x": 13.5115442,
@@ -587,7 +587,7 @@
 				"position": {
 					"x": -25.8156738,
 					"y": 96.5126953,
-					"z": 8.949951
+					"z": 8.950195
 				},
 				"rotation": {
 					"x": 355.307648,
@@ -600,7 +600,7 @@
 				"position": {
 					"x": -25.5268555,
 					"y": 96.09358,
-					"z": -1.876709
+					"z": -1.87695313
 				},
 				"rotation": {
 					"x": 352.225464,
@@ -613,11 +613,11 @@
 				"position": {
 					"x": -33.6794434,
 					"y": 94.3584442,
-					"z": -0.106201172
+					"z": -0.106445313
 				},
 				"rotation": {
 					"x": 346.445618,
-					"y": 82.832695,
+					"y": 82.83269,
 					"z": 9.459157
 				}
 			},
@@ -640,13 +640,13 @@
 			{
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
-					"x": -13.1518059,
+					"x": -13.1518555,
 					"y": 1.24523163,
-					"z": 11.6292439
+					"z": 11.6293945
 				},
 				"rotation": {
 					"x": 280.871277,
-					"y": 199.81,
+					"y": 199.809982,
 					"z": 292.032562
 				},
 				"scale": 0.6999999
@@ -654,9 +654,9 @@
 			{
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
-					"x": 5.363594,
+					"x": 5.36352539,
 					"y": -5.802971,
-					"z": 15.6143322
+					"z": 15.6142578
 				},
 				"rotation": {
 					"x": 36.75612,
@@ -668,9 +668,9 @@
 			{
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
-					"x": 1.85585022,
+					"x": 1.855957,
 					"y": -15.3163376,
-					"z": 7.139003
+					"z": 7.13916
 				},
 				"rotation": {
 					"x": 337.072083,
@@ -682,12 +682,12 @@
 			{
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
-					"x": -6.910198,
+					"x": -6.91015625,
 					"y": -15.7542343,
-					"z": -2.61022377
+					"z": -2.61035156
 				},
 				"rotation": {
-					"x": 24.09825,
+					"x": 24.0982513,
 					"y": 86.7613,
 					"z": 187.31572
 				},
@@ -696,9 +696,9 @@
 			{
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
-					"x": -14.4663506,
+					"x": -14.4663086,
 					"y": -9.216042,
-					"z": -1.27635574
+					"z": -1.27636719
 				},
 				"rotation": {
 					"x": 15.6494455,
@@ -710,9 +710,9 @@
 			{
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
-					"x": -4.74240875,
+					"x": -4.74243164,
 					"y": 11.87175,
-					"z": -11.2058468
+					"z": -11.2060547
 				},
 				"rotation": {
 					"x": 37.9356956,
@@ -724,9 +724,10 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
 				"position": {
-					"y": 16
+					"y": 16.0
 				},
-				"scale": 5,
+				"rotation": {},
+				"scale": 5.0,
 				"keepLoaded": true
 			}
 		],
@@ -779,11 +780,11 @@
 		],
 		"rafts": [
 			{
-				"rename": "LayeredLagoonRaft_Body",
 				"position": {
 					"y": 25.0
 				},
-				"acceleration": 1.0
+				"acceleration": 1.0,
+				"rename": "LayeredLagoonRaft_Body"
 			}
 		]
 	},

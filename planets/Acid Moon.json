@@ -102,7 +102,7 @@
 				},
 				"rotation": {
 					"x": 80.8632,
-					"y": 140.378586,
+					"y": 140.3786,
 					"z": 348.106354
 				},
 				"keepLoaded": true
@@ -190,7 +190,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -12.9880371,
+					"x": -12.9880381,
 					"y": 17.1762772,
 					"z": -19.8076172
 				},
@@ -223,7 +223,7 @@
 				"rotation": {
 					"x": 352.369232,
 					"y": 206.498322,
-					"z": 24.1320515
+					"z": 24.1320534
 				}
 			},
 			{
@@ -236,7 +236,7 @@
 				"rotation": {
 					"x": 331.092438,
 					"y": 263.528,
-					"z": 7.651168
+					"z": 7.651169
 				}
 			},
 			{
@@ -249,7 +249,7 @@
 				"rotation": {
 					"x": 327.906342,
 					"y": 262.781769,
-					"z": 4.228713
+					"z": 4.22871542
 				}
 			},
 			{
@@ -326,8 +326,8 @@
 				},
 				"rotation": {
 					"x": 342.308929,
-					"y": 10.60004,
-					"z": 49.2553139
+					"y": 10.6000385,
+					"z": 49.2553177
 				}
 			},
 			{
@@ -359,7 +359,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -13.45459,
+					"x": -13.4545908,
 					"y": -24.4138489,
 					"z": 7.998535
 				},
@@ -372,7 +372,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -13.32251,
+					"x": -13.3225107,
 					"y": -25.743782,
 					"z": 3.62353516
 				},
@@ -385,7 +385,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -13.37915,
+					"x": -13.3791513,
 					"y": -24.1867828,
 					"z": -9.172363
 				},
@@ -469,7 +469,7 @@
 				},
 				"rotation": {
 					"x": 47.75085,
-					"y": 12.8140869,
+					"y": 12.8140879,
 					"z": 4.309278
 				}
 			},
@@ -481,8 +481,8 @@
 					"z": 24.8276367
 				},
 				"rotation": {
-					"x": 44.35098,
-					"y": 45.3263931,
+					"x": 44.3509827,
+					"y": 45.3263969,
 					"z": 40.8011169
 				}
 			},
@@ -496,7 +496,7 @@
 				"rotation": {
 					"x": 30.0178928,
 					"y": 68.64436,
-					"z": 58.5811272
+					"z": 58.5811348
 				}
 			},
 			{
@@ -515,7 +515,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -11.76001,
+					"x": -11.7600107,
 					"y": 10.1288376,
 					"z": 24.4755859
 				},
@@ -559,8 +559,8 @@
 					"z": 22.440918
 				},
 				"rotation": {
-					"x": 28.0217838,
-					"y": 84.23867,
+					"x": 28.0217781,
+					"y": 84.23866,
 					"z": 47.07444
 				}
 			},
@@ -637,7 +637,7 @@
 					"z": -21.47705
 				},
 				"rotation": {
-					"x": 14.8412094,
+					"x": 14.84121,
 					"y": 93.52219,
 					"z": 316.586273
 				}
@@ -671,14 +671,14 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -15.4052734,
+					"x": -15.4052744,
 					"y": 11.386261,
 					"z": 22.3032227
 				},
 				"rotation": {
 					"x": 64.49146,
 					"y": 325.5985,
-					"z": 0.79389894
+					"z": 0.7938992
 				}
 			},
 			{
@@ -756,7 +756,7 @@
 				"rotation": {
 					"x": 290.1051,
 					"y": 327.3147,
-					"z": 9.89939
+					"z": 9.899385
 				}
 			},
 			{
@@ -795,7 +795,7 @@
 				"rotation": {
 					"x": 32.03715,
 					"y": 210.550476,
-					"z": 1.35723734
+					"z": 1.35723627
 				}
 			},
 			{
@@ -808,7 +808,7 @@
 				"rotation": {
 					"x": 346.656372,
 					"y": 271.549438,
-					"z": 21.76108
+					"z": 21.7610779
 				}
 			},
 			{
@@ -866,7 +866,7 @@
 			{
 				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
 				"position": {
-					"x": -12.213623,
+					"x": -12.213624,
 					"y": 21.56057,
 					"z": 16.57959
 				},
@@ -911,7 +911,7 @@
 				},
 				"rotation": {
 					"x": 293.679016,
-					"y": 68.2736359,
+					"y": 68.27364,
 					"z": 339.344
 				}
 			},
@@ -975,7 +975,7 @@
 					"z": 18.0024414
 				},
 				"rotation": {
-					"x": 47.9693832,
+					"x": 47.96939,
 					"y": 222.093277,
 					"z": 179.782623
 				}
@@ -988,7 +988,7 @@
 					"z": -0.910644531
 				},
 				"rotation": {
-					"x": 44.144352,
+					"x": 44.14436,
 					"y": 286.903931,
 					"z": 188.926392
 				}
@@ -1066,7 +1066,7 @@
 					"z": 24.6206055
 				},
 				"rotation": {
-					"x": 24.3184185,
+					"x": 24.31842,
 					"y": 81.83435,
 					"z": 122.122215
 				}
@@ -1079,9 +1079,9 @@
 					"z": 20.6469727
 				},
 				"rotation": {
-					"x": 68.24802,
-					"y": 109.801949,
-					"z": 154.324615
+					"x": 68.248024,
+					"y": 109.801956,
+					"z": 154.324631
 				}
 			},
 			{
@@ -1148,6 +1148,31 @@
 					"y": 300.319946,
 					"z": 34.7755165
 				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/DistressBeaconTransmitter",
+				"position": {
+					"x": 7.13488674,
+					"y": 18.7010918,
+					"z": 21.40485
+				},
+				"rotation": {
+					"x": 321.772278,
+					"y": 251.813782,
+					"z": 319.936
+				}
+			}
+		],
+		"signals": [
+			{
+				"audio": "NomaiEscapePodDistressSignal_LP",
+				"position": {
+					"x": 7.13488674,
+					"y": 18.7010918,
+					"z": 21.40485
+				},
+				"frequency": "Nomai Radio",
+				"name": "Experiment Results"
 			}
 		],
 		"geysers": [
@@ -1486,7 +1511,7 @@
 				},
 				"type": "wall",
 				"location": "unspecified",
-				"xmlFile": "text/clocktower_text_outside.xml"
+				"xmlFile": "planets/Text/clocktower_text_outside.xml"
 			},
 			{
 				"arcInfo": [
@@ -1545,11 +1570,11 @@
 				"rotation": {
 					"x": 345.510223,
 					"y": 152.356766,
-					"z": -7.936401E-06
+					"z": -8.156857E-06
 				},
 				"type": "wall",
 				"location": "unspecified",
-				"xmlFile": "text/clocktower_text_top.xml"
+				"xmlFile": "planets/Text/clocktower_text_top.xml"
 			}
 		]
 	},
