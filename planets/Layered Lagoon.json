@@ -22,7 +22,7 @@
 		"surfaceSize": 120.0
 	},
 	"Orbit": {
-		"primaryBody": "White Sun",
+		"primaryBody": "Spark",
 		"semiMajorAxis": 2000.0
 	},
 	"Props": {

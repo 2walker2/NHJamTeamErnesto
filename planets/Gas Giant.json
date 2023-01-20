@@ -42,7 +42,7 @@
 	},
 	"canShowOnTitle": false,
 	"Orbit": {
-		"primaryBody": "White Sun",
+		"primaryBody": "Spark",
 		"semiMajorAxis": 4000.0
 	},
 	"Props": {
