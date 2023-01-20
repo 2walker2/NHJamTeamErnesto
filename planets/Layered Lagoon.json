@@ -720,6 +720,14 @@
 					"z": 27.6957531
 				},
 				"scale": 0.6999999
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
+				"position": {
+					"y": 16
+				},
+				"scale": 5,
+				"keepLoaded": true
 			}
 		],
 		"dialogue": [
@@ -771,8 +779,9 @@
 		],
 		"rafts": [
 			{
+				"rename": "LayeredLagoonRaft_Body",
 				"position": {
-					"y": 19.0
+					"y": 25.0
 				},
 				"acceleration": 1.0
 			}
