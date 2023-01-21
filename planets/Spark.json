@@ -52,6 +52,12 @@
 	],
 	"ShipLog": {},
 	"Star": {
+		"endTint": {
+			"r": 30,
+			"g": 28,
+			"b": 25,
+			"a": 0
+		},
 		"size": 700.0,
 		"solarLuminosity": 0.8,
 		"tint": {

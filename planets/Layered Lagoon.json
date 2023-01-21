@@ -188,14 +188,14 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine",
 				"position": {
 					"x": -22.6806641,
-					"y": -98.5812759,
+					"y": -98.58127,
 					"z": -12.6152344
 				},
 				"removeChildren": [
 					"ConversationZone"
 				],
 				"rotation": {
-					"x": 0.08120393,
+					"x": 0.08120436,
 					"y": 86.7743,
 					"z": 184.8367
 				}
@@ -204,7 +204,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -21.7490234,
-					"y": -98.75797,
+					"y": -98.7579651,
 					"z": -7.848633
 				},
 				"rotation": {
@@ -217,7 +217,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -22.890625,
-					"y": -97.03413,
+					"y": -97.03412,
 					"z": -18.4755859
 				},
 				"rotation": {
@@ -230,7 +230,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -27.8996582,
-					"y": -95.82835,
+					"y": -95.82834,
 					"z": -16.9853516
 				},
 				"rotation": {
@@ -243,7 +243,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -31.001709,
-					"y": -94.5340958,
+					"y": -94.53409,
 					"z": -5.05273438
 				},
 				"rotation": {
@@ -385,7 +385,7 @@
 				"rotation": {
 					"x": 337.907562,
 					"y": 178.161255,
-					"z": 3.329393
+					"z": 3.32939315
 				}
 			},
 			{
@@ -617,8 +617,8 @@
 				},
 				"rotation": {
 					"x": 346.445618,
-					"y": 82.83269,
-					"z": 9.459157
+					"y": 82.83268,
+					"z": 9.459158
 				}
 			},
 			{
@@ -646,7 +646,7 @@
 				},
 				"rotation": {
 					"x": 280.871277,
-					"y": 199.809982,
+					"y": 199.809967,
 					"z": 292.032562
 				},
 				"scale": 0.6999999
@@ -687,7 +687,7 @@
 					"z": -2.61035156
 				},
 				"rotation": {
-					"x": 24.0982513,
+					"x": 24.0982552,
 					"y": 86.7613,
 					"z": 187.31572
 				},

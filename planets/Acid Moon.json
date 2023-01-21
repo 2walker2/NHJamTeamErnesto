@@ -9,6 +9,13 @@
 			"b": 27,
 			"a": 0
 		},
+		"fogSize": 50.0,
+		"fogTint": {
+			"r": 200,
+			"g": 200,
+			"b": 27,
+			"a": 0
+		},
 		"size": 70.0,
 		"useAtmosphereShader": true
 	},
@@ -32,8 +39,8 @@
 				"value": 26.4
 			},
 			{
-				"time": 22.0,
-				"value": 9.5
+				"time": 20.0,
+				"value": 17
 			}
 		]
 	},
@@ -102,7 +109,7 @@
 				},
 				"rotation": {
 					"x": 80.8632,
-					"y": 140.3786,
+					"y": 140.378586,
 					"z": 348.106354
 				},
 				"keepLoaded": true
@@ -190,7 +197,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -12.9880381,
+					"x": -12.9880371,
 					"y": 17.1762772,
 					"z": -19.8076172
 				},
@@ -223,7 +230,7 @@
 				"rotation": {
 					"x": 352.369232,
 					"y": 206.498322,
-					"z": 24.1320534
+					"z": 24.13206
 				}
 			},
 			{
@@ -236,7 +243,7 @@
 				"rotation": {
 					"x": 331.092438,
 					"y": 263.528,
-					"z": 7.651169
+					"z": 7.651167
 				}
 			},
 			{
@@ -249,7 +256,7 @@
 				"rotation": {
 					"x": 327.906342,
 					"y": 262.781769,
-					"z": 4.22871542
+					"z": 4.22871733
 				}
 			},
 			{
@@ -359,7 +366,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -13.4545908,
+					"x": -13.45459,
 					"y": -24.4138489,
 					"z": 7.998535
 				},
@@ -372,7 +379,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -13.3225107,
+					"x": -13.32251,
 					"y": -25.743782,
 					"z": 3.62353516
 				},
@@ -385,7 +392,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -13.3791513,
+					"x": -13.37915,
 					"y": -24.1867828,
 					"z": -9.172363
 				},
@@ -469,7 +476,7 @@
 				},
 				"rotation": {
 					"x": 47.75085,
-					"y": 12.8140879,
+					"y": 12.8140869,
 					"z": 4.309278
 				}
 			},
@@ -483,7 +490,7 @@
 				"rotation": {
 					"x": 44.3509827,
 					"y": 45.3263969,
-					"z": 40.8011169
+					"z": 40.8011131
 				}
 			},
 			{
@@ -496,7 +503,7 @@
 				"rotation": {
 					"x": 30.0178928,
 					"y": 68.64436,
-					"z": 58.5811348
+					"z": 58.5811272
 				}
 			},
 			{
@@ -515,7 +522,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -11.7600107,
+					"x": -11.76001,
 					"y": 10.1288376,
 					"z": 24.4755859
 				},
@@ -559,7 +566,7 @@
 					"z": 22.440918
 				},
 				"rotation": {
-					"x": 28.0217781,
+					"x": 28.0217762,
 					"y": 84.23866,
 					"z": 47.07444
 				}
@@ -671,7 +678,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
-					"x": -15.4052744,
+					"x": -15.4052734,
 					"y": 11.386261,
 					"z": 22.3032227
 				},
@@ -795,7 +802,7 @@
 				"rotation": {
 					"x": 32.03715,
 					"y": 210.550476,
-					"z": 1.35723627
+					"z": 1.35723734
 				}
 			},
 			{
@@ -808,7 +815,7 @@
 				"rotation": {
 					"x": 346.656372,
 					"y": 271.549438,
-					"z": 21.7610779
+					"z": 21.76108
 				}
 			},
 			{
@@ -866,7 +873,7 @@
 			{
 				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
 				"position": {
-					"x": -12.213624,
+					"x": -12.213623,
 					"y": 21.56057,
 					"z": 16.57959
 				},
@@ -910,7 +917,7 @@
 					"z": -19.1811523
 				},
 				"rotation": {
-					"x": 293.679016,
+					"x": 293.679,
 					"y": 68.27364,
 					"z": 339.344
 				}
@@ -975,7 +982,7 @@
 					"z": 18.0024414
 				},
 				"rotation": {
-					"x": 47.96939,
+					"x": 47.9693947,
 					"y": 222.093277,
 					"z": 179.782623
 				}
@@ -988,7 +995,7 @@
 					"z": -0.910644531
 				},
 				"rotation": {
-					"x": 44.14436,
+					"x": 44.1443672,
 					"y": 286.903931,
 					"z": 188.926392
 				}
@@ -1066,8 +1073,8 @@
 					"z": 24.6206055
 				},
 				"rotation": {
-					"x": 24.31842,
-					"y": 81.83435,
+					"x": 24.3184185,
+					"y": 81.83434,
 					"z": 122.122215
 				}
 			},
@@ -1079,8 +1086,8 @@
 					"z": 20.6469727
 				},
 				"rotation": {
-					"x": 68.248024,
-					"y": 109.801956,
+					"x": 68.24803,
+					"y": 109.801949,
 					"z": 154.324631
 				}
 			},
@@ -1152,27 +1159,15 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/DistressBeaconTransmitter",
 				"position": {
-					"x": 7.13488674,
+					"x": 7.1348877,
 					"y": 18.7010918,
-					"z": 21.40485
+					"z": 21.4048462
 				},
 				"rotation": {
 					"x": 321.772278,
 					"y": 251.813782,
 					"z": 319.936
 				}
-			}
-		],
-		"signals": [
-			{
-				"audio": "NomaiEscapePodDistressSignal_LP",
-				"position": {
-					"x": 7.13488674,
-					"y": 18.7010918,
-					"z": 21.40485
-				},
-				"frequency": "Nomai Radio",
-				"name": "Experiment Results"
 			}
 		],
 		"geysers": [
@@ -1570,11 +1565,23 @@
 				"rotation": {
 					"x": 345.510223,
 					"y": 152.356766,
-					"z": -8.156857E-06
+					"z": -8.377312E-06
 				},
 				"type": "wall",
 				"location": "unspecified",
 				"xmlFile": "planets/Text/clocktower_text_top.xml"
+			}
+		],
+		"signals": [
+			{
+				"audio": "NomaiEscapePodDistressSignal_LP",
+				"frequency": "Nomai Radio",
+				"name": "Experiment Results",
+				"position": {
+					"x": 7.13488674,
+					"y": 18.7010918,
+					"z": 21.40485
+				}
 			}
 		]
 	},
@@ -1594,8 +1601,8 @@
 				"value": 27.0
 			},
 			{
-				"time": 22.0,
-				"value": 10.0
+				"time": 20.0,
+				"value": 19.0
 			}
 		]
 	},
@@ -1606,7 +1613,7 @@
 				"entryNotification": {
 					"displayMessage": "WARNING: SULFRIC ACID DETECTED"
 				},
-				"radius": 60.0
+				"radius": 50.0
 			}
 		]
 	}
