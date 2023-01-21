@@ -48,9 +48,13 @@
 	"ReferenceFrame": {},
 	"removeChildren": [
 		"Sector/Star/DestructionFluidVolume",
-		"Sector/Star/PlanetDestructionVolume"
+		"Sector/Star/PlanetDestructionVolume",
+		"Sector/Star/HeatVolume"
 	],
-	"ShipLog": {},
+	"ShipLog": {
+		"xmlFile": "planets/Log/glitched_log.xml",
+		"spriteFolder": "planets/Log/Images"
+	},
 	"Star": {
 		"endTint": {
 			"r": 30,

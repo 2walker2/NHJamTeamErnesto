@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Gleam",
+	"starSystem": "2walker2.OogaBooga",
+	"Base": {
+		"gravityFallOff": "inverseSquared",
+		"invulnerableToSun": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 30.0
+	},
+	"canShowOnTitle": false,
+	"Orbit": {
+		"primaryBody": "Gas Giant",
+		"isMoon": true,
+		"semiMajorAxis": 220,
+		"inclination": 30,
+		"trueAnomaly": 120,
+		"showOrbitLine": false
+	},
+	"ReferenceFrame": {},
+	"removeChildren": [
+		"Sector/Star/DestructionFluidVolume",
+		"Sector/Star/PlanetDestructionVolume",
+		"Sector/Star/HeatVolume"
+	],
+	"Star": {
+		"endTint": {
+			"r": 30,
+			"g": 28,
+			"b": 25,
+			"a": 0
+		},
+		"size": 30.0,
+		"solarLuminosity": 0.4,
+		"tint": {
+			"r": 181,
+			"g": 161,
+			"b": 118,
+			"a": 0
+		},
+		"lifespan": 1000
+	}
+}
