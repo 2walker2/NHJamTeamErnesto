@@ -5,6 +5,7 @@
         <ID>jam_glitched_signal</ID>
         <Name>Unknown Signal</Name>
 
+        <IgnoreMoreToExplore/>
         <Curiosity>jam_glitched</Curiosity>
 
         <ExploreFact>
@@ -21,6 +22,7 @@
         <ID>jam_glitched_atp</ID>
         <Name>ATP Manipulation</Name>
 
+        <IgnoreMoreToExplore/>
         <Curiosity>jam_glitched</Curiosity>
 
         <RumorFact>
@@ -42,6 +44,7 @@
         <ID>jam_glitched_plan</ID>
         <Name>A Plan</Name>
 
+        <IgnoreMoreToExplore/>
         <Curiosity>jam_glitched</Curiosity>
 
         <RumorFact>
@@ -56,6 +59,24 @@
         <ExploreFact>
             <ID>jam_glitched_atp_execution</ID>
             <Text>I'm going to set the Ash Twin Project to send as strong a signal as I can make as far back in time as possible, warning about the sun's explosion. In order to get that extra energy, I'm not going to be able to remember that last few loops. Hopefully Chert will pick up the signal and warn the others. Maybe they can evacuate to towards that Nomai signal I picked up. I hope.</Text>
+        </ExploreFact>
+    </Entry>
+
+    <Entry>
+        <ID>jam_spark</ID>
+        <Name>Clockwork Sun</Name>
+
+        <Curiosity>jam_spark</Curiosity>
+        <IsCuriosity/>
+
+        <RumorFact>
+            <ID>jam_spark_rumor</ID>
+            <RumorName>Solar Experiment</RumorName>
+            <Text>A Nomai experiment involving this system's sun.</Text>
+        </RumorFact>
+        <ExploreFact>
+            <ID>jam_spark_fact</ID> 
+            <Text>There is a clockwork Nomai structure at the core of the sun. There is a hole where a key would be inserted.</Text>
         </ExploreFact>
     </Entry>
 

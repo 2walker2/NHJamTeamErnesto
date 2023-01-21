@@ -1,0 +1,20 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Layered Lagoon</ID>
+
+    <Entry>
+        <ID>jam_suns</ID>
+        <Name>Sun Models</Name>
+
+        <Curiosity>jam_spark</Curiosity>
+
+        <ExploreFact>
+            <ID>jam_suns_fact</ID> 
+            <Text>Three small suns orbit beneath the cloud layer.</Text>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>jam_suns_ruin</ID> 
+            <Text>A Nomai named Canarae claimed that the small suns were safe to approach and do not give off dangerous levels of heat. The Nomai intended to apply this process to this system's sun soon.</Text>
+        </ExploreFact>
+    </Entry>
+
+</AstroObjectEntry>

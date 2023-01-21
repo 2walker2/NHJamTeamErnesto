@@ -2,5 +2,22 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
 	"destroyStockPlanets": true,
 	"enableTimeLoop": false,
-	"startHere": true
+	"startHere": true,
+	"curiosities": [
+		{
+			"id": "jam_spark",
+			"color": {
+				"r": 164, 
+				"g": 166,
+				"b": 90,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 208,
+				"g": 211, 
+				"b": 115,
+				"a": 255
+			}
+		}
+	]
 }

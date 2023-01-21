@@ -2098,6 +2098,9 @@
 	"Sand": {
 		"size": 18.0
 	},
-	"ShipLog": {},
+	"ShipLog": {
+		"xmlFile": "planets/Log/gas_log.xml",
+		"spriteFolder": "planets/Log/Images"
+	},
 	"ShockEffect": {}
 }

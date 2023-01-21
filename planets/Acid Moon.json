@@ -1636,7 +1636,10 @@
 		]
 	},
 	"ReferenceFrame": {},
-	"ShipLog": {},
+	"ShipLog": {
+		"xmlFile": "planets/Log/acid_log.xml",
+		"spriteFolder": "planets/Log/Images"
+	},
 	"ShockEffect": {},
 	"Water": {
 		"size": 1.0,

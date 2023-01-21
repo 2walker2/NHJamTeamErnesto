@@ -830,7 +830,10 @@
 	"Sand": {
 		"size": 18.0
 	},
-	"ShipLog": {},
+	"ShipLog": {
+		"xmlFile": "planets/Log/layered_log.xml",
+		"spriteFolder": "planets/Log/Images"
+	},
 	"ShockEffect": {},
 	"Spawn": {
 		"playerSpawnPoint": {
