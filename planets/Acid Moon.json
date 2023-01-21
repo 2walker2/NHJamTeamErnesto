@@ -1635,6 +1635,16 @@
 			}
 		]
 	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 30,
+				"reveals": [
+					"jam_clocktower_fact"
+				]
+			}
+		]
+	},
 	"ReferenceFrame": {},
 	"ShipLog": {
 		"xmlFile": "planets/Log/acid_log.xml",

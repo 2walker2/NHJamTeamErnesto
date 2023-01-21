@@ -13,4 +13,10 @@
 		<ParentID>2</ParentID>
 		<Text>CANARAE: Very likely. Though I do not envy the one of us who will have to make the first trip into its core.</Text>
 	</TextBlock>
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>jam_suns_ruin</FactID>
+	      	<Condition>3</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

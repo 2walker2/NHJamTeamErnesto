@@ -19,5 +19,60 @@
 				"a": 255
 			}
 		}
+	],
+	"initialReveal": [
+		"jam_glitched_plan_formulation"
+	],
+	"entryPositions": [
+		{
+		  "id": "jam_spark",
+		  "position": {}
+		},
+		{
+		  "id": "jam_glitched_plan",
+		  "position": {
+		    "x": -320.0,
+		    "y": 270.0
+		  }
+		},
+		{
+		  "id": "jam_glitched_atp",
+		  "position": {
+		    "x": -400.0
+		  }
+		},
+		{
+		  "id": "jam_glitched_signal",
+		  "position": {
+		    "x": -300.0,
+		    "y": -350.0
+		  }
+		},
+		{
+		  "id": "jam_quantum",
+		  "position": {
+		    "x": 450.0
+		  }
+		},
+		{
+		  "id": "jam_key",
+		  "position": {
+		    "x": 320.0,
+		    "y": 270.0
+		  }
+		},
+		{
+		  "id": "jam_suns",
+		  "position": {
+		    "y": 380.0
+		  }
+		},
+		{
+		  "id": "jam_clocktower",
+		  "position": {
+		    "x": 300.0,
+		    "y": -350.0
+		  }
+		}
 	]
 }

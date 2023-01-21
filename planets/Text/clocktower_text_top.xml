@@ -23,4 +23,10 @@
 		<ParentID>3</ParentID>
 		<Text>MIACEAE: It is time to move onwards. There is a festival shortly in the Blackrock system. Perhaps one of the other clans has found a solution.</Text>
 	</TextBlock>
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>jam_clocktower_top</FactID>
+	      	<Condition>5</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

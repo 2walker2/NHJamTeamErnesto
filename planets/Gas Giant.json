@@ -2094,6 +2094,16 @@
 			}
 		]
 	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius": 280,
+				"reveals": [
+					"jam_suns_fact"
+				]
+			}
+		]
+	},
 	"ReferenceFrame": {},
 	"Sand": {
 		"size": 18.0

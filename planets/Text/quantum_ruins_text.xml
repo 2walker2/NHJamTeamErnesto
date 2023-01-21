@@ -18,4 +18,10 @@
 		<ParentID>3</ParentID>
 		<Text>MIACEAE: Hypothesis: the raft we found on our previous warp would function well for this purpose.</Text>
 	</TextBlock>
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>jam_quantum_text</FactID>
+	      	<Condition>4</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

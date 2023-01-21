@@ -18,4 +18,10 @@
 		<ParentID>3</ParentID>
 		<Text>MIACEAE: While I appreciate your eye for aesthetics Cedrus, remember that speed of construction is key. Helian and the rest of the clan are eager to move on, particularly if there is a risk of destabilization.</Text>
 	</TextBlock>
+	<ShipLogConditions>
+	    <RevealFact>
+	      	<FactID>jam_clocktower_outside</FactID>
+	      	<Condition>4</Condition>
+	    </RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

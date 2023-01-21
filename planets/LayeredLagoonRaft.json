@@ -20,6 +20,28 @@
 			}
 		]
 	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": {
+					"y": 40
+				},
+				"radius": 30,
+				"reveals": [
+					"jam_key_rumor"
+				]
+			},
+			{
+				"position": {
+					"y": 50
+				},
+				"radius": 5,
+				"reveals": [
+					"jam_key_fact"
+				]
+			}
+		]
+	},
 	"ReferenceFrame": {},
 	"ShipLog": {},
 	"ShockEffect": {}
