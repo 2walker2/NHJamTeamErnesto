@@ -12,10 +12,10 @@
 	"Orbit": {
 		"primaryBody": "Gas Giant",
 		"isMoon": true,
-		"showOrbitLine": false,
-		"semiMajorAxis": 220.0,
-		"inclination": 60.0,
-		"trueAnomaly": 240.0
+		"semiMajorAxis": 220,
+		"inclination": 60,
+		"trueAnomaly": 240,
+		"showOrbitLine": false
 	},
 	"ReferenceFrame": {},
 	"removeChildren": [
@@ -23,7 +23,6 @@
 		"Sector/Star/PlanetDestructionVolume",
 		"Sector/Star/HeatVolume"
 	],
-	"ShipLog": {},
 	"Star": {
 		"endTint": {
 			"r": 30,
@@ -31,7 +30,6 @@
 			"b": 25,
 			"a": 0
 		},
-		"lifespan": 1000.0,
 		"size": 30.0,
 		"solarLuminosity": 0.4,
 		"tint": {
@@ -40,7 +38,6 @@
 			"b": 118,
 			"a": 0
 		},
-		"stellarDeathType": "default",
-		"stellarRemnantType": "default"
+		"lifespan": 1000
 	}
 }

@@ -1,8 +1,8 @@
 {
   "filename": "NewHorizonsConfig.dll",
-  "author": "Samster68, 2walker2, and Texture_Turtle",
+  "author": "2walker2, Texture_Turtle, and Samster68",
   "name": "Evacuation",
-  "uniqueName": "2walker2.evacuation",
+  "uniqueName": "2walker2.Evacuation",
   "version": "0.0.0",
   "owmlVersion": "2.9.0",
   "dependencies": [ "xen.NewHorizons" ]

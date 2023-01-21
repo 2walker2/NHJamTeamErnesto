@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Riebeck</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>HEY EVERY     !</Page>
+			<Page>IT'S ME, SPAMTON G. SPAMTON</Page>
+			<Page>KRIS!!! YOU [Little Sponge]! I KNEW YOU'D COME HERE [[On A Saturday Night]]!</Page>
+			<Page>AFTER ALL, YOU WANNA BE A [Big Shot]! EAHAHAHAHAA!!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

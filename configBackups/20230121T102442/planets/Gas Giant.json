@@ -1,0 +1,2103 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Gas Giant",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 255,
+			"g": 234,
+			"b": 234,
+			"a": 155
+		},
+		"clouds": {
+			"fluidType": "cloud",
+			"innerCloudRadius": 280.0,
+			"outerCloudRadius": 300.0,
+			"texturePath": "planets/Assets/WhiteClouds.png",
+			"tint": {
+				"r": 100,
+				"g": 100,
+				"b": 124,
+				"a": 0
+			}
+		},
+		"fogDensity": 1.0,
+		"fogSize": 300.0,
+		"fogTint": {
+			"r": 240,
+			"g": 240,
+			"b": 255,
+			"a": 255
+		},
+		"hasOxygen": true,
+		"size": 300.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 20.0,
+		"surfaceSize": 120.0
+	},
+	"canShowOnTitle": false,
+	"Orbit": {
+		"primaryBody": "Spark",
+		"semiMajorAxis": 5000.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/Assets/turtle.jamsnow",
+				"path": "Assets/Jammer/SnowPlanet.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 18000.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 44.5239563,
+					"y": 14.4097672,
+					"z": 156.429764
+				},
+				"rotation": {
+					"x": 321.040527,
+					"y": 121.826851,
+					"z": 74.95787
+				},
+				"scale": 1.80000019
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 5.93263245,
+					"y": 53.36383,
+					"z": 150.964462
+				},
+				"rotation": {
+					"x": 12.8775406,
+					"y": 86.4013748,
+					"z": 65.78502
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 37.2093658,
+					"y": 100.118546,
+					"z": 122.790787
+				},
+				"rotation": {
+					"x": 39.205822,
+					"y": 312.2439,
+					"z": 321.728241
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -77.29618,
+					"y": 117.728516,
+					"z": 78.9027557
+				},
+				"rotation": {
+					"x": 7.851576,
+					"y": 60.6451149,
+					"z": 44.18122
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -1.87860107,
+					"y": 131.818573,
+					"z": 41.2043
+				},
+				"rotation": {
+					"x": 10.7375526,
+					"y": 16.11108,
+					"z": 358.470032
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 56.457962,
+					"y": 132.089447,
+					"z": 51.10466
+				},
+				"rotation": {
+					"x": 2.88504362,
+					"y": 319.0746,
+					"z": 355.7401
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 149.542557,
+					"y": 76.81083,
+					"z": 40.7812347
+				},
+				"rotation": {
+					"x": 315.9592,
+					"y": 322.86438,
+					"z": 298.831329
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 120.209976,
+					"y": 61.5067558,
+					"z": 96.31389
+				},
+				"rotation": {
+					"x": 334.018555,
+					"y": 135.93367,
+					"z": 90.21063
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 135.4853,
+					"y": -20.7712784,
+					"z": 70.55974
+				},
+				"rotation": {
+					"x": 282.052368,
+					"y": 74.29839,
+					"z": 165.963913
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 46.0018158,
+					"y": -68.28052,
+					"z": 140.578537
+				},
+				"rotation": {
+					"x": 8.00709152,
+					"y": 116.962158,
+					"z": 130.3006
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -22.6440582,
+					"y": -51.88103,
+					"z": 161.649063
+				},
+				"rotation": {
+					"x": 69.0143356,
+					"y": 201.609055,
+					"z": 201.659851
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -76.5301361,
+					"y": -70.68703,
+					"z": 137.839554
+				},
+				"rotation": {
+					"x": 358.951141,
+					"y": 59.3549538,
+					"z": 117.39576
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -56.96785,
+					"y": 12.6018028,
+					"z": 148.494766
+				},
+				"rotation": {
+					"x": 69.4736938,
+					"y": 317.34137,
+					"z": 351.896545
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -117.792885,
+					"y": 20.3979015,
+					"z": 101.094681
+				},
+				"rotation": {
+					"x": 26.73348,
+					"y": 45.79507,
+					"z": 75.11578
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -153.767914,
+					"y": 70.25576,
+					"z": 43.322876
+				},
+				"rotation": {
+					"x": 22.7586441,
+					"y": 6.544741,
+					"z": 65.95172
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -121.738663,
+					"y": 119.391861,
+					"z": 19.2297211
+				},
+				"rotation": {
+					"x": 35.5159454,
+					"y": 285.7213,
+					"z": 13.5282555
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -132.0526,
+					"y": 66.07562,
+					"z": -64.07174
+				},
+				"rotation": {
+					"x": 333.831268,
+					"y": 344.432037,
+					"z": 43.578392
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -75.89221,
+					"y": 125.64296,
+					"z": -30.2538223
+				},
+				"rotation": {
+					"x": 17.9716511,
+					"y": 282.8911,
+					"z": 35.1452141
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -15.6468353,
+					"y": 129.739059,
+					"z": -108.304413
+				},
+				"rotation": {
+					"x": 346.342682,
+					"y": 319.501282,
+					"z": 23.5857887
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 40.39949,
+					"y": 92.47009,
+					"z": -147.733963
+				},
+				"rotation": {
+					"x": 312.115448,
+					"y": 295.805359,
+					"z": 48.03477
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 49.6735535,
+					"y": 10.5386887,
+					"z": -172.839844
+				},
+				"rotation": {
+					"x": 276.17038,
+					"y": 292.463318,
+					"z": 53.36616
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 10.9343414,
+					"y": -68.10585,
+					"z": -174.290848
+				},
+				"rotation": {
+					"x": 306.720154,
+					"y": 102.607773,
+					"z": 241.0834
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 82.1090546,
+					"y": -98.63396,
+					"z": -127.743973
+				},
+				"rotation": {
+					"x": 332.395538,
+					"y": 223.72757,
+					"z": 136.611542
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -9.582901,
+					"y": -141.351379,
+					"z": -106.435814
+				},
+				"rotation": {
+					"x": 338.3884,
+					"y": 146.346,
+					"z": 187.173035
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -88.63358,
+					"y": -104.385849,
+					"z": -120.00927
+				},
+				"rotation": {
+					"x": 47.329998,
+					"y": 83.0722961,
+					"z": 200.068466
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -115.289513,
+					"y": -107.960571,
+					"z": -15.2784882
+				},
+				"rotation": {
+					"x": 344.5156,
+					"y": 174.578445,
+					"z": 228.865952
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -159.887421,
+					"y": -36.7809639,
+					"z": -25.9376526
+				},
+				"rotation": {
+					"x": 44.1506157,
+					"y": 144.508072,
+					"z": 232.235443
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -172.715759,
+					"y": 24.7363148,
+					"z": -12.9890442
+				},
+				"rotation": {
+					"x": 73.33225,
+					"y": 221.1821,
+					"z": 315.5427
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -158.392426,
+					"y": -34.9546967,
+					"z": 40.18599
+				},
+				"rotation": {
+					"x": 290.5048,
+					"y": 250.280853,
+					"z": 212.985779
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -130.627716,
+					"y": -93.85158,
+					"z": 55.0445251
+				},
+				"rotation": {
+					"x": 303.228058,
+					"y": 287.138733,
+					"z": 175.945313
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -70.58792,
+					"y": -131.98468,
+					"z": 51.6497345
+				},
+				"rotation": {
+					"x": 347.363068,
+					"y": 268.515259,
+					"z": 197.781967
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -69.05144,
+					"y": -144.477356,
+					"z": -19.649231
+				},
+				"rotation": {
+					"x": 351.791656,
+					"y": 342.0963,
+					"z": 154.67807
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -3.1353302,
+					"y": -149.911179,
+					"z": 3.49520874
+				},
+				"rotation": {
+					"x": 3.71840978,
+					"y": 279.3512,
+					"z": 193.572144
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 21.4830475,
+					"y": -151.469,
+					"z": -50.1537476
+				},
+				"rotation": {
+					"x": 11.0590267,
+					"y": 318.735168,
+					"z": 188.617554
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 86.98451,
+					"y": -130.184769,
+					"z": -41.2395172
+				},
+				"rotation": {
+					"x": 24.1836147,
+					"y": 270.3098,
+					"z": 182.292664
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 37.9256134,
+					"y": -121.856644,
+					"z": -120.200333
+				},
+				"rotation": {
+					"x": 17.54823,
+					"y": 34.80308,
+					"z": 212.969788
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 129.153976,
+					"y": -90.54129,
+					"z": -84.81678
+				},
+				"rotation": {
+					"x": 56.271328,
+					"y": 220.874924,
+					"z": 131.234177
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 141.390091,
+					"y": -37.56652,
+					"z": -93.97577
+				},
+				"rotation": {
+					"x": 71.3090439,
+					"y": 225.093063,
+					"z": 124.878059
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 158.835709,
+					"y": 23.35307,
+					"z": -61.792717
+				},
+				"rotation": {
+					"x": 55.500103,
+					"y": 202.493011,
+					"z": 98.70861
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 121.153122,
+					"y": 55.8498344,
+					"z": -122.032257
+				},
+				"rotation": {
+					"x": 26.30327,
+					"y": 52.5860748,
+					"z": 286.280273
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 117.914322,
+					"y": 8.748047,
+					"z": -139.9413
+				},
+				"rotation": {
+					"x": 321.345581,
+					"y": 39.3472862,
+					"z": 282.7081
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 110.681534,
+					"y": 121.55632,
+					"z": -93.28067
+				},
+				"rotation": {
+					"x": 42.64864,
+					"y": 90.7848358,
+					"z": 330.288422
+				},
+				"scale": 2.0
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": 53.95784,
+					"y": 146.301758,
+					"z": -73.5046158
+				},
+				"rotation": {
+					"x": 354.6997,
+					"y": 120.317307,
+					"z": 12.3473663
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -27.5063629,
+					"y": 140.9981,
+					"z": -4.59773254
+				},
+				"rotation": {
+					"x": 9.972561,
+					"y": 157.539032,
+					"z": 10.5033436
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
+				"position": {
+					"x": -80.6265945,
+					"y": 139.750961,
+					"z": 23.0131836
+				},
+				"rotation": {
+					"x": 346.742981,
+					"y": 130.0434,
+					"z": 354.0374
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 18.9284821,
+					"y": -19.2075768,
+					"z": 166.8228
+				},
+				"rotation": {
+					"x": 323.798676,
+					"y": 96.7361145,
+					"z": 92.87782
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -18.3819733,
+					"y": 22.7466888,
+					"z": 160.718765
+				},
+				"rotation": {
+					"x": 19.2311764,
+					"y": 73.6410751,
+					"z": 72.5244446
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 55.07994,
+					"y": 57.91054,
+					"z": 141.744156
+				},
+				"rotation": {
+					"x": 28.7292061,
+					"y": 295.8395,
+					"z": 289.575684
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -29.982254,
+					"y": 98.6769562,
+					"z": 117.530472
+				},
+				"rotation": {
+					"x": 20.8872547,
+					"y": 49.19278,
+					"z": 50.8822632
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -63.4452057,
+					"y": 133.728836,
+					"z": 57.53694
+				},
+				"rotation": {
+					"x": 20.2118473,
+					"y": 19.0576,
+					"z": 12.4580564
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -108.840363,
+					"y": 122.689972,
+					"z": 50.1955261
+				},
+				"rotation": {
+					"x": 338.261353,
+					"y": 71.74709,
+					"z": 24.619175
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -55.2315826,
+					"y": 118.45282,
+					"z": -94.94332
+				},
+				"rotation": {
+					"x": 22.0563412,
+					"y": 322.4032,
+					"z": 32.9503365
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -118.099831,
+					"y": 50.6392975,
+					"z": -108.254051
+				},
+				"rotation": {
+					"x": 298.031128,
+					"y": 57.18814,
+					"z": 0.7312923
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -42.7729645,
+					"y": 74.0407639,
+					"z": -153.330963
+				},
+				"rotation": {
+					"x": 3.61870384,
+					"y": 279.033142,
+					"z": 63.5423927
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -18.9779968,
+					"y": -6.99651146,
+					"z": -180.663162
+				},
+				"rotation": {
+					"x": 351.483246,
+					"y": 276.1646,
+					"z": 84.69098
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -55.1671753,
+					"y": -89.9961548,
+					"z": -157.285629
+				},
+				"rotation": {
+					"x": 297.766937,
+					"y": 196.143753,
+					"z": 187.952362
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -116.566154,
+					"y": -86.27284,
+					"z": -89.2583
+				},
+				"rotation": {
+					"x": 5.997101,
+					"y": 160.931732,
+					"z": 231.554184
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -86.80917,
+					"y": -134.1134,
+					"z": -19.1148529
+				},
+				"rotation": {
+					"x": 329.7517,
+					"y": 222.549179,
+					"z": 200.284012
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -106.186844,
+					"y": -116.971085,
+					"z": 53.8952332
+				},
+				"rotation": {
+					"x": 19.6887665,
+					"y": 177.676178,
+					"z": 209.549988
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": -37.8761444,
+					"y": -118.776093,
+					"z": 88.5808258
+				},
+				"rotation": {
+					"x": 25.0758972,
+					"y": 210.71434,
+					"z": 193.386688
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 36.4474945,
+					"y": -135.876282,
+					"z": 33.2853241
+				},
+				"rotation": {
+					"x": 352.388062,
+					"y": 325.753021,
+					"z": 198.29
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 99.04491,
+					"y": -93.98555,
+					"z": 73.5300446
+				},
+				"rotation": {
+					"x": 49.7308922,
+					"y": 218.794342,
+					"z": 171.206009
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 122.919357,
+					"y": -94.02791,
+					"z": -15.5569
+				},
+				"rotation": {
+					"x": 3.74053216,
+					"y": 353.4949,
+					"z": 238.791336
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 154.42952,
+					"y": -13.0678558,
+					"z": 18.00946
+				},
+				"rotation": {
+					"x": 58.6762238,
+					"y": 202.0005,
+					"z": 122.457054
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 164.032791,
+					"y": 54.9627,
+					"z": -48.7793655
+				},
+				"rotation": {
+					"x": 87.595314,
+					"y": 162.333313,
+					"z": 57.92937
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 133.149063,
+					"y": 15.2055016,
+					"z": -120.378563
+				},
+				"rotation": {
+					"x": 338.547272,
+					"y": 32.2007179,
+					"z": 276.914429
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 112.420547,
+					"y": 103.463104,
+					"z": -107.781769
+				},
+				"rotation": {
+					"x": 40.90531,
+					"y": 74.77874,
+					"z": 308.1794
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 89.51805,
+					"y": 43.88633,
+					"z": -150.335968
+				},
+				"rotation": {
+					"x": 317.13327,
+					"y": 43.137043,
+					"z": 294.486755
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/DBState_QuantumObjects/IceShard_Arrangment_2/DB_IceShard_Arrangment_2/IceGeo",
+				"position": {
+					"x": 53.7413177,
+					"y": 138.853714,
+					"z": -113.016129
+				},
+				"rotation": {
+					"x": 37.711998,
+					"y": 142.0448,
+					"z": 342.4152
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -59.0771332,
+					"y": -112.0715,
+					"z": -139.55629
+				},
+				"rotation": {
+					"x": 310.028,
+					"y": 230.575516,
+					"z": 165.585052
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -22.2682037,
+					"y": -103.655304,
+					"z": -157.337372
+				},
+				"rotation": {
+					"x": 0.7966904,
+					"y": 275.1795,
+					"z": 127.185432
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -4.65014648,
+					"y": -132.301331,
+					"z": -123.545547
+				},
+				"rotation": {
+					"x": 334.151184,
+					"y": 200.853058,
+					"z": 162.960358
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 59.2097321,
+					"y": -124.154617,
+					"z": -105.405052
+				},
+				"rotation": {
+					"x": 2.58517313,
+					"y": 246.297,
+					"z": 147.088425
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 61.0012054,
+					"y": -139.162384,
+					"z": -58.27437
+				},
+				"rotation": {
+					"x": 352.5636,
+					"y": 175.8925,
+					"z": 162.032654
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 102.931381,
+					"y": -121.4673,
+					"z": -73.67625
+				},
+				"rotation": {
+					"x": 27.76182,
+					"y": 261.693176,
+					"z": 170.166962
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 101.248581,
+					"y": -117.823441,
+					"z": -6.799774
+				},
+				"rotation": {
+					"x": 2.16797638,
+					"y": 170.726837,
+					"z": 140.896851
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 130.778214,
+					"y": -79.74094,
+					"z": -24.6677551
+				},
+				"rotation": {
+					"x": 63.71147,
+					"y": 296.00235,
+					"z": 205.851349
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 119.786423,
+					"y": -90.88498,
+					"z": 33.82573
+				},
+				"rotation": {
+					"x": 10.4062929,
+					"y": 178.150009,
+					"z": 127.121216
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 139.098953,
+					"y": -56.23966,
+					"z": 20.8742828
+				},
+				"rotation": {
+					"x": 63.8332558,
+					"y": 299.5885,
+					"z": 211.936066
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 114.1949,
+					"y": -56.96883,
+					"z": 86.12381
+				},
+				"rotation": {
+					"x": 22.7537766,
+					"y": 151.175262,
+					"z": 109.873169
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 129.534012,
+					"y": 11.7600365,
+					"z": 84.28337
+				},
+				"rotation": {
+					"x": 85.41828,
+					"y": 136.0042,
+					"z": 90.32954
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 156.63765,
+					"y": 33.67535,
+					"z": 43.42946
+				},
+				"rotation": {
+					"x": 40.8206863,
+					"y": 339.1208,
+					"z": 269.769531
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 157.80687,
+					"y": 50.3166428,
+					"z": 36.77202
+				},
+				"rotation": {
+					"x": 58.117485,
+					"y": 357.9511,
+					"z": 285.935974
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 161.980576,
+					"y": 8.721718,
+					"z": 1.39349365
+				},
+				"rotation": {
+					"x": 342.13092,
+					"y": 1.99774814,
+					"z": 254.3645
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 150.678,
+					"y": -26.6522942,
+					"z": -24.3379669
+				},
+				"rotation": {
+					"x": 312.461731,
+					"y": 23.99327,
+					"z": 241.645554
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 172.742813,
+					"y": 20.7073822,
+					"z": -67.2736053
+				},
+				"rotation": {
+					"x": 23.2901783,
+					"y": 13.92351,
+					"z": 260.847443
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 163.767654,
+					"y": -42.8460121,
+					"z": -91.15083
+				},
+				"rotation": {
+					"x": 316.5644,
+					"y": 6.85712433,
+					"z": 252.813522
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 148.691177,
+					"y": -5.451914,
+					"z": -86.67801
+				},
+				"rotation": {
+					"x": 31.7824821,
+					"y": 9.341784,
+					"z": 259.982727
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 136.8716,
+					"y": -26.6310883,
+					"z": -114.629669
+				},
+				"rotation": {
+					"x": 343.154633,
+					"y": 25.4907532,
+					"z": 265.838562
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 134.5467,
+					"y": 1.46753693,
+					"z": -120.483627
+				},
+				"rotation": {
+					"x": 55.9895,
+					"y": 36.7011528,
+					"z": 276.03418
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 129.570755,
+					"y": 5.67637062,
+					"z": -149.7273
+				},
+				"rotation": {
+					"x": 17.04871,
+					"y": 36.0353737,
+					"z": 258.956757
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 116.87178,
+					"y": -20.7866325,
+					"z": -143.57254
+				},
+				"rotation": {
+					"x": 314.020752,
+					"y": 50.8944931,
+					"z": 264.500366
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 93.96428,
+					"y": 9.866343,
+					"z": -156.883423
+				},
+				"rotation": {
+					"x": 28.39569,
+					"y": 67.20155,
+					"z": 279.9235
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 73.25734,
+					"y": -32.3760948,
+					"z": -163.877472
+				},
+				"rotation": {
+					"x": 326.825317,
+					"y": 79.06336,
+					"z": 257.334656
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 96.7735748,
+					"y": -52.11037,
+					"z": -150.053284
+				},
+				"rotation": {
+					"x": 286.802521,
+					"y": 162.059616,
+					"z": 174.007828
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 48.0586853,
+					"y": -60.37402,
+					"z": -164.344879
+				},
+				"rotation": {
+					"x": 322.387543,
+					"y": 84.9525452,
+					"z": 246.231812
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 85.26924,
+					"y": -106.896362,
+					"z": -149.35965
+				},
+				"rotation": {
+					"x": 288.494141,
+					"y": 151.78717,
+					"z": 194.646942
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 11.4577332,
+					"y": -75.44119,
+					"z": -187.767838
+				},
+				"rotation": {
+					"x": 330.2425,
+					"y": 98.42859,
+					"z": 239.888733
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -16.6861877,
+					"y": -46.51444,
+					"z": -180.63176
+				},
+				"rotation": {
+					"x": 7.181503,
+					"y": 94.6647,
+					"z": 263.069244
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 6.6071167,
+					"y": 29.0107555,
+					"z": -176.125885
+				},
+				"rotation": {
+					"x": 74.71473,
+					"y": 199.4754,
+					"z": 20.3684578
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -22.911972,
+					"y": 44.7572441,
+					"z": -169.343216
+				},
+				"rotation": {
+					"x": 56.5305748,
+					"y": 130.125412,
+					"z": 307.739868
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 6.754837,
+					"y": 80.88022,
+					"z": -155.362762
+				},
+				"rotation": {
+					"x": 57.79323,
+					"y": 217.352921,
+					"z": 31.23442
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 31.7945557,
+					"y": 104.656128,
+					"z": -165.822937
+				},
+				"rotation": {
+					"x": 43.03206,
+					"y": 254.046326,
+					"z": 45.3309059
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -4.368637,
+					"y": 107.869629,
+					"z": -138.294769
+				},
+				"rotation": {
+					"x": 45.51308,
+					"y": 226.990677,
+					"z": 32.00142
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -20.7194977,
+					"y": 144.150528,
+					"z": -110.655533
+				},
+				"rotation": {
+					"x": 15.8180609,
+					"y": 187.5603,
+					"z": 347.23642
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -34.3204956,
+					"y": 116.096054,
+					"z": -124.211021
+				},
+				"rotation": {
+					"x": 34.5699959,
+					"y": 156.3082,
+					"z": 335.011017
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -41.86064,
+					"y": 128.844254,
+					"z": -84.03076
+				},
+				"rotation": {
+					"x": 1.15444434,
+					"y": 169.1177,
+					"z": 329.110046
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -81.43761,
+					"y": 139.119385,
+					"z": -48.3961334
+				},
+				"rotation": {
+					"x": 18.0886879,
+					"y": 131.121613,
+					"z": 315.187561
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -105.832794,
+					"y": 98.49559,
+					"z": -44.5641251
+				},
+				"rotation": {
+					"x": 339.709,
+					"y": 107.839134,
+					"z": 320.262115
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -124.607292,
+					"y": 109.596222,
+					"z": -10.3869629
+				},
+				"rotation": {
+					"x": 355.865326,
+					"y": 140.14827,
+					"z": 318.6138
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -141.045578,
+					"y": 77.51233,
+					"z": -68.7700043
+				},
+				"rotation": {
+					"x": 314.599,
+					"y": 34.0739632,
+					"z": 14.6601868
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -160.07901,
+					"y": 57.3810349,
+					"z": -27.3471985
+				},
+				"rotation": {
+					"x": 311.290131,
+					"y": 137.58313,
+					"z": 306.842163
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -187.304871,
+					"y": 28.0395279,
+					"z": -14.99707
+				},
+				"rotation": {
+					"x": 316.530334,
+					"y": 162.6534,
+					"z": 287.91394
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -158.762329,
+					"y": 17.28976,
+					"z": -64.4181442
+				},
+				"rotation": {
+					"x": 289.06842,
+					"y": 356.552826,
+					"z": 63.15884
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -143.877625,
+					"y": 5.02106476,
+					"z": -93.8823
+				},
+				"rotation": {
+					"x": 319.9459,
+					"y": 333.350464,
+					"z": 80.67879
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -146.8136,
+					"y": -32.2421341,
+					"z": -83.93383
+				},
+				"rotation": {
+					"x": 284.6312,
+					"y": 247.278748,
+					"z": 181.323273
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -178.226791,
+					"y": -45.59122,
+					"z": -37.34423
+				},
+				"rotation": {
+					"x": 332.705139,
+					"y": 166.9368,
+					"z": 243.750824
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -132.895386,
+					"y": -58.2957039,
+					"z": -93.7342
+				},
+				"rotation": {
+					"x": 303.921539,
+					"y": 200.174164,
+					"z": 223.244339
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -111.020554,
+					"y": -73.65323,
+					"z": -119.548027
+				},
+				"rotation": {
+					"x": 309.674957,
+					"y": 293.195251,
+					"z": 126.68927
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -101.7583,
+					"y": -116.997025,
+					"z": -133.925522
+				},
+				"rotation": {
+					"x": 307.962982,
+					"y": 251.201355,
+					"z": 163.3658
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -65.28261,
+					"y": -60.3081245,
+					"z": -163.809128
+				},
+				"rotation": {
+					"x": 26.1629772,
+					"y": 111.77832,
+					"z": 255.190948
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -57.56404,
+					"y": -29.5430222,
+					"z": -171.4921
+				},
+				"rotation": {
+					"x": 62.55586,
+					"y": 295.773743,
+					"z": 93.66032
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -122.28775,
+					"y": -87.5548553,
+					"z": -52.2066956
+				},
+				"rotation": {
+					"x": 323.505219,
+					"y": 207.76767,
+					"z": 217.439819
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -140.387634,
+					"y": -78.61632,
+					"z": -0.721847534
+				},
+				"rotation": {
+					"x": 345.61377,
+					"y": 178.3917,
+					"z": 238.600922
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -171.402618,
+					"y": -42.227726,
+					"z": 43.4543
+				},
+				"rotation": {
+					"x": 43.5104637,
+					"y": 172.087585,
+					"z": 237.631378
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -144.729019,
+					"y": -69.41086,
+					"z": 46.9564056
+				},
+				"rotation": {
+					"x": 28.9491825,
+					"y": 177.187225,
+					"z": 244.1214
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -136.871872,
+					"y": -98.10794,
+					"z": 55.526535
+				},
+				"rotation": {
+					"x": 348.1237,
+					"y": 197.9978,
+					"z": 235.72374
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -115.668358,
+					"y": -83.6441956,
+					"z": 97.68791
+				},
+				"rotation": {
+					"x": 41.02252,
+					"y": 187.933,
+					"z": 221.249069
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -98.1983,
+					"y": -111.646774,
+					"z": 76.90831
+				},
+				"rotation": {
+					"x": 354.506683,
+					"y": 233.079041,
+					"z": 217.112259
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -93.0297241,
+					"y": -129.627548,
+					"z": 28.2807617
+				},
+				"rotation": {
+					"x": 342.052826,
+					"y": 336.646423,
+					"z": 157.65744
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -103.634422,
+					"y": -118.935135,
+					"z": -20.6590118
+				},
+				"rotation": {
+					"x": 26.557354,
+					"y": 11.1741467,
+					"z": 139.449066
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -68.29579,
+					"y": -144.152222,
+					"z": -36.90619
+				},
+				"rotation": {
+					"x": 341.9425,
+					"y": 315.1126,
+					"z": 156.321609
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -83.16516,
+					"y": -125.676712,
+					"z": -68.30522
+				},
+				"rotation": {
+					"x": 19.5638313,
+					"y": 8.032812,
+					"z": 140.453232
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -45.2855072,
+					"y": -147.855362,
+					"z": -76.87027
+				},
+				"rotation": {
+					"x": 349.840973,
+					"y": 297.637329,
+					"z": 159.656479
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -65.6977539,
+					"y": -128.458176,
+					"z": -109.6308
+				},
+				"rotation": {
+					"x": 21.4970627,
+					"y": 359.579163,
+					"z": 150.9009
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -8.237839,
+					"y": -155.96843,
+					"z": -110.259727
+				},
+				"rotation": {
+					"x": 340.590149,
+					"y": 173.6504,
+					"z": 175.110413
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 25.2996063,
+					"y": -173.601883,
+					"z": -53.83603
+				},
+				"rotation": {
+					"x": 358.5746,
+					"y": 199.0476,
+					"z": 165.717331
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -16.40422,
+					"y": -157.047363,
+					"z": -50.19098
+				},
+				"rotation": {
+					"x": 355.988525,
+					"y": 135.053619,
+					"z": 180.3007
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -1.67042542,
+					"y": -165.183044,
+					"z": 2.89479065
+				},
+				"rotation": {
+					"x": 2.63857651,
+					"y": 170.47,
+					"z": 174.146988
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -30.6373749,
+					"y": -152.677017,
+					"z": -8.347412
+				},
+				"rotation": {
+					"x": 9.307686,
+					"y": 124.337624,
+					"z": 172.708557
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -35.01837,
+					"y": -143.136932,
+					"z": 30.4276276
+				},
+				"rotation": {
+					"x": 15.7584677,
+					"y": 154.606491,
+					"z": 174.5981
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -54.99669,
+					"y": -123.584183,
+					"z": 78.06947
+				},
+				"rotation": {
+					"x": 26.1986217,
+					"y": 143.874969,
+					"z": 169.380371
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": -31.1913147,
+					"y": -99.62569,
+					"z": 120.546829
+				},
+				"rotation": {
+					"x": 34.71424,
+					"y": 179.653473,
+					"z": 179.011429
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 13.06041,
+					"y": -84.1933441,
+					"z": 133.843887
+				},
+				"rotation": {
+					"x": 35.54981,
+					"y": 227.320724,
+					"z": 201.554581
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 51.3474121,
+					"y": -78.39975,
+					"z": 150.503372
+				},
+				"rotation": {
+					"x": 40.7661972,
+					"y": 245.500458,
+					"z": 211.728043
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 41.6415558,
+					"y": -109.341049,
+					"z": 90.03868
+				},
+				"rotation": {
+					"x": 328.5504,
+					"y": 1.7199533,
+					"z": 188.707886
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 81.97499,
+					"y": -98.76726,
+					"z": 84.13699
+				},
+				"rotation": {
+					"x": 354.771667,
+					"y": 314.3035,
+					"z": 222.419586
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 72.74202,
+					"y": -116.520691,
+					"z": 59.6035
+				},
+				"rotation": {
+					"x": 341.564331,
+					"y": 347.548737,
+					"z": 204.742065
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 21.86557,
+					"y": -128.179413,
+					"z": 59.8887177
+				},
+				"rotation": {
+					"x": 340.344269,
+					"y": 58.5444756,
+					"z": 164.001175
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 60.7185822,
+					"y": -135.510864,
+					"z": 8.285187
+				},
+				"rotation": {
+					"x": 347.182922,
+					"y": 7.90653753,
+					"z": 196.828781
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 119.098526,
+					"y": 130.848114,
+					"z": -101.697464
+				},
+				"rotation": {
+					"x": 49.94977,
+					"y": 147.671021,
+					"z": 11.1040373
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 91.16441,
+					"y": 81.71983,
+					"z": -134.96846
+				},
+				"rotation": {
+					"x": 327.8204,
+					"y": 45.4324226,
+					"z": 295.077271
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 68.42473,
+					"y": 127.353683,
+					"z": -118.924522
+				},
+				"rotation": {
+					"x": 28.6793575,
+					"y": 91.65299,
+					"z": 314.9558
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_AlpineClump_L/Q_AlpineClump_L/BatchedGroup",
+				"position": {
+					"x": 47.4228363,
+					"y": 106.199142,
+					"z": -164.90657
+				},
+				"rotation": {
+					"x": 351.799438,
+					"y": 71.34882,
+					"z": 303.440247
+				}
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"Sand": {
+		"size": 18.0
+	},
+	"ShipLog": {},
+	"ShockEffect": {}
+}

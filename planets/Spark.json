@@ -52,8 +52,8 @@
 		"Sector/Star/HeatVolume"
 	],
 	"ShipLog": {
-		"xmlFile": "planets/Log/glitched_log.xml",
-		"spriteFolder": "planets/Log/Images"
+		"spriteFolder": "planets/Log/Images",
+		"xmlFile": "planets/Log/glitched_log.xml"
 	},
 	"Star": {
 		"endTint": {

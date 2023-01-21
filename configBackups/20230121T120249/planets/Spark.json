@@ -1,0 +1,85 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Spark",
+	"starSystem": "2walker2.OogaBooga",
+	"AsteroidBelt": {
+		"amount": 50,
+		"inclination": 5.0,
+		"innerRadius": 2800.0,
+		"maxSize": 100.0,
+		"minSize": 20.0,
+		"outerRadius": 3600.0,
+		"procGen": {
+			"color": {
+				"r": 100,
+				"g": 66,
+				"b": 21,
+				"a": 0
+			},
+			"scale": 37.0997162
+		},
+		"randomSeed": 68
+	},
+	"Base": {
+		"centerOfSolarSystem": true,
+		"gravityFallOff": "inverseSquared",
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 100.0,
+		"surfaceSize": 700.0
+	},
+	"canShowOnTitle": false,
+	"Orbit": {
+		"isStatic": true
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/Assets/turtle.jameffects",
+				"path": "Assets/Jammer/Dust Ring.prefab",
+				"position": {},
+				"rotation": {
+					"x": 90.0
+				},
+				"keepLoaded": true
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"removeChildren": [
+		"Sector/Star/DestructionFluidVolume",
+		"Sector/Star/PlanetDestructionVolume",
+		"Sector/Star/HeatVolume"
+	],
+	"ShipLog": {
+		"spriteFolder": "planets/Log/Images",
+		"xmlFile": "planets/Log/glitched_log.xml"
+	},
+	"Star": {
+		"endTint": {
+			"r": 30,
+			"g": 28,
+			"b": 25,
+			"a": 0
+		},
+		"size": 700.0,
+		"solarLuminosity": 0.8,
+		"tint": {
+			"r": 181,
+			"g": 161,
+			"b": 118,
+			"a": 0
+		},
+		"stellarDeathType": "supernova",
+		"stellarRemnantType": "pulsar"
+	},
+	"Volumes": {
+		"zeroGravityVolumes": [
+			{
+				"priority": 10,
+				"position": {},
+				"radius": 600.0
+			}
+		]
+	}
+}

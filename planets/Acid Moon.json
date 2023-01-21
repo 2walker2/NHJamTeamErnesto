@@ -40,7 +40,7 @@
 			},
 			{
 				"time": 20.0,
-				"value": 17
+				"value": 17.0
 			}
 		]
 	},
@@ -109,7 +109,7 @@
 				},
 				"rotation": {
 					"x": 80.8632,
-					"y": 140.378586,
+					"y": 140.3786,
 					"z": 348.106354
 				},
 				"keepLoaded": true
@@ -133,7 +133,7 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
 					"x": 0.659667969,
-					"y": 28.1629219,
+					"y": 28.1629257,
 					"z": 7.164551
 				},
 				"rotation": {
@@ -250,20 +250,20 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
 					"x": 14.201416,
-					"y": 25.621212,
+					"y": 25.6212158,
 					"z": -0.3125
 				},
 				"rotation": {
 					"x": 327.906342,
 					"y": 262.781769,
-					"z": 4.22871733
+					"z": 4.228722
 				}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
 					"x": 15.8347168,
-					"y": 24.57729,
+					"y": 24.5772934,
 					"z": -1.57373047
 				},
 				"rotation": {
@@ -276,7 +276,7 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
 					"x": 12.6484375,
-					"y": 26.3037453,
+					"y": 26.30375,
 					"z": -2.415039
 				},
 				"rotation": {
@@ -302,7 +302,7 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
 				"position": {
 					"x": -9.401123,
-					"y": 26.5045738,
+					"y": 26.5045776,
 					"z": 7.130371
 				},
 				"rotation": {
@@ -476,7 +476,7 @@
 				},
 				"rotation": {
 					"x": 47.75085,
-					"y": 12.8140869,
+					"y": 12.8140879,
 					"z": 4.309278
 				}
 			},
@@ -488,8 +488,8 @@
 					"z": 24.8276367
 				},
 				"rotation": {
-					"x": 44.3509827,
-					"y": 45.3263969,
+					"x": 44.3510056,
+					"y": 45.3264,
 					"z": 40.8011131
 				}
 			},
@@ -503,7 +503,7 @@
 				"rotation": {
 					"x": 30.0178928,
 					"y": 68.64436,
-					"z": 58.5811272
+					"z": 58.5811348
 				}
 			},
 			{
@@ -566,7 +566,7 @@
 					"z": 22.440918
 				},
 				"rotation": {
-					"x": 28.0217762,
+					"x": 28.0217743,
 					"y": 84.23866,
 					"z": 47.07444
 				}
@@ -802,7 +802,7 @@
 				"rotation": {
 					"x": 32.03715,
 					"y": 210.550476,
-					"z": 1.35723734
+					"z": 1.35723627
 				}
 			},
 			{
@@ -815,7 +815,7 @@
 				"rotation": {
 					"x": 346.656372,
 					"y": 271.549438,
-					"z": 21.76108
+					"z": 21.7610779
 				}
 			},
 			{
@@ -917,8 +917,8 @@
 					"z": -19.1811523
 				},
 				"rotation": {
-					"x": 293.679,
-					"y": 68.27364,
+					"x": 293.678955,
+					"y": 68.2736359,
 					"z": 339.344
 				}
 			},
@@ -982,7 +982,7 @@
 					"z": 18.0024414
 				},
 				"rotation": {
-					"x": 47.9693947,
+					"x": 47.9694061,
 					"y": 222.093277,
 					"z": 179.782623
 				}
@@ -995,7 +995,7 @@
 					"z": -0.910644531
 				},
 				"rotation": {
-					"x": 44.1443672,
+					"x": 44.14437,
 					"y": 286.903931,
 					"z": 188.926392
 				}
@@ -1160,14 +1160,64 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/DistressBeaconTransmitter",
 				"position": {
 					"x": 7.1348877,
-					"y": 18.7010918,
-					"z": 21.4048462
+					"y": 18.7010956,
+					"z": 21.4047852
 				},
 				"rotation": {
 					"x": 321.772278,
 					"y": 251.813782,
 					"z": 319.936
 				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"position": {
+					"x": -0.136352539,
+					"y": -29.3448868,
+					"z": -2.989746
+				},
+				"rotation": {
+					"x": 356.0893,
+					"y": 179.5706,
+					"z": 180.753281
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Characters_Crossroads/Traveller_HEA_Riebeck/Traveller_HEA_Riebeck_ANIM_Talking/",
+				"position": {
+					"x": -2.30517578,
+					"y": -28.8771019,
+					"z": -1.65673828
+				},
+				"rotation": {
+					"x": 3.101501,
+					"y": 121.3767,
+					"z": 182.4994
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteLogAssets",
+				"position": {
+					"x": -2.046753,
+					"y": -29.2451019,
+					"z": -2.01586914
+				},
+				"rotation": {
+					"x": 8.731101,
+					"y": 33.1394043,
+					"z": 177.7016
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": -2.3052,
+					"y": -31.0771,
+					"z": -1.6567
+				},
+				"radius": 0.8,
+				"xmlFile": "planets/Dialogue/Riebeck.xml"
 			}
 		],
 		"geysers": [
@@ -1565,7 +1615,7 @@
 				"rotation": {
 					"x": 345.510223,
 					"y": 152.356766,
-					"z": -8.377312E-06
+					"z": -9.038678E-06
 				},
 				"type": "wall",
 				"location": "unspecified",

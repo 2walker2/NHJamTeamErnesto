@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Esker</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, hatchling! Good to see you're finally awake.</Page>
+			<Page>I recommend heading down to the surface and meeting up with the others. They probably need your help.</Page>
+			<Page>See that large clump of trees at the bottom of the planet? That's where they set up camp.</Page>
+			<Page>Speak to <![CDATA[<color=orange>Rutile</color>]]>, they'll know what to do.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

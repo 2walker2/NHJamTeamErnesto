@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Slate</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, hatchling. Sorry you never had your grand launch day. I know how important that was to you.</Page>
+			<Page>But with how frantic Chert was yelling, we decided we had to leave pretty quick.</Page>
+			<Page>But hey, I just finished repairing and cleaning your ship. It's ready to fly!</Page>
+			<Page>I did notice that there were some oddities with your ship log, though. I couldn't make heads or tails of it. Have you been modifying the ship without telling me?</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

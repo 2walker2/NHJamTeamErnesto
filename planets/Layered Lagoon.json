@@ -62,7 +62,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
 				"position": {
 					"x": -8.183594,
-					"y": 99.8607941,
+					"y": 99.8608,
 					"z": 9.326172
 				},
 				"rotation": {
@@ -75,7 +75,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Rutile",
 				"position": {
 					"x": -11.41333,
-					"y": 99.61392,
+					"y": 99.61393,
 					"z": 10.85791
 				},
 				"removeChildren": [
@@ -91,7 +91,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Marl",
 				"position": {
 					"x": -4.98876953,
-					"y": 99.5827,
+					"y": 99.58271,
 					"z": 18.1640625
 				},
 				"removeChildren": [
@@ -107,7 +107,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -4.293457,
-					"y": 97.85896,
+					"y": 97.85897,
 					"z": 22.6396484
 				},
 				"rotation": {
@@ -120,7 +120,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": 0.720214844,
-					"y": 99.11479,
+					"y": 99.1148,
 					"z": 17.4990234
 				},
 				"rotation": {
@@ -133,7 +133,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -12.6069336,
-					"y": 99.05629,
+					"y": 99.0563,
 					"z": 17.9111328
 				},
 				"rotation": {
@@ -146,7 +146,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -0.6291504,
-					"y": 99.87358,
+					"y": 99.87359,
 					"z": 10.95459
 				},
 				"rotation": {
@@ -159,7 +159,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -14.8955078,
-					"y": 99.0237,
+					"y": 99.0237045,
 					"z": 9.195801
 				},
 				"rotation": {
@@ -172,7 +172,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss",
 				"position": {
 					"x": -10.9289551,
-					"y": 99.6248,
+					"y": 99.62481,
 					"z": 8.003906
 				},
 				"removeChildren": [
@@ -188,14 +188,14 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine",
 				"position": {
 					"x": -22.6806641,
-					"y": -98.58127,
+					"y": -98.5812759,
 					"z": -12.6152344
 				},
 				"removeChildren": [
 					"ConversationZone"
 				],
 				"rotation": {
-					"x": 0.08120436,
+					"x": 0.08120479,
 					"y": 86.7743,
 					"z": 184.8367
 				}
@@ -204,7 +204,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -21.7490234,
-					"y": -98.7579651,
+					"y": -98.75797,
 					"z": -7.848633
 				},
 				"rotation": {
@@ -217,7 +217,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -22.890625,
-					"y": -97.03412,
+					"y": -97.03413,
 					"z": -18.4755859
 				},
 				"rotation": {
@@ -230,7 +230,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -27.8996582,
-					"y": -95.82834,
+					"y": -95.82835,
 					"z": -16.9853516
 				},
 				"rotation": {
@@ -243,7 +243,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -31.001709,
-					"y": -94.53409,
+					"y": -94.5340958,
 					"z": -5.05273438
 				},
 				"rotation": {
@@ -255,8 +255,8 @@
 			{
 				"path": "GabbroShip_Body/Sector_GabbroShip",
 				"position": {
-					"x": 11.4790039,
-					"y": 102.679688,
+					"x": 11.4789886,
+					"y": 102.679695,
 					"z": 5.62207031
 				},
 				"rotation": {
@@ -269,7 +269,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -13.5585938,
-					"y": 98.41249,
+					"y": 98.4125,
 					"z": 0.667480469
 				},
 				"rotation": {
@@ -282,7 +282,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -19.0639648,
-					"y": 98.20955,
+					"y": 98.20956,
 					"z": 4.223633
 				},
 				"rotation": {
@@ -295,7 +295,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -21.3417969,
-					"y": 97.62836,
+					"y": 97.6283646,
 					"z": 12.3212891
 				},
 				"rotation": {
@@ -321,7 +321,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteSleepingBag/",
 				"position": {
 					"x": -6.02368164,
-					"y": 100.231064,
+					"y": 100.231071,
 					"z": 12.5209961
 				},
 				"rotation": {
@@ -334,7 +334,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteSleepingBag/",
 				"position": {
 					"x": -15.1096191,
-					"y": 99.26906,
+					"y": 99.2690659,
 					"z": 13.1186523
 				},
 				"rotation": {
@@ -347,7 +347,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Props_HEA_Radio/",
 				"position": {
 					"x": -8.74389648,
-					"y": 99.40929,
+					"y": 99.4092941,
 					"z": 11.6972656
 				},
 				"rotation": {
@@ -360,7 +360,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate",
 				"position": {
 					"x": -8.571777,
-					"y": 99.90941,
+					"y": 99.90942,
 					"z": 11.09668
 				},
 				"removeChildren": [
@@ -375,7 +375,7 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Porphy",
 				"position": {
-					"x": 10.4375,
+					"x": 10.4374847,
 					"y": 94.17958,
 					"z": 28.53418
 				},
@@ -385,7 +385,7 @@
 				"rotation": {
 					"x": 337.907562,
 					"y": 178.161255,
-					"z": 3.32939315
+					"z": 3.32939434
 				}
 			},
 			{
@@ -417,7 +417,7 @@
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
-					"x": 19.1469727,
+					"x": 19.1469574,
 					"y": 92.71542,
 					"z": 30.012207
 				},
@@ -430,7 +430,7 @@
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
-					"x": 19.9077148,
+					"x": 19.9077,
 					"y": 95.25813,
 					"z": 21.95996
 				},
@@ -444,7 +444,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": 7.4831543,
-					"y": 98.17534,
+					"y": 98.17535,
 					"z": 17.8852539
 				},
 				"rotation": {
@@ -469,7 +469,7 @@
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
-					"x": 14.3132324,
+					"x": 14.3132172,
 					"y": 92.0480957,
 					"z": 34.2626953
 				},
@@ -482,7 +482,7 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Mica",
 				"position": {
-					"x": 12.2832031,
+					"x": 12.2831879,
 					"y": 94.21939,
 					"z": 28.1777344
 				},
@@ -498,7 +498,7 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena/",
 				"position": {
-					"x": 13.2963867,
+					"x": 13.2963715,
 					"y": 94.34607,
 					"z": 27.54004
 				},
@@ -514,7 +514,7 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Tephra/",
 				"position": {
-					"x": 11.0568848,
+					"x": 11.0568695,
 					"y": 95.75859,
 					"z": 27.9042969
 				},
@@ -618,7 +618,7 @@
 				"rotation": {
 					"x": 346.445618,
 					"y": 82.83268,
-					"z": 9.459158
+					"z": 9.459163
 				}
 			},
 			{
@@ -646,8 +646,8 @@
 				},
 				"rotation": {
 					"x": 280.871277,
-					"y": 199.809967,
-					"z": 292.032562
+					"y": 199.809937,
+					"z": 292.0326
 				},
 				"scale": 0.6999999
 			},
@@ -655,7 +655,7 @@
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
 					"x": 5.36352539,
-					"y": -5.802971,
+					"y": -5.80297041,
 					"z": 15.6142578
 				},
 				"rotation": {
@@ -687,8 +687,8 @@
 					"z": -2.61035156
 				},
 				"rotation": {
-					"x": 24.0982552,
-					"y": 86.7613,
+					"x": 24.0982666,
+					"y": 86.76129,
 					"z": 187.31572
 				},
 				"scale": 0.5999999
@@ -729,6 +729,35 @@
 				"rotation": {},
 				"scale": 5.0,
 				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Prefab_HEA_FuelTank/",
+				"position": {
+					"x": -1.42599487,
+					"y": 100.547981,
+					"z": 10.6782379
+				},
+				"rotation": {
+					"x": 19.0450783,
+					"y": 34.35798,
+					"z": 356.9609
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_Lakebed/Interactables_Lakebed/Traveller_HEA_Chert/",
+				"position": {
+					"x": -25.0251923,
+					"y": -94.5639,
+					"z": -23.6562958
+				},
+				"removeChildren": [
+					"ConversationZone"
+				],
+				"rotation": {
+					"x": 13.8053,
+					"y": 313.5251,
+					"z": 153.3544
+				}
 			}
 		],
 		"dialogue": [
@@ -753,8 +782,8 @@
 			{
 				"position": {
 					"x": -22.6806,
-					"y": -98.58127,
-					"z": -12.615303
+					"y": -99.5813,
+					"z": -12.7153
 				},
 				"radius": 0.8,
 				"xmlFile": "planets/Dialogue/Moraine.xml"
@@ -776,6 +805,15 @@
 				},
 				"radius": 0.8,
 				"xmlFile": "planets/Dialogue/Marl.xml"
+			},
+			{
+				"position": {
+					"x": -8.5718,
+					"y": 101.1094,
+					"z": 11.0967
+				},
+				"radius": 0.8,
+				"xmlFile": "planets/Dialogue/Slate.xml"
 			}
 		],
 		"rafts": [
@@ -799,7 +837,9 @@
 			"y": 100.0
 		},
 		"shipSpawnPoint": {
-			"y": 105.0
+			"x": 5.9497,
+			"y": 98.7477,
+			"z": -15.0245
 		},
 		"startWithSuit": true
 	},

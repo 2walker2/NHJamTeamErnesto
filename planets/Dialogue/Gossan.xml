@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Gossan</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>We borrowed your ship while you were sleeping, hatchling. Hope you don't mind.</Page>
+			<Page>Don't worry! Slate is keeping an eye on it at the <![CDATA[<color=orange>north pole camp</color>]]>.</Page>
+			<Page>The ship you're in now was made out of old mining equipment back on Timber Hearth. I have no idea how Slate made this thing fly.</Page>
+			<Page>Anyway, the others are probably waiting on you. The camp is just a quick spacewalk away!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

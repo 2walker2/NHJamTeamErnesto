@@ -1,0 +1,1670 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "LSD",
+	"starSystem": "2walker2.OogaBooga",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 135,
+			"g": 99,
+			"b": 27,
+			"a": 0
+		},
+		"fogSize": 50.0,
+		"fogTint": {
+			"r": 200,
+			"g": 200,
+			"b": 27,
+			"a": 0
+		},
+		"size": 70.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 8.0,
+		"surfaceSize": 50.0
+	},
+	"Lava": {
+		"size": 1.0,
+		"tint": {
+			"r": 200,
+			"g": 200,
+			"b": 27,
+			"a": 0
+		},
+		"curve": [
+			{
+				"value": 26.4
+			},
+			{
+				"time": 20.0,
+				"value": 17.0
+			}
+		]
+	},
+	"Orbit": {
+		"primaryBody": "Gas Giant",
+		"semiMajorAxis": 550.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/Assets/turtle.jam",
+				"path": "Assets/Jammer/AcidPlanet.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 30.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.tower",
+				"path": "Assets/Jammer/Clocktower.prefab",
+				"position": {
+					"x": 22.02295,
+					"y": 13.2399216,
+					"z": 10.878418
+				},
+				"rotation": {
+					"x": 308.813477,
+					"y": 261.09613,
+					"z": 336.472443
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/Prefab_NOM_RotatingDoor_Broken",
+				"position": {
+					"x": 15.1972656,
+					"y": 19.7611389,
+					"z": 15.8188477
+				},
+				"rotation": {
+					"x": 344.9868,
+					"y": 152.556854,
+					"z": 53.9055
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
+				"position": {
+					"x": -5.165039,
+					"y": 0.598175049,
+					"z": 26.8686523
+				},
+				"rotation": {
+					"x": 308.842377,
+					"y": 251.0586,
+					"z": 288.561462
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge20",
+				"position": {
+					"x": 9.719727,
+					"y": -0.206115723,
+					"z": -25.56836
+				},
+				"rotation": {
+					"x": 80.8632,
+					"y": 140.3786,
+					"z": 348.106354
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge16",
+				"position": {
+					"x": -27.1152344,
+					"y": 1.08966827,
+					"z": -2.61132813
+				},
+				"rotation": {
+					"x": 39.5981026,
+					"y": 1.29816806,
+					"z": 105.504364
+				},
+				"scale": 1.1,
+				"keepLoaded": true
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 0.659667969,
+					"y": 28.1629257,
+					"z": 7.164551
+				},
+				"rotation": {
+					"x": 1.10348189,
+					"y": 274.8917,
+					"z": 344.359039
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 10.29248,
+					"y": 27.2383957,
+					"z": -3.09130859
+				},
+				"rotation": {
+					"x": 338.88974,
+					"y": 315.0096,
+					"z": 345.834839
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 8.491455,
+					"y": 23.7329636,
+					"z": -14.9130859
+				},
+				"rotation": {
+					"x": 324.7662,
+					"y": 302.329163,
+					"z": 15.785346
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 7.83105469,
+					"y": 23.2986984,
+					"z": -15.8979492
+				},
+				"rotation": {
+					"x": 324.583557,
+					"y": 303.528046,
+					"z": 19.8863926
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 2.41552734,
+					"y": 19.5060043,
+					"z": -21.7124023
+				},
+				"rotation": {
+					"x": 323.94577,
+					"y": 41.86319,
+					"z": 326.026764
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -12.9880371,
+					"y": 17.1762772,
+					"z": -19.8076172
+				},
+				"rotation": {
+					"x": 357.6995,
+					"y": 121.81044,
+					"z": 305.1682
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 1.65527344,
+					"y": 22.9587631,
+					"z": -18.0581055
+				},
+				"rotation": {
+					"x": 37.61502,
+					"y": 165.5779,
+					"z": 353.416321
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 11.0605469,
+					"y": 27.1183624,
+					"z": -1.546875
+				},
+				"rotation": {
+					"x": 352.369232,
+					"y": 206.498322,
+					"z": 24.13206
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 14.1589355,
+					"y": 25.1291428,
+					"z": -3.9140625
+				},
+				"rotation": {
+					"x": 331.092438,
+					"y": 263.528,
+					"z": 7.651167
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 14.201416,
+					"y": 25.6212158,
+					"z": -0.3125
+				},
+				"rotation": {
+					"x": 327.906342,
+					"y": 262.781769,
+					"z": 4.228722
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 15.8347168,
+					"y": 24.5772934,
+					"z": -1.57373047
+				},
+				"rotation": {
+					"x": 329.2117,
+					"y": 250.927917,
+					"z": 10.4284153
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 12.6484375,
+					"y": 26.30375,
+					"z": -2.415039
+				},
+				"rotation": {
+					"x": 350.711121,
+					"y": 210.260208,
+					"z": 24.0410824
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 0.414306641,
+					"y": 28.8817215,
+					"z": 5.540039
+				},
+				"rotation": {
+					"x": 351.427673,
+					"y": 131.658417,
+					"z": 8.423366
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -9.401123,
+					"y": 26.5045776,
+					"z": 7.130371
+				},
+				"rotation": {
+					"x": 340.602966,
+					"y": 94.4961,
+					"z": 11.5053606
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -18.0690918,
+					"y": 18.7225418,
+					"z": 12.42334
+				},
+				"rotation": {
+					"x": 19.534708,
+					"y": 231.324051,
+					"z": 309.637329
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -22.934082,
+					"y": 18.392189,
+					"z": -0.7998047
+				},
+				"rotation": {
+					"x": 342.308929,
+					"y": 10.6000385,
+					"z": 49.2553177
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -25.8479,
+					"y": -13.055687,
+					"z": -5.08984375
+				},
+				"rotation": {
+					"x": 301.727234,
+					"y": 285.707428,
+					"z": 153.53894
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -21.9140625,
+					"y": -18.7637634,
+					"z": 5.226074
+				},
+				"rotation": {
+					"x": 333.5996,
+					"y": 218.194,
+					"z": 221.62764
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -13.45459,
+					"y": -24.4138489,
+					"z": 7.998535
+				},
+				"rotation": {
+					"x": 330.47467,
+					"y": 270.090179,
+					"z": 193.54483
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -13.32251,
+					"y": -25.743782,
+					"z": 3.62353516
+				},
+				"rotation": {
+					"x": 343.630981,
+					"y": 338.228363,
+					"z": 154.723724
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -13.37915,
+					"y": -24.1867828,
+					"z": -9.172363
+				},
+				"rotation": {
+					"x": 17.0335865,
+					"y": 353.176483,
+					"z": 147.940247
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -1.65625,
+					"y": -24.3581238,
+					"z": -15.6557617
+				},
+				"rotation": {
+					"x": 1.9075495,
+					"y": 283.057983,
+					"z": 149.666351
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 12.6323242,
+					"y": -20.7561188,
+					"z": -15.55127
+				},
+				"rotation": {
+					"x": 350.0615,
+					"y": 224.344269,
+					"z": 134.929749
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 23.1499023,
+					"y": -12.9421616,
+					"z": -11.949707
+				},
+				"rotation": {
+					"x": 303.0807,
+					"y": 154.113144,
+					"z": 151.987686
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 24.0556641,
+					"y": -16.9083328,
+					"z": 1.61767578
+				},
+				"rotation": {
+					"x": 316.950562,
+					"y": 129.462662,
+					"z": 147.715759
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 17.451416,
+					"y": -22.629631,
+					"z": 6.31298828
+				},
+				"rotation": {
+					"x": 327.606964,
+					"y": 106.161789,
+					"z": 158.128616
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 3.16357422,
+					"y": 18.6416855,
+					"z": 22.4072266
+				},
+				"rotation": {
+					"x": 47.75085,
+					"y": 12.8140879,
+					"z": 4.309278
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -2.126709,
+					"y": 15.6040726,
+					"z": 24.8276367
+				},
+				"rotation": {
+					"x": 44.3510056,
+					"y": 45.3264,
+					"z": 40.8011131
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -4.246826,
+					"y": 11.7294159,
+					"z": 25.7651367
+				},
+				"rotation": {
+					"x": 30.0178928,
+					"y": 68.64436,
+					"z": 58.5811348
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -6.025879,
+					"y": 11.9829559,
+					"z": 26.2675781
+				},
+				"rotation": {
+					"x": 51.95457,
+					"y": 39.17924,
+					"z": 46.44301
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -11.76001,
+					"y": 10.1288376,
+					"z": 24.4755859
+				},
+				"rotation": {
+					"x": 28.7548714,
+					"y": 52.10455,
+					"z": 67.1546555
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -17.3093262,
+					"y": 12.6507645,
+					"z": 19.79834
+				},
+				"rotation": {
+					"x": 55.02316,
+					"y": 0.9216299,
+					"z": 34.7887
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -23.0271,
+					"y": 17.0053558,
+					"z": 5.585449
+				},
+				"rotation": {
+					"x": 46.86111,
+					"y": 326.65155,
+					"z": 32.7779274
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 7.140625,
+					"y": 17.3891373,
+					"z": 22.440918
+				},
+				"rotation": {
+					"x": 28.0217743,
+					"y": 84.23866,
+					"z": 47.07444
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 9.992432,
+					"y": 18.1714325,
+					"z": 20.35498
+				},
+				"rotation": {
+					"x": 5.286227,
+					"y": 114.203072,
+					"z": 47.67629
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 23.22876,
+					"y": 17.3125229,
+					"z": -1.315918
+				},
+				"rotation": {
+					"x": 345.159821,
+					"y": 348.6594,
+					"z": 308.4588
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 21.050293,
+					"y": 11.8125381,
+					"z": -16.2514648
+				},
+				"rotation": {
+					"x": 67.05216,
+					"y": 121.292343,
+					"z": 355.1862
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 11.8442383,
+					"y": 13.9360962,
+					"z": -22.61377
+				},
+				"rotation": {
+					"x": 60.6097755,
+					"y": 153.9972,
+					"z": 357.1086
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 9.720215,
+					"y": 13.2383957,
+					"z": -24.1577148
+				},
+				"rotation": {
+					"x": 29.4532337,
+					"y": 85.7936,
+					"z": 303.6006
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 4.38916,
+					"y": 19.3018951,
+					"z": -21.47705
+				},
+				"rotation": {
+					"x": 14.84121,
+					"y": 93.52219,
+					"z": 316.586273
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 2.1015625,
+					"y": 23.7273483,
+					"z": -17.046875
+				},
+				"rotation": {
+					"x": 0.05607586,
+					"y": 86.35735,
+					"z": 321.8973
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": 5.40161133,
+					"y": 22.70848,
+					"z": -17.8754883
+				},
+				"rotation": {
+					"x": 346.498016,
+					"y": 62.0603752,
+					"z": 321.5458
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/DetailPatches_Core_OldSettlement0/Props_BH_SmallClutter (4)",
+				"position": {
+					"x": -15.4052734,
+					"y": 11.386261,
+					"z": 22.3032227
+				},
+				"rotation": {
+					"x": 64.49146,
+					"y": 325.5985,
+					"z": 0.7938992
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -20.420166,
+					"y": 21.2021484,
+					"z": 7.6484375
+				},
+				"rotation": {
+					"x": 356.509949,
+					"y": 21.403801,
+					"z": 46.43864
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 12.2270508,
+					"y": 27.7803345,
+					"z": 6.35302734
+				},
+				"rotation": {
+					"x": 332.4936,
+					"y": 254.561279,
+					"z": 353.475
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 20.9042969,
+					"y": 22.528183,
+					"z": 1.64501953
+				},
+				"rotation": {
+					"x": 348.2312,
+					"y": 186.1904,
+					"z": 43.49748
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 25.6572266,
+					"y": 14.7273026,
+					"z": -7.213379
+				},
+				"rotation": {
+					"x": 299.271423,
+					"y": 294.838257,
+					"z": 350.734222
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 19.2915039,
+					"y": 11.5864868,
+					"z": -20.10791
+				},
+				"rotation": {
+					"x": 294.580261,
+					"y": 271.7022,
+					"z": 41.39299
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 9.265625,
+					"y": 11.1471405,
+					"z": -26.5708
+				},
+				"rotation": {
+					"x": 290.1051,
+					"y": 327.3147,
+					"z": 9.899385
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 1.78588867,
+					"y": 15.2504578,
+					"z": -25.9511719
+				},
+				"rotation": {
+					"x": 315.513,
+					"y": 53.480072,
+					"z": 312.565247
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -10.0856934,
+					"y": 16.82489,
+					"z": -23.0981445
+				},
+				"rotation": {
+					"x": 315.678345,
+					"y": 342.913757,
+					"z": 29.6378517
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -8.17334,
+					"y": 25.7805176,
+					"z": -12.769043
+				},
+				"rotation": {
+					"x": 32.03715,
+					"y": 210.550476,
+					"z": 1.35723627
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 4.63818359,
+					"y": 27.2464371,
+					"z": -11.4536133
+				},
+				"rotation": {
+					"x": 346.656372,
+					"y": 271.549438,
+					"z": 21.7610779
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 12.8952637,
+					"y": 25.58963,
+					"z": -9.147949
+				},
+				"rotation": {
+					"x": 332.6412,
+					"y": 330.4355,
+					"z": 342.491364
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 6.181885,
+					"y": 16.5242386,
+					"z": 24.637207
+				},
+				"rotation": {
+					"x": 308.560577,
+					"y": 225.165924,
+					"z": 333.877167
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -7.15527344,
+					"y": 14.5659332,
+					"z": 25.9248047
+				},
+				"rotation": {
+					"x": 300.536865,
+					"y": 182.225388,
+					"z": 345.17868
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -19.958252,
+					"y": 12.9769592,
+					"z": 18.5327148
+				},
+				"rotation": {
+					"x": 324.434723,
+					"y": 63.4529228,
+					"z": 53.6736565
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -12.213623,
+					"y": 21.56057,
+					"z": 16.57959
+				},
+				"rotation": {
+					"x": 1.33038592,
+					"y": 237.265015,
+					"z": 318.62973
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -8.927734,
+					"y": 28.2975388,
+					"z": 4.40673828
+				},
+				"rotation": {
+					"x": 22.6586342,
+					"y": 292.19,
+					"z": 354.7207
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -25.8493652,
+					"y": 15.5597,
+					"z": -2.93896484
+				},
+				"rotation": {
+					"x": 303.550171,
+					"y": 59.2379379,
+					"z": 15.7271748
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -19.5202637,
+					"y": 13.000206,
+					"z": -19.1811523
+				},
+				"rotation": {
+					"x": 293.678955,
+					"y": 68.2736359,
+					"z": 339.344
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -11.2436523,
+					"y": -19.5335846,
+					"z": -19.9477539
+				},
+				"rotation": {
+					"x": 334.478027,
+					"y": 273.4402,
+					"z": 137.983459
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -9.881348,
+					"y": -28.2431641,
+					"z": -2.45751953
+				},
+				"rotation": {
+					"x": 349.13858,
+					"y": 187.445084,
+					"z": 195.63501
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 6.59960938,
+					"y": -29.2766018,
+					"z": 2.04492188
+				},
+				"rotation": {
+					"x": 15.2825127,
+					"y": 263.384766,
+					"z": 183.28627
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 3.46972656,
+					"y": -23.9091263,
+					"z": 17.9741211
+				},
+				"rotation": {
+					"x": 353.151245,
+					"y": 92.89793,
+					"z": 145.076126
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 16.0375977,
+					"y": -18.18895,
+					"z": 18.0024414
+				},
+				"rotation": {
+					"x": 47.9694061,
+					"y": 222.093277,
+					"z": 179.782623
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 21.69751,
+					"y": -20.4934,
+					"z": -0.910644531
+				},
+				"rotation": {
+					"x": 44.14437,
+					"y": 286.903931,
+					"z": 188.926392
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 15.114502,
+					"y": -20.1667633,
+					"z": -15.8793945
+				},
+				"rotation": {
+					"x": 42.19522,
+					"y": 351.990723,
+					"z": 205.181046
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 8.529541,
+					"y": -15.8259354,
+					"z": -24.1342773
+				},
+				"rotation": {
+					"x": 45.631218,
+					"y": 33.5521622,
+					"z": 224.267624
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 20.7719727,
+					"y": -10.7572556,
+					"z": -18.8505859
+				},
+				"rotation": {
+					"x": 69.83769,
+					"y": 298.716858,
+					"z": 169.24382
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 27.5126953,
+					"y": -10.07943,
+					"z": -6.11181641
+				},
+				"rotation": {
+					"x": 71.6124039,
+					"y": 278.99292,
+					"z": 175.405182
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 26.0993652,
+					"y": -12.86161,
+					"z": 7.590332
+				},
+				"rotation": {
+					"x": 60.2471581,
+					"y": 219.299,
+					"z": 150.19194
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -8.72168,
+					"y": -14.8075409,
+					"z": 24.6206055
+				},
+				"rotation": {
+					"x": 24.3184185,
+					"y": 81.83434,
+					"z": 122.122215
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -18.86621,
+					"y": -11.0688095,
+					"z": 20.6469727
+				},
+				"rotation": {
+					"x": 68.24803,
+					"y": 109.801949,
+					"z": 154.324631
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -27.17749,
+					"y": -11.0603485,
+					"z": 6.67578125
+				},
+				"rotation": {
+					"x": 70.2787247,
+					"y": 119.538506,
+					"z": 194.357941
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -26.5024414,
+					"y": -11.3215408,
+					"z": -8.401855
+				},
+				"rotation": {
+					"x": 64.46808,
+					"y": 73.33727,
+					"z": 181.727234
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": -18.0026855,
+					"y": -11.6694412,
+					"z": -21.043457
+				},
+				"rotation": {
+					"x": 64.4071655,
+					"y": 31.2450447,
+					"z": 175.132065
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
+				"position": {
+					"x": 0.2878418,
+					"y": -9.467064,
+					"z": -28.5175781
+				},
+				"rotation": {
+					"x": 66.24285,
+					"y": 44.1078835,
+					"z": 217.894745
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Interactables_SouthPole/VisibleFrom_BH/RiebeckShip/Geo",
+				"position": {
+					"x": -69.27319,
+					"y": 225.7966,
+					"z": -139.062988
+				},
+				"rotation": {
+					"x": 21.5470028,
+					"y": 300.319946,
+					"z": 34.7755165
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/DistressBeaconTransmitter",
+				"position": {
+					"x": 7.1348877,
+					"y": 18.7010956,
+					"z": 21.4047852
+				},
+				"rotation": {
+					"x": 321.772278,
+					"y": 251.813782,
+					"z": 319.936
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"position": {
+					"x": -0.136352539,
+					"y": -29.3448849,
+					"z": -2.989746
+				},
+				"rotation": {
+					"x": 356.0893,
+					"y": 179.5706,
+					"z": 180.753281
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Characters_Crossroads/Traveller_HEA_Riebeck/Traveller_HEA_Riebeck_ANIM_Talking/",
+				"position": {
+					"x": -2.30517578,
+					"y": -28.8771,
+					"z": -1.65673828
+				},
+				"rotation": {
+					"x": 3.101501,
+					"y": 121.3767,
+					"z": 182.4994
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteLogAssets",
+				"position": {
+					"x": -2.046753,
+					"y": -29.2451,
+					"z": -2.01586914
+				},
+				"rotation": {
+					"x": 8.731101,
+					"y": 33.1394043,
+					"z": 177.7016
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": -2.3052,
+					"y": -31.0771,
+					"z": -1.6567
+				},
+				"radius": 0.8,
+				"xmlFile": "planets/Dialogue/Riebeck.xml"
+			}
+		],
+		"geysers": [
+			{
+				"position": {
+					"x": 19.85303,
+					"y": 18.63333,
+					"z": 6.53116
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 23.72113,
+					"y": 13.58254,
+					"z": 6.06816
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 26.3124,
+					"y": 7.37484,
+					"z": 6.104856
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 23.78632,
+					"y": 3.61466,
+					"z": 14.32289
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 26.36515,
+					"y": -2.836619,
+					"z": 8.990679
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 20.56668,
+					"y": -6.306752,
+					"z": 17.92308
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 9.890314,
+					"y": -2.037814,
+					"z": 26.11568
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 3.408801,
+					"y": 3.057196,
+					"z": 27.62306
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -5.811319,
+					"y": -1.682723,
+					"z": 27.33856
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -15.98818,
+					"y": 2.909145,
+					"z": 22.80164
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -24.68003,
+					"y": 1.546902,
+					"z": 13.13405
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -27.7622,
+					"y": -2.374791,
+					"z": 2.760521
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -25.47633,
+					"y": 10.28635,
+					"z": 5.39884
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -26.66758,
+					"y": 4.682246,
+					"z": -7.135589
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -22.65501,
+					"y": -2.410094,
+					"z": -16.27704
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -14.63451,
+					"y": 3.305151,
+					"z": -23.64122
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -7.051869,
+					"y": 7.99528,
+					"z": -25.89105
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": -0.8841677,
+					"y": -0.1952368,
+					"z": -27.98536
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 9.078927,
+					"y": 1.768768,
+					"z": -26.4281
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 16.6678,
+					"y": -1.970487,
+					"z": -22.41208
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 23.6985,
+					"y": 0.2147991,
+					"z": -14.9109
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			},
+			{
+				"position": {
+					"x": 27.50525,
+					"y": 3.67739,
+					"z": -3.733354
+				},
+				"tint": {
+					"r": 200,
+					"g": 200,
+					"b": 27,
+					"a": 0
+				}
+			}
+		],
+		"nomaiText": [
+			{
+				"arcInfo": [
+					{
+						"position": {},
+						"type": "adult",
+						"variation": 0
+					},
+					{
+						"position": {
+							"x": -1.5931,
+							"y": 0.4747
+						},
+						"type": "adult",
+						"variation": 20,
+						"zRotation": 140.0
+					},
+					{
+						"position": {
+							"x": -2.1031,
+							"y": -0.4452999
+						},
+						"type": "adult",
+						"variation": 19,
+						"zRotation": 225.0
+					},
+					{
+						"position": {
+							"x": -1.4185,
+							"y": -0.8140002
+						},
+						"type": "adult",
+						"variation": 29,
+						"zRotation": -53.0
+					}
+				],
+				"position": {
+					"x": 12.0226536,
+					"y": 24.92397,
+					"z": 9.881447
+				},
+				"rotation": {
+					"x": 301.5995,
+					"y": 53.13986,
+					"z": 241.7074
+				},
+				"type": "wall",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/clocktower_text_outside.xml"
+			},
+			{
+				"arcInfo": [
+					{
+						"position": {},
+						"type": "adult",
+						"variation": 0
+					},
+					{
+						"position": {
+							"x": -1.5931,
+							"y": 0.9747
+						},
+						"type": "adult",
+						"variation": 19,
+						"zRotation": 76.0
+					},
+					{
+						"position": {
+							"x": -1.0031,
+							"y": 1.1547
+						},
+						"type": "adult",
+						"variation": 20,
+						"zRotation": 330.0
+					},
+					{
+						"position": {
+							"x": -0.2185,
+							"y": 2.086
+						},
+						"type": "adult",
+						"variation": 30,
+						"zRotation": -8.0
+					},
+					{
+						"position": {
+							"x": 0.0714998,
+							"y": 1.656
+						},
+						"type": "adult",
+						"variation": 30,
+						"zRotation": 270.0
+					}
+				],
+				"normal": {
+					"x": 0.449206948,
+					"y": 0.250207216,
+					"z": -0.857676864
+				},
+				"position": {
+					"x": 37.4895363,
+					"y": 30.5571976,
+					"z": 33.8047
+				},
+				"rotation": {
+					"x": 345.510223,
+					"y": 152.356766,
+					"z": -9.038678E-06
+				},
+				"type": "wall",
+				"location": "unspecified",
+				"xmlFile": "planets/Text/clocktower_text_top.xml"
+			}
+		],
+		"signals": [
+			{
+				"audio": "NomaiEscapePodDistressSignal_LP",
+				"frequency": "Nomai Radio",
+				"name": "Experiment Results",
+				"position": {
+					"x": 7.13488674,
+					"y": 18.7010918,
+					"z": 21.40485
+				}
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Water": {
+		"size": 1.0,
+		"tint": {
+			"r": 200,
+			"g": 230,
+			"b": 40,
+			"a": 0
+		},
+		"curve": [
+			{
+				"value": 27.0
+			},
+			{
+				"time": 20.0,
+				"value": 19.0
+			}
+		]
+	},
+	"Volumes": {
+		"notificationVolumes": [
+			{
+				"target": "all",
+				"entryNotification": {
+					"displayMessage": "WARNING: SULFRIC ACID DETECTED"
+				},
+				"radius": 50.0
+			}
+		]
+	}
+}
