@@ -42,6 +42,15 @@
 					"x": 90.0
 				},
 				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.giantclock",
+				"path": "Assets/Jammer/SunClock.prefab",
+				"position": {},
+				"rotation": {
+					"x": 0
+				},
+				"keepLoaded": true
 			}
 		]
 	},
@@ -52,8 +61,8 @@
 		"Sector/Star/HeatVolume"
 	],
 	"ShipLog": {
-		"spriteFolder": "planets/Log/Images",
-		"xmlFile": "planets/Log/glitched_log.xml"
+		"xmlFile": "planets/Log/glitched_log.xml",
+		"spriteFolder": "planets/Log/Images"
 	},
 	"Star": {
 		"endTint": {
@@ -70,13 +79,14 @@
 			"b": 118,
 			"a": 0
 		},
+		"lifespan": 23,
 		"stellarDeathType": "supernova",
-		"stellarRemnantType": "pulsar"
+		"stellarRemnantType": "neutronStar"
 	},
 	"Volumes": {
 		"zeroGravityVolumes": [
 			{
-				"priority": 10,
+				"priority": 3,
 				"position": {},
 				"radius": 600.0
 			}
