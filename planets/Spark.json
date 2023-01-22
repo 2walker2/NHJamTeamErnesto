@@ -170,6 +170,22 @@
 				"position": {},
 				"radius": 600.0
 			}
+		],
+		"speedTrapVolumes": [
+			{
+				"radius": 600,
+				"speedLimit": 25,
+				"acceleration": 10	
+			}
+		],
+		"hazardVolumes": [
+			{
+				"type": "electricity",
+				"firstContactDamageType": "electrical",
+				"radius": 700,
+				"firstContactDamage": 25,
+				"parentPath": "Sector/Star/Supernova"
+			}
 		]
 	}
 }

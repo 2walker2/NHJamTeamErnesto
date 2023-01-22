@@ -45,5 +45,16 @@
 		},
 		"stellarDeathType": "default",
 		"stellarRemnantType": "default"
+	},
+	"Volumes": {
+		"hazardVolumes": [
+			{
+				"type": "electricity",
+				"firstContactDamageType": "electrical",
+				"radius": 30,
+				"firstContactDamage": 5,
+				"damagePerSecond": 2
+			}
+		]
 	}
 }

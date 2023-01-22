@@ -2190,6 +2190,23 @@
 					"y": 85.2421,
 					"z": 71.6437
 				}
+			},
+			{
+				"assetBundle": "planets/Assets/jam_bundle",
+				"path": "Assets/Jam Bundle/GenericScroll.prefab",
+				"position": {"x": 29.8249, "y": -0.0667, "z": 71.9781},
+				"rotation": {"x": 71.9014, "y": 49.9589, "z": 327.5451},
+				"rename": "SunKeyScroll",
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/Assets/turtle.giantclock",
+				"path": "Assets/Jammer/Key.prefab",
+				"parentPath": "Sector/SunKeyScroll",
+				"isRelativeToParent": true,
+				"position": {"y": 0.25, "z": 0.5},
+				"rotation": {"y": 180},
+				"keepLoaded": true
 			}
 		],
 		"dialogue": [
@@ -2368,6 +2385,13 @@
 		"reverbVolumes": [
 			{
 				"radius": 100.0
+			}
+		],
+		"insulatingVolumes": [
+			{
+				"parentPath": "Sector/SunKeyScroll",
+				"isRelativeToParent": true,
+				"radius": 50
 			}
 		]
 	}
