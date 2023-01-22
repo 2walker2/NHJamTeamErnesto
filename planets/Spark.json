@@ -48,7 +48,7 @@
 				"path": "Assets/Jammer/SunClock.prefab",
 				"position": {},
 				"rotation": {
-					"x": 0
+					"y": -100
 				},
 				"keepLoaded": true
 			}
