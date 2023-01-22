@@ -5,7 +5,7 @@
 		<Name></Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Hatchling, you're awake! I'm a bit surprise you found me all the way out here.</Page>
+			<Page>Hatchling, you're awake! I'm a bit surprised you found me all the way out here.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
 	</DialogueNode>
@@ -34,17 +34,28 @@
 	<DialogueNode>
 		<Name>2</Name>
 		<Dialogue>
-			<Page>Wouldn't you like to know, weather boy.</Page>
+			<Page>I know! Pretty crazy planet, isn't it? I personally prefer somewhere with a better view of the night sky.</Page>
+			<Page>Although, it's not every day that I get to <![CDATA[<color=orange>study a star this closely</color>]]>.</Page>
+			<Page>Look around if you don't know what I'm talking about.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
 	</DialogueNode>
-
+	
 	<DialogueNode>
 		<Name>3</Name>
 		<Dialogue>
-			<Page>We're on the south pole <![CDATA[<color=orange>Layered Lagoon</color>]]>. Everyone else is at the north pole, but the views are better here.</Page>
+			<Page>A warning message? You could say that. I received a garbled message that seemed to be coming from <![CDATA[<color=orange>inside of Ash Twin</color>]]>.</Page>
+			<Page>A lot of the transmission was lost, but I heard one thing in particular:</Page>
+			<Page>"Our sun is about to go supernova!"</Page>
+			<Page>Chilling, I know. Whoever sent that message must be able to see into the future, because after I ran the tests I discovered that the warning was true.</Page>
+			<Page>I just hope the same doesn't happen here.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
+		<RevealFacts>
+			<FactID>jam_glitched_atp_discovery</FactID>
+			<FactID>jam_glitched_atp_details</FactID>
+			<FactID>jam_glitched_plan_rumor</FactID>
+		</RevealFacts>
 	</DialogueNode>
 
 	<DialogueNode>

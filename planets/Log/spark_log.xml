@@ -56,7 +56,8 @@
         <RumorFact>
             <ID>jam_glitched_plan_rumor</ID>
             <SourceID>jam_glitched_atp</SourceID>
-            <Text></Text>
+            <RumorName>What did I do?</RumorName>
+            <Text>I remember that I sent the message to Chert, but why can't I remember other details?</Text>
         </RumorFact>
         <ExploreFact>
             <ID>jam_glitched_plan_formulation</ID> 

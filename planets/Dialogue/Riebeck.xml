@@ -5,10 +5,63 @@
 		<Name></Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>HEY EVERY     !</Page>
-			<Page>IT'S ME, SPAMTON G. SPAMTON</Page>
-			<Page>KRIS!!! YOU [Little Sponge]! I KNEW YOU'D COME HERE [[On A Saturday Night]]!</Page>
-			<Page>AFTER ALL, YOU WANNA BE A [Big Shot]! EAHAHAHAHAA!!</Page>
+			<Page>Hello! Good to see you in the air!</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>I've explored this moon... a little...</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What have you learned about this planet?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What do you think that tower is used for?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm going to take a look around.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Well, the first thing I learned is that this planet is very scary.</Page>
+			<Page>The second thing I learned is that it is filled with <![CDATA[<color=orange>sulfuric acid</color>]]>, which is also very scary.</Page>
+			<Page>Thirdly, I found an ancient Nomai <![CDATA[<color=orange>clock tower</color>]]> on the other side. Quite fascinating!</Page>
+			<Page>I didn't go inside, because... well... it's scary.</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>The tower on the other side of the moon? Obviously it's designed to keep time.</Page>
+			<Page>The real question is this: WHY did they need to keep track of the time? Was it just to measure the passage of time? Were they counting down to something?</Page>
+			<Page>That's the funny thing about the passage of time, <![CDATA[<color=orange>it makes it easy to forget</color>]]>. I know I never remember anything unless I <![CDATA[<color=orange>write it down</color>]]>.</Page>
+			<Page>Wow, that sounded very profound.</Page>
+			<Page>Maybe I should write that down...</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+		<RevealFacts>
+			<FactID>jam_glitched_plan_formulation</FactID>
+			<FactID>jam_glitched_plan_execution</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Don't fall into the sulfuric acid! I've heard it doesn't feel very good.</Page>
 		</Dialogue>
 	</DialogueNode>
 
