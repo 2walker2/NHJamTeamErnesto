@@ -109,7 +109,7 @@
 				},
 				"rotation": {
 					"x": 80.8632,
-					"y": 140.3786,
+					"y": 140.378586,
 					"z": 348.106354
 				},
 				"keepLoaded": true
@@ -243,7 +243,7 @@
 				"rotation": {
 					"x": 331.092438,
 					"y": 263.528,
-					"z": 7.651167
+					"z": 7.651168
 				}
 			},
 			{
@@ -476,7 +476,7 @@
 				},
 				"rotation": {
 					"x": 47.75085,
-					"y": 12.8140879,
+					"y": 12.8140869,
 					"z": 4.309278
 				}
 			},
@@ -503,7 +503,7 @@
 				"rotation": {
 					"x": 30.0178928,
 					"y": 68.64436,
-					"z": 58.5811348
+					"z": 58.5811272
 				}
 			},
 			{
@@ -802,7 +802,7 @@
 				"rotation": {
 					"x": 32.03715,
 					"y": 210.550476,
-					"z": 1.35723627
+					"z": 1.35723734
 				}
 			},
 			{
@@ -815,7 +815,7 @@
 				"rotation": {
 					"x": 346.656372,
 					"y": 271.549438,
-					"z": 21.7610779
+					"z": 21.76108
 				}
 			},
 			{
@@ -1074,7 +1074,7 @@
 				},
 				"rotation": {
 					"x": 24.3184185,
-					"y": 81.83434,
+					"y": 81.83435,
 					"z": 122.122215
 				}
 			},
@@ -1087,8 +1087,8 @@
 				},
 				"rotation": {
 					"x": 68.24803,
-					"y": 109.801949,
-					"z": 154.324631
+					"y": 109.801964,
+					"z": 154.324646
 				}
 			},
 			{
@@ -1159,7 +1159,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/DistressBeaconTransmitter",
 				"position": {
-					"x": 7.1348877,
+					"x": 7.13476563,
 					"y": 18.7010956,
 					"z": 21.4047852
 				},
@@ -1172,7 +1172,7 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
 				"position": {
-					"x": -0.136352539,
+					"x": -0.136230469,
 					"y": -29.3448868,
 					"z": -2.989746
 				},
@@ -1186,11 +1186,11 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Characters_Crossroads/Traveller_HEA_Riebeck/Traveller_HEA_Riebeck_ANIM_Talking/",
 				"position": {
 					"x": -2.30517578,
-					"y": -28.8771019,
+					"y": -28.8771057,
 					"z": -1.65673828
 				},
 				"rotation": {
-					"x": 3.101501,
+					"x": 3.10150123,
 					"y": 121.3767,
 					"z": 182.4994
 				}
@@ -1198,12 +1198,12 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteLogAssets",
 				"position": {
-					"x": -2.046753,
+					"x": -2.046875,
 					"y": -29.2451019,
-					"z": -2.01586914
+					"z": -2.015625
 				},
 				"rotation": {
-					"x": 8.731101,
+					"x": 8.7311,
 					"y": 33.1394043,
 					"z": 177.7016
 				}
@@ -1615,7 +1615,7 @@
 				"rotation": {
 					"x": 345.510223,
 					"y": 152.356766,
-					"z": -9.038678E-06
+					"z": -9.47959E-06
 				},
 				"type": "wall",
 				"location": "unspecified",
@@ -1645,20 +1645,10 @@
 			}
 		]
 	},
-	"Volumes": {
-		"revealVolumes": [
-			{
-				"radius": 30,
-				"reveals": [
-					"jam_clocktower_fact"
-				]
-			}
-		]
-	},
 	"ReferenceFrame": {},
 	"ShipLog": {
-		"xmlFile": "planets/Log/acid_log.xml",
-		"spriteFolder": "planets/Log/Images"
+		"spriteFolder": "planets/Log/Images",
+		"xmlFile": "planets/Log/acid_log.xml"
 	},
 	"ShockEffect": {},
 	"Water": {
@@ -1687,6 +1677,16 @@
 					"displayMessage": "WARNING: SULFURIC ACID DETECTED"
 				},
 				"radius": 50.0
+			}
+		],
+		"revealVolumes": [
+			{
+				"revealOn": "enter",
+				"revealFor": "both",
+				"reveals": [
+					"jam_clocktower_fact"
+				],
+				"radius": 30.0
 			}
 		]
 	}

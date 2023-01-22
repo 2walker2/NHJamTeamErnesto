@@ -5,7 +5,7 @@
 		<Name></Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Hatchling, you're awake!</Page>
+			<Page>Hatchling, you're awake! I'm a bit surprise you found me all the way out here.</Page>
 			<Page>You sure are a heavy sleeper!</Page>
 		</Dialogue>
 		<DialogueOptionsList>
@@ -23,14 +23,44 @@
 	<DialogueNode>
 		<Name>1</Name>
 		<Dialogue>
-			<Page>Wouldn't you like to know, weather boy.</Page>
+			<Page>Anything I can do for you?</Page>
 		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Why are you out here?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Do you know anything about a warning message?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm going to take a look around.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
 	</DialogueNode>
 
 	<DialogueNode>
 		<Name>2</Name>
 		<Dialogue>
+			<Page>Wouldn't you like to know, weather boy.</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
 			<Page>We're on the south pole <![CDATA[<color=orange>Layered Lagoon</color>]]>. Everyone else is at the north pole, but the views are better here.</Page>
+		</Dialogue>
+		<DialogueTarget>1</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Stay safe!</Page>
 		</Dialogue>
 	</DialogueNode>
 

@@ -188,8 +188,8 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine",
 				"position": {
 					"x": -22.6806641,
-					"y": -98.5812759,
-					"z": -12.6152344
+					"y": -98.58127,
+					"z": -12.6152334
 				},
 				"removeChildren": [
 					"ConversationZone"
@@ -204,8 +204,8 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -21.7490234,
-					"y": -98.75797,
-					"z": -7.848633
+					"y": -98.7579651,
+					"z": -7.848632
 				},
 				"rotation": {
 					"x": 358.050232,
@@ -217,7 +217,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -22.890625,
-					"y": -97.03413,
+					"y": -97.03412,
 					"z": -18.4755859
 				},
 				"rotation": {
@@ -230,7 +230,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -27.8996582,
-					"y": -95.82835,
+					"y": -95.82834,
 					"z": -16.9853516
 				},
 				"rotation": {
@@ -243,7 +243,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -31.001709,
-					"y": -94.5340958,
+					"y": -94.53409,
 					"z": -5.05273438
 				},
 				"rotation": {
@@ -385,7 +385,7 @@
 				"rotation": {
 					"x": 337.907562,
 					"y": 178.161255,
-					"z": 3.32939434
+					"z": 3.32939458
 				}
 			},
 			{
@@ -646,7 +646,7 @@
 				},
 				"rotation": {
 					"x": 280.871277,
-					"y": 199.809937,
+					"y": 199.809921,
 					"z": 292.0326
 				},
 				"scale": 0.6999999
@@ -655,7 +655,7 @@
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
 					"x": 5.36352539,
-					"y": -5.80297041,
+					"y": -5.802971,
 					"z": 15.6142578
 				},
 				"rotation": {
@@ -687,7 +687,7 @@
 					"z": -2.61035156
 				},
 				"rotation": {
-					"x": 24.0982666,
+					"x": 24.0982685,
 					"y": 86.76129,
 					"z": 187.31572
 				},
@@ -712,7 +712,7 @@
 				"position": {
 					"x": -4.74243164,
 					"y": 11.87175,
-					"z": -11.2060547
+					"z": -11.2060537
 				},
 				"rotation": {
 					"x": 37.9356956,
@@ -741,6 +741,38 @@
 					"x": 19.0450783,
 					"y": 34.35798,
 					"z": 356.9609
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Villager_HEA_Hornfels",
+				"position": {
+					"x": 7.60300064,
+					"y": 99.3095,
+					"z": 7.4148
+				},
+				"removeChildren": [
+					"ConversationZone"
+				],
+				"rotation": {
+					"x": 1.39050007,
+					"y": 243.442688,
+					"z": 3.68700027
+				}
+			},
+			{
+				"path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Pioneer_Characters/Traveller_HEA_Feldspar/",
+				"position": {
+					"x": -9.41341,
+					"y": 99.36068,
+					"z": 5.774683
+				},
+				"removeChildren": [
+					"ConversationZone_Feldspar"
+				],
+				"rotation": {
+					"x": 351.6311,
+					"y": 20.7655,
+					"z": 359.8468
 				}
 			}
 		],
@@ -807,6 +839,33 @@
 				},
 				"radius": 0.8,
 				"xmlFile": "planets/Dialogue/Hal.xml"
+			},
+			{
+				"position": {
+					"x": 7.603,
+					"y": 99.3095,
+					"z": 7.4148
+				},
+				"radius": 0.8,
+				"xmlFile": "planets/Dialogue/Hornfels.xml"
+			},
+			{
+				"position": {
+					"x": -10.929,
+					"y": 100.7248,
+					"z": 8.0039
+				},
+				"radius": 0.8,
+				"xmlFile": "planets/Dialogue/Gneiss.xml"
+			},
+			{
+				"position": {
+					"x": -9.4134,
+					"y": 99.9607,
+					"z": 5.5747
+				},
+				"radius": 0.8,
+				"xmlFile": "planets/Dialogue/Feldspar.xml"
 			}
 		],
 		"rafts": [
@@ -824,8 +883,8 @@
 		"size": 18.0
 	},
 	"ShipLog": {
-		"xmlFile": "planets/Log/layered_log.xml",
-		"spriteFolder": "planets/Log/Images"
+		"spriteFolder": "planets/Log/Images",
+		"xmlFile": "planets/Log/layered_log.xml"
 	},
 	"ShockEffect": {},
 	"Spawn": {
