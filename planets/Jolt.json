@@ -34,6 +34,7 @@
 			"a": 0
 		},
 		"lifespan": 1000.0,
+		"hasStarController": false,
 		"size": 30.0,
 		"solarLuminosity": 0.4,
 		"tint": {

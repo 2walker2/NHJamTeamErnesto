@@ -40,18 +40,84 @@
 				"position": {},
 				"rotation": {
 					"x": 270.0,
-					"y": 253.561646
+					"y": 121.756294
 				},
 				"keepLoaded": true
 			},
 			{
 				"assetBundle": "planets/Assets/turtle.giantclock",
 				"path": "Assets/Jammer/SunClock.prefab",
-				"position": {},
+				"position": {
+					"x": -20.0,
+					"y": 59.9999962,
+					"z": 65.0
+				},
 				"rotation": {
 					"y": 260.0
 				},
 				"keepLoaded": true
+			},
+			{
+				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
+				"position": {
+					"x": -55.8612061,
+					"y": 38.75132,
+					"z": 52.22412
+				},
+				"rotation": {
+					"y": 125.16333,
+					"z": 180.0
+				}
+			},
+			{
+				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
+				"position": {
+					"x": -55.2271729,
+					"y": 38.75132,
+					"z": 52.7631836
+				},
+				"rotation": {
+					"y": 50.0384064,
+					"z": 180.0
+				}
+			},
+			{
+				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
+				"position": {
+					"x": -54.4515381,
+					"y": 38.75132,
+					"z": 52.4072266
+				},
+				"rotation": {
+					"x": 6.106665E-13,
+					"y": 105.730537,
+					"z": 180.0
+				}
+			},
+			{
+				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
+				"position": {
+					"x": -80.3887939,
+					"y": 38.75132,
+					"z": 48.3110352
+				},
+				"rotation": {
+					"y": 281.288116,
+					"z": 180.0
+				}
+			},
+			{
+				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
+				"position": {
+					"x": -79.66077,
+					"y": 38.75132,
+					"z": 48.46338
+				},
+				"rotation": {
+					"x": 4.07111E-13,
+					"y": 227.178009,
+					"z": 180.0
+				}
 			}
 		]
 	},
@@ -62,12 +128,13 @@
 		"Sector/Star/HeatVolume"
 	],
 	"ShipLog": {
-		"spriteFolder": "planets/Log/Images",
-		"xmlFile": "planets/Log/spark_log.xml",
 		"mapMode": {
+			"outlineSprite": "planets/Log/Map Icons/UI_Sun_Outline_d.png",
 			"revealedSprite": "planets/Log/Map Icons/UI_Spark_d.png",
-			"outlineSprite": "planets/Log/Map Icons/UI_Sun_Outline_d.png"
-		}
+			"scale": 2.0
+		},
+		"spriteFolder": "planets/Log/Images",
+		"xmlFile": "planets/Log/spark_log.xml"
 	},
 	"Star": {
 		"endTint": {
@@ -89,6 +156,14 @@
 		"stellarRemnantType": "neutronStar"
 	},
 	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "OW Nomai Time Loop Device 081818 AP",
+				"clipSelection": "random",
+				"track": "music",
+				"radius": 400.0
+			}
+		],
 		"zeroGravityVolumes": [
 			{
 				"priority": 3,
