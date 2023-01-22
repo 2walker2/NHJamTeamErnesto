@@ -24,8 +24,8 @@
 		<Dialogue>
 			<Page>We don't know yet, but what we DO know is that it's Nomai in origin! Isn't that wild?</Page>
 			<Page>Here we are in a completely different solar system, and still the Nomai have left their mark.</Page>
-			<Page>Do you still have that translator tool? Perhaps you could <![CDATA[<color=orange>go give him a hand</color>]]>?</Page>
-			<Page>You know how to find him.</Page>
+			<Page>Do you still have that translator tool? Perhaps you could <![CDATA[<color=orange>go give Riebeck a hand</color>]]>?</Page>
+			<Page>You know how to find them.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>jam_glitched_signal_translation</FactID>
@@ -36,7 +36,7 @@
 	<DialogueNode>
 		<Name>2</Name>
 		<Dialogue>
-			<Page>It seems to be coming from the <![CDATA[<color=orange>small moon orbiting the other large planet</color>]]>. We can't seem to pinpoint it closer than that.</Page>
+			<Page>It seems to be coming from the <![CDATA[<color=orange>large blue planet</color>]]>. We can't seem to pinpoint it closer than that.</Page>
 		</Dialogue>
 	</DialogueNode>
 

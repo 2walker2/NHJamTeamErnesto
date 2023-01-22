@@ -7,7 +7,7 @@
 		<Dialogue>
 			<Page>I've been pointing my Signalscope at different objects in this solar system. They don't sing like any of the planets at home do.</Page>
 			<Page>Although, Hal found a strange signal coming from another planet earlier.</Page>
-			<Page>You can go ask him about it.</Page>
+			<Page>You can go ask them about it.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>jam_glitched_signal_discovery</FactID>
