@@ -1635,7 +1635,11 @@
 	"ReferenceFrame": {},
 	"ShipLog": {
 		"xmlFile": "planets/Log/acid_log.xml",
-		"spriteFolder": "planets/Log/Images"
+		"spriteFolder": "planets/Log/Images",
+		"mapMode": {
+			"revealedSprite": "planets/Log/Map Icons/UI_Acid.png",
+			"outlineSprite": "planets/Log/Map Icons/UI_Acid_Outline.png"
+		}
 	},
 	"ShockEffect": {},
 	"Water": {

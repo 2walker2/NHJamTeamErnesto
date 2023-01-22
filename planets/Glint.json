@@ -23,7 +23,11 @@
 		"Sector/Star/PlanetDestructionVolume",
 		"Sector/Star/HeatVolume"
 	],
-	"ShipLog": {},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	},
 	"Star": {
 		"endTint": {
 			"r": 30,

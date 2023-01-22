@@ -274,7 +274,12 @@
 		]
 	},
 	"ReferenceFrame": {},
-	"ShipLog": {},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/Log/Map Icons/UI_Camp.png",
+			"outlineSprite": "planets/Log/Map Icons/UI_Camp_Outline.png"
+		}
+	},
 	"ShockEffect": {},
 	"Volumes": {
 		"zeroGravityVolumes": [

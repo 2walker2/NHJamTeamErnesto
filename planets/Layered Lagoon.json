@@ -898,7 +898,11 @@
 	},
 	"ShipLog": {
 		"spriteFolder": "planets/Log/Images",
-		"xmlFile": "planets/Log/layered_log.xml"
+		"xmlFile": "planets/Log/layered_log.xml",
+		"mapMode": {
+			"revealedSprite": "planets/Log/Map Icons/UI_Layer.png",
+			"outlineSprite": "planets/Log/Map Icons/UI_Layer_Outline.png"
+		}
 	},
 	"ShockEffect": {},
 	"Spawn": {

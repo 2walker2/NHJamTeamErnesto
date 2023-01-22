@@ -63,7 +63,11 @@
 	],
 	"ShipLog": {
 		"spriteFolder": "planets/Log/Images",
-		"xmlFile": "planets/Log/spark_log.xml"
+		"xmlFile": "planets/Log/spark_log.xml",
+		"mapMode": {
+			"revealedSprite": "planets/Log/Map Icons/UI_Spark_d.png",
+			"outlineSprite": "planets/Log/Map Icons/UI_Sun_Outline_d.png"
+		}
 	},
 	"Star": {
 		"endTint": {

@@ -2188,7 +2188,11 @@
 	},
 	"ShipLog": {
 		"xmlFile": "planets/Log/gas_log.xml",
-		"spriteFolder": "planets/Log/Images"
+		"spriteFolder": "planets/Log/Images",
+		"mapMode": {
+			"revealedSprite": "planets/Log/Map Icons/UI_GasGiant.png",
+			"outlineSprite": "planets/Log/Map Icons/UI_GiantsDeep_Outline_d.png"
+		}
 	},
 	"ShockEffect": {}
 }
