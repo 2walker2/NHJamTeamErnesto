@@ -56,6 +56,14 @@
 				"keepLoaded": true
 			},
 			{
+				"assetBundle": "planets/Assets/ruin_bundle",
+				"path": "Assets/RuinBundle/NomaiRuin.prefab",
+				"position": {
+					"y": 134
+				},
+				"scale": 1.5
+			},
+			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
 				"position": {
 					"x": 44.5239258,
@@ -2091,6 +2099,13 @@
 					"y": 71.34882,
 					"z": 303.440247
 				}
+			}
+		],
+		"nomaiText": [
+			{
+				"position": {"x": 0.7564408, "y": 134.7321, "z": -0.959991},
+				"xmlFile": "planets/Text/gas_giant_text.xml",
+				"type": "preCrashRecorder"
 			}
 		]
 	},

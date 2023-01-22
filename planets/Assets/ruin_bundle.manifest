@@ -1,0 +1,61 @@
+ManifestFileVersion: 0
+CRC: 3231116451
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fc2758edb8db79ef101dc3fa581bf482
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c5d8728239c5b2dfb84e4bcc6a363eb3
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/RuinBundle/RuinDependancies/Texture2D/Structure_NOM_Spiral_s.png
+- Assets/RuinBundle/RuinDependancies/Texture2D/Structure_NOM_SandStone_n.png
+- Assets/RuinBundle/RuinDependancies/Material/Structure_EYE_WallOutside_mat.mat
+- Assets/RuinBundle/RuinDependancies/Mesh/Renderer_RuinState_7_2.asset
+- Assets/RuinBundle/RuinDependancies/Textures/White_d.png
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_PaintRed_d.png
+- Assets/RuinBundle/RuinDependancies/Texture2D/Structure_NOM_PaintOrange_s.png
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_PaintWhite_d.png
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_SandStone_d.png
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_PaintOrange_n.png
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_WovenGrooves_d.png
+- Assets/RuinBundle/RuinDependancies/Texture2D/Structure_NOM_Spiral_n.png
+- Assets/RuinBundle/RuinDependancies/Mesh/Renderer_RuinState_7_0.asset
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_Spiral_d.png
+- Assets/RuinBundle/RuinDependancies/Mesh/Renderer_RuinState_7_1.asset
+- Assets/RuinBundle/RuinDependancies/Texture2D/Structure_NOM_SandStone_s.png
+- Assets/RuinBundle/RuinDependancies/Mesh/Renderer_RuinState_7_3.asset
+- Assets/RuinBundle/RuinDependancies/Material/Structure_EYE_WallInside_mat.mat
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_WovenGrooves_n.png
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_WovenGrooves_s.png
+- Assets/RuinBundle/RuinDependancies/Material/Structure_EYE_Floor_mat.mat
+- Assets/RuinBundle/NomaiRuin.prefab
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_SandStone_s.png
+- Assets/RuinBundle/RuinDependancies/Mesh/Collider_RuinState_7_0.asset
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_SandStone_n.png
+- Assets/RuinBundle/RuinDependancies/Material/Structure_EYE_Ceiling_mat.mat
+- Assets/RuinBundle/RuinDependancies/Mesh/Renderer_RuinState_7_4.asset
+- Assets/RuinBundle/RuinDependancies/Material/Structure_EYE_SandStone_mat.mat
+- Assets/RuinBundle/RuinDependancies/Texture2D/LOD_Structure_EYE_PaintOrange_s.png
+Dependencies: []
