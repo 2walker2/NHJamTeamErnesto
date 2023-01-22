@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name": "LSD",
+	"name": "Smoldering Gulch",
 	"starSystem": "2walker2.OogaBooga",
 	"Atmosphere": {
 		"atmosphereTint": {
@@ -45,7 +45,7 @@
 		]
 	},
 	"Orbit": {
-		"primaryBody": "Gas Giant",
+		"primaryBody": "Twilight Frost",
 		"semiMajorAxis": 550.0
 	},
 	"Props": {
@@ -952,7 +952,7 @@
 				"path": "CaveTwin_Body/Sector_CaveTwin/DetailPatches_CaveTwin/DetailPatches_South/MidNorth DetailPatches/Foliage_HT_Pocket (6)",
 				"position": {
 					"x": 6.59960938,
-					"y": -29.2766037,
+					"y": -29.2766056,
 					"z": 2.04492188
 				},
 				"rotation": {
@@ -1159,8 +1159,8 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
 				"position": {
-					"x": -0.136352539,
-					"y": -29.3448868,
+					"x": -0.136230469,
+					"y": -29.3448887,
 					"z": -2.989746
 				},
 				"rotation": {
@@ -1173,11 +1173,11 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Characters_Crossroads/Traveller_HEA_Riebeck/Traveller_HEA_Riebeck_ANIM_Talking/",
 				"position": {
 					"x": -2.30517578,
-					"y": -28.8771019,
+					"y": -28.8771057,
 					"z": -1.65673828
 				},
 				"rotation": {
-					"x": 3.101501,
+					"x": 3.10150385,
 					"y": 121.3767,
 					"z": 182.4994
 				}
@@ -1185,15 +1185,56 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteLogAssets",
 				"position": {
-					"x": -2.046753,
-					"y": -29.2451019,
-					"z": -2.01586914
+					"x": -2.046875,
+					"y": -29.2451038,
+					"z": -2.01611328
 				},
 				"rotation": {
-					"x": 8.731101,
+					"x": 8.731095,
 					"y": 33.1394043,
 					"z": 177.7016
 				}
+			},
+			{
+				"path": "Shuttle_Body/Prefab_NOM_Shuttle/Sector_NomaiShuttleInterior/Props_NomaiShuttleInterior/Prefab_NOM_NomaiTree_VarDRY_3",
+				"position": {
+					"x": 15.4770508,
+					"y": 6.285698,
+					"z": 15.1557617
+				},
+				"rotation": {
+					"x": 320.7717,
+					"y": 176.881485,
+					"z": 42.10853
+				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 3/Core_OldSettlement 3/DetailPatches_Core_OldSettlement3/Props_BH_SmallClutter (5)",
+				"position": {
+					"x": 13.5075684,
+					"y": 9.952538,
+					"z": 14.0783691
+				},
+				"rotation": {
+					"x": 52.41727,
+					"y": 27.74314,
+					"z": 340.432
+				},
+				"scale": 0.299999923
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 3/Core_OldSettlement 3/DetailPatches_Core_OldSettlement3/Props_BH_SmallClutter (5)",
+				"position": {
+					"x": 11.99585,
+					"y": 12.7266617,
+					"z": 12.8547363
+				},
+				"rotation": {
+					"x": 52.44022,
+					"y": 75.9531555,
+					"z": 19.4838963
+				},
+				"scale": 0.299999923
 			}
 		],
 		"dialogue": [
@@ -1602,7 +1643,7 @@
 				"rotation": {
 					"x": 345.510223,
 					"y": 152.356766,
-					"z": -9.038678E-06
+					"z": -1.16841456E-05
 				},
 				"type": "wall",
 				"location": "unspecified",
@@ -1622,24 +1663,14 @@
 			}
 		]
 	},
-	"Volumes": {
-		"revealVolumes": [
-			{
-				"radius": 30,
-				"reveals": [
-					"jam_clocktower_fact"
-				]
-			}
-		]
-	},
 	"ReferenceFrame": {},
 	"ShipLog": {
-		"xmlFile": "planets/Log/acid_log.xml",
-		"spriteFolder": "planets/Log/Images",
 		"mapMode": {
-			"revealedSprite": "planets/Log/Map Icons/UI_Acid.png",
-			"outlineSprite": "planets/Log/Map Icons/UI_Acid_Outline.png"
-		}
+			"outlineSprite": "planets/Log/Map Icons/UI_Acid_Outline.png",
+			"revealedSprite": "planets/Log/Map Icons/UI_Acid.png"
+		},
+		"spriteFolder": "planets/Log/Images",
+		"xmlFile": "planets/Log/acid_log.xml"
 	},
 	"ShockEffect": {},
 	"Water": {
@@ -1661,6 +1692,36 @@
 		]
 	},
 	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "1700",
+				"clipSelection": "random",
+				"track": "environment",
+				"radius": 70.0
+			},
+			{
+				"audio": "2501",
+				"clipSelection": "random",
+				"track": "music",
+				"position": {
+					"x": 19.14069,
+					"y": 14.80068,
+					"z": 14.07601
+				},
+				"radius": 40.0
+			},
+			{
+				"audio": "2500",
+				"clipSelection": "random",
+				"track": "music",
+				"position": {
+					"x": 39.55956,
+					"y": 33.0707,
+					"z": 30.10395
+				},
+				"radius": 20.0
+			}
+		],
 		"notificationVolumes": [
 			{
 				"target": "all",
@@ -1668,6 +1729,16 @@
 					"displayMessage": "WARNING: SULFURIC ACID DETECTED"
 				},
 				"radius": 50.0
+			}
+		],
+		"revealVolumes": [
+			{
+				"revealOn": "enter",
+				"revealFor": "both",
+				"reveals": [
+					"jam_clocktower_fact"
+				],
+				"radius": 30.0
 			}
 		]
 	}
