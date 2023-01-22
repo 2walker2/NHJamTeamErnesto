@@ -5,10 +5,12 @@
 		<Name></Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>HEY EVERY     !</Page>
-			<Page>IT'S ME, SPAMTON G. SPAMTON</Page>
-			<Page>KRIS!!! YOU [Little Sponge]! I KNEW YOU'D COME HERE [[On A Saturday Night]]!</Page>
-			<Page>AFTER ALL, YOU WANNA BE A [Big Shot]! EAHAHAHAHAA!!</Page>
+			<Page>Heya, hatchling. Yes, it's me, the famous Feldspar. Everything you've heard about is true.</Page>
+			<Page>Except for the things that aren't.</Page>
+			<Page>I'll be honest, it's weird being back here with all of you. I've spent so long flying around the Outer Wilds that I forgot how nice it is to share a song with Gneiss.</Page>
+			<Page>Or a marshmallow with Slate.</Page>
+			<Page>I'll rest for a while, but then I'll be ready to take off again.</Page>
+			<Page>After all, it's not every day the sun rises on a new horizon.</Page>
 		</Dialogue>
 	</DialogueNode>
 

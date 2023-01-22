@@ -5,10 +5,8 @@
 		<Name></Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>HEY EVERY     !</Page>
-			<Page>IT'S ME, SPAMTON G. SPAMTON</Page>
-			<Page>KRIS!!! YOU [Little Sponge]! I KNEW YOU'D COME HERE [[On A Saturday Night]]!</Page>
-			<Page>AFTER ALL, YOU WANNA BE A [Big Shot]! EAHAHAHAHAA!!</Page>
+			<Page>Don't tell anyone I told you this, but I'm working on a new instrument for you.</Page>
+			<Page>I'm not going to tell you what it is, though. You'll just have to wait and see!</Page>
 		</Dialogue>
 	</DialogueNode>
 

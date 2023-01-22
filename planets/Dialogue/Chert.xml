@@ -6,18 +6,8 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Hatchling, you're awake! I'm a bit surprise you found me all the way out here.</Page>
-			<Page>You sure are a heavy sleeper!</Page>
 		</Dialogue>
-		<DialogueOptionsList>
-			<DialogueOption>
-				<Text>What's going on?</Text>
-				<DialogueTarget>1</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<Text>Where are we?</Text>
-				<DialogueTarget>2</DialogueTarget>
-			</DialogueOption>
-		</DialogueOptionsList>
+		<DialogueTarget>1</DialogueTarget>
 	</DialogueNode>
 
 	<DialogueNode>

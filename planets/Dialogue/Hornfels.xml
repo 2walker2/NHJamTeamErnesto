@@ -5,10 +5,9 @@
 		<Name></Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>HEY EVERY     !</Page>
-			<Page>IT'S ME, SPAMTON G. SPAMTON</Page>
-			<Page>KRIS!!! YOU [Little Sponge]! I KNEW YOU'D COME HERE [[On A Saturday Night]]!</Page>
-			<Page>AFTER ALL, YOU WANNA BE A [Big Shot]! EAHAHAHAHAA!!</Page>
+			<Page>Good to see you, hatchling.</Page>
+			<Page>I'm pretty exhausted. Slate and I have been trying to keep an entire fleet of ships flying all day.</Page>
+			<Page>I'll work on this for a little while longer, then I'll find a nice sleeping bag to crawl into.</Page>
 		</Dialogue>
 	</DialogueNode>
 
