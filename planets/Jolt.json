@@ -10,7 +10,7 @@
 	},
 	"canShowOnTitle": false,
 	"Orbit": {
-		"primaryBody": "Gas Giant",
+		"primaryBody": "Twilight Frost",
 		"isMoon": true,
 		"showOrbitLine": false,
 		"semiMajorAxis": 220.0

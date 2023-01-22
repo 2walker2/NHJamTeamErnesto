@@ -5,28 +5,75 @@
 	"startHere": true,
 	"entryPositions": [
 		{
-			"id": "jam_glitched_signal",
-			"position": {
-				"x": -250,
-				"y": 0
-			}
+		  "id": "jam_spark",
+		  "position": {}
 		},
 		{
-			"id": "jam_glitched_atp",
-			"position": {
-				"x": 0,
-				"y": 0
-			}
+		  "id": "jam_glitched_plan",
+		  "position": {
+		    "x": -320.0,
+		    "y": 270.0
+		  }
 		},
 		{
-			"id": "jam_glitched_plan",
-			"position": {
-				"x": 250,
-				"y": 0
-			}
+		  "id": "jam_glitched_atp",
+		  "position": {
+		    "x": -400.0
+		  }
+		},
+		{
+		  "id": "jam_glitched_signal",
+		  "position": {
+		    "x": -300.0,
+		    "y": -350.0
+		  }
+		},
+		{
+		  "id": "jam_quantum",
+		  "position": {
+		    "x": 450.0
+		  }
+		},
+		{
+		  "id": "jam_key",
+		  "position": {
+		    "x": 320.0,
+		    "y": 270.0
+		  }
+		},
+		{
+		  "id": "jam_suns",
+		  "position": {
+		    "y": 380.0
+		  }
+		},
+		{
+		  "id": "jam_clocktower",
+		  "position": {
+		    "x": 300.0,
+		    "y": -350.0
+		  }
 		}
 	],
+	"initialReveal": [
+		"jam_glitched_plan_formulation"
+	],
 	"curiosities": [
+		{
+			"id": "jam_spark",
+			"color": {
+				"r": 164, 
+				"g": 166,
+				"b": 90,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 208,
+				"g": 211, 
+				"b": 115,
+				"a": 255
+			}
+		},
 		{
 			"color": {"r": 9, "g": 138, "b": 4, "a": 255},
 			"highlightColor": {"r": 14, "g": 179, "b": 7, "a": 255},

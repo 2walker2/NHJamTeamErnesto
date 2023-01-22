@@ -2293,10 +2293,17 @@
 				"xmlFile": "planets/Dialogue/Tektite.xml"
 			}
 		],
+		"nomaiText": [
+			{
+				"position": {"x": -15.70913, "y": -0.8745326, "z": 71.24949},
+				"xmlFile": "planets/Text/layered_ruins_text.xml",
+				"type": "preCrashRecorder"
+			}
+		],
 		"rafts": [
 			{
 				"position": {
-					"y": 2.0,
+					"y": 1.75,
 					"z": 30.0
 				},
 				"acceleration": 1.0,
