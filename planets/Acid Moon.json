@@ -1157,19 +1157,6 @@
 				}
 			},
 			{
-				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/DistressBeaconTransmitter",
-				"position": {
-					"x": 7.1348877,
-					"y": 18.7010956,
-					"z": 21.4047852
-				},
-				"rotation": {
-					"x": 321.772278,
-					"y": 251.813782,
-					"z": 319.936
-				}
-			},
-			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
 				"position": {
 					"x": -0.136352539,
@@ -1623,16 +1610,6 @@
 			}
 		],
 		"signals": [
-			{
-				"audio": "NomaiEscapePodDistressSignal_LP",
-				"frequency": "Nomai Radio",
-				"name": "Experiment Results",
-				"position": {
-					"x": 7.13488674,
-					"y": 18.7010918,
-					"z": 21.40485
-				}
-			},
 			{
 				"audio": "TravelerRiebeck",
 				"frequency": "Traveler",

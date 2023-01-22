@@ -12,8 +12,8 @@
 				"position": {
 					"y": 50.0
 				},
-				"horizonRadius": 20.0,
-				"distortRadius": 22.0,
+				"horizonRadius": 10.0,
+				"distortRadius": 11.0,
 				"type": "whiteHole",
 				"hasWarpEffects": true,
 				"renderQueueOverride": 2985

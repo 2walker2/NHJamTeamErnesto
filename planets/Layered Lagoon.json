@@ -59,6 +59,17 @@
 				"keepLoaded": true
 			},
 			{
+				"assetBundle": "planets/Assets/turtle.layeredruins",
+				"path": "Assets/Jammer/LayeredRuins.prefab",
+				"position": {
+					"z": 70
+				},
+				"rotation": {
+					"x": 90
+				},
+				"keepLoaded": true
+			},
+			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
 				"position": {
 					"x": -8.183594,
@@ -724,10 +735,12 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
 				"position": {
-					"y": 16.0
+					"z": 13.0
 				},
-				"rotation": {},
-				"scale": 5.0,
+				"rotation": {
+					"x": 90
+				},
+				"scale": 10.0,
 				"keepLoaded": true
 			},
 			{
@@ -812,7 +825,8 @@
 		"rafts": [
 			{
 				"position": {
-					"y": 25.0
+					"y": 2,
+					"z": 30.0
 				},
 				"acceleration": 1.0,
 				"rename": "LayeredLagoonRaft_Body"

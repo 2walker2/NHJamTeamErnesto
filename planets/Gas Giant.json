@@ -64,6 +64,10 @@
 				"scale": 1.5
 			},
 			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_CrashFragment/Interactables_CrashFragment/VisibleFrom_EscapePodCrashSite/DistressBeaconTransmitter",
+				"position": {"x": -0.5138972, "y": 135.0865, "z": 7.20143}
+			},
+			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector Great Southern Triangle/Fragment 71_GreatSouthernTriangle/Core_Fragment_71_GreatSouthernTriangle/Props_Core_Fragment_71_GreatSouthernTriangle/Ice_BH_Lump_B",
 				"position": {
 					"x": 44.5239258,
@@ -2148,6 +2152,16 @@
 					"y": -137.0969,
 					"z": 35.0932
 				}
+			}
+		],
+		"signals": [
+			{
+				"audio": "NomaiEscapePodDistressSignal_LP",
+				"frequency": "Nomai Radio",
+				"name": "Experiment Results",
+				"position": {"x": -0.5138972, "y": 135.0865, "z": 7.20143},
+				"detectionRadius": 500,
+				"identificationRadius": 20
 			}
 		],
 		"nomaiText": [
