@@ -2,7 +2,7 @@
 	<NameField>Rutile</NameField>
 
 	<DialogueNode>
-		<Name></Name>
+		<Name>Start</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Hello, hatchling!</Page>
@@ -16,6 +16,10 @@
 				<Text>What's going on?</Text>
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm going to go look around.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -23,15 +27,28 @@
 		<Name>1</Name>
 		<Dialogue>
 			<Page>We're on <![CDATA[<color=orange>Layered Lagoon</color>]]>, located a few kilometers away from the <![CDATA[<color=orange>Outer Wilds</color>]]>.</Page>
+			<Page>Right now, we are still setting up camp. There's plenty to do if you want to help.</Page>
 		</Dialogue>
+		<DialogueTarget>Start</DialogueTarget>
 	</DialogueNode>
 
 	<DialogueNode>
 		<Name>2</Name>
 		<Dialogue>
 			<Page>We received a message a few days ago that told us we were in danger, so we had to evacuate here.</Page>
-			<Page>I recommend asking <![CDATA[<color=orange>Chert</color>]]> about it. They heard the signal first.</Page>
-			<Page>I think they went with Moraine to the <![CDATA[<color=orange>south pole</color>]]> to study the other celestial bodies in this solar system.</Page>
+			<Page>I recommend asking <![CDATA[<color=orange>Chert</color>]]> about it. They heard the message first.</Page>
+			<Page>I think they went to that blue planet. Surely you have an <![CDATA[<color=orange>easy way to locate them</color>]]>?</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>jam_glitched_atp_rumor</FactID>
+		</RevealFacts>
+		<DialogueTarget>Start</DialogueTarget>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Don't stray too far!</Page>
 		</Dialogue>
 	</DialogueNode>
 

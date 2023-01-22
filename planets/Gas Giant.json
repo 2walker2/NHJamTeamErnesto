@@ -2091,6 +2091,55 @@
 					"y": 71.34882,
 					"z": 303.440247
 				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_Lakebed/Interactables_Lakebed/Traveller_HEA_Chert/",
+				"position": {
+					"x": 28.4724,
+					"y": -136.9184,
+					"z": 34.6932
+				},
+				"rotation": {
+					"x": 359.0391,
+					"y": 136.0255,
+					"z": 153.3544
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"position": {
+					"x": 30.6962,
+					"y": -137.0939,
+					"z": 32.9905
+				},
+				"rotation": {
+					"x": 6.4976,
+					"y": 135.6658,
+					"z": 160.1669
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": 28.1197,
+					"y": -137.0969,
+					"z": 35.0932
+				},
+				"radius": 1.25,
+				"xmlFile": "planets/Dialogue/Chert.xml"
+			}
+		],
+		"signals": [
+			{
+				"audio": "TravelerChert",
+				"frequency": "Traveler",
+				"name": "Chert",
+				"position": {
+					"x": 28.1197,
+					"y": -137.0969,
+					"z": 35.0932
+				}
 			}
 		]
 	},

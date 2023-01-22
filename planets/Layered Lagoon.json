@@ -742,22 +742,6 @@
 					"y": 34.35798,
 					"z": 356.9609
 				}
-			},
-			{
-				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_Lakebed/Interactables_Lakebed/Traveller_HEA_Chert/",
-				"position": {
-					"x": -25.0251923,
-					"y": -94.5639,
-					"z": -23.6562958
-				},
-				"removeChildren": [
-					"ConversationZone"
-				],
-				"rotation": {
-					"x": 13.8053,
-					"y": 313.5251,
-					"z": 153.3544
-				}
 			}
 		],
 		"dialogue": [
@@ -814,6 +798,15 @@
 				},
 				"radius": 0.8,
 				"xmlFile": "planets/Dialogue/Slate.xml"
+			},
+			{
+				"position": {
+					"x": -29.444,
+					"y": 96.2833,
+					"z": -5.0339
+				},
+				"radius": 0.8,
+				"xmlFile": "planets/Dialogue/Hal.xml"
 			}
 		],
 		"rafts": [

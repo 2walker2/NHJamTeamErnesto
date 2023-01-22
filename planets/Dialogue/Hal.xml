@@ -1,0 +1,43 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Hal</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, hatchling! We've detected an unusual signal from a nearby celestial body, so we sent Riebeck to investigate.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What is it?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where is it coming from?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>We don't know yet, but what we DO know is that it's Nomai in origin! Isn't that wild?</Page>
+			<Page>Here we are in a completely different solar system, and still the Nomai have left their mark.</Page>
+			<Page>Do you still have that translator tool? Perhaps you could <![CDATA[<color=orange>go give him a hand</color>]]>?</Page>
+			<Page>You know how to find him.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>jam_glitched_signal_translation</FactID>
+			<FactID>jam_glitched_atp_rumor</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>It seems to be coming from the <![CDATA[<color=orange>small moon orbiting the other large planet</color>]]>. We can't seem to pinpoint it closer than that.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

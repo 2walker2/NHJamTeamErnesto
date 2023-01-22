@@ -8,6 +8,11 @@
         <IgnoreMoreToExplore/>
         <Curiosity>jam_glitched</Curiosity>
 
+        <RumorFact>
+            <ID>jam_glitched_signal_rumor</ID>
+            <RumorName>Forgetful</RumorName>
+            <Text>Esker said I should talk to other Hearthians at the north pole camp to jog my memory.</Text>
+        </RumorFact>
         <ExploreFact>
             <ID>jam_glitched_signal_discovery</ID> 
             <Text>I detected a signal on an unknown frequency when I pointed my signalscope at a particular section of the sky. The signal contains Nomai text. I'm taking it to Hal to translate.</Text>
@@ -28,7 +33,8 @@
         <RumorFact>
             <ID>jam_glitched_atp_rumor</ID>
             <SourceID>jam_glitched_signal</SourceID>
-            <Text></Text>
+            <RumorName>Remembering</RumorName>
+            <Text>I seem to be remembering. I think something happened at the Hourglass Twins. Maybe Chert would know.</Text>
         </RumorFact>
         <ExploreFact>
             <ID>jam_glitched_atp_discovery</ID> 

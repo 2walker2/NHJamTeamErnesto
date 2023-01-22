@@ -1632,6 +1632,16 @@
 					"y": 18.7010918,
 					"z": 21.40485
 				}
+			},
+			{
+				"audio": "TravelerRiebeck",
+				"frequency": "Traveler",
+				"name": "Riebeck",
+				"position": {
+					"x": -2.3052,
+					"y": -31.0771,
+					"z": -1.6567
+				}
 			}
 		]
 	},
@@ -1674,7 +1684,7 @@
 			{
 				"target": "all",
 				"entryNotification": {
-					"displayMessage": "WARNING: SULFRIC ACID DETECTED"
+					"displayMessage": "WARNING: SULFURIC ACID DETECTED"
 				},
 				"radius": 50.0
 			}
