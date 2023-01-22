@@ -20,29 +20,33 @@
 			}
 		]
 	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {},
 	"Volumes": {
 		"revealVolumes": [
 			{
-				"position": {
-					"y": 40
-				},
-				"radius": 30,
+				"revealOn": "enter",
+				"revealFor": "both",
 				"reveals": [
 					"jam_key_rumor"
-				]
+				],
+				"position": {
+					"y": 40.0
+				},
+				"radius": 30.0
 			},
 			{
-				"position": {
-					"y": 50
-				},
-				"radius": 5,
+				"revealOn": "enter",
+				"revealFor": "both",
 				"reveals": [
 					"jam_key_fact"
-				]
+				],
+				"position": {
+					"y": 50.0
+				},
+				"radius": 5.0
 			}
 		]
-	},
-	"ReferenceFrame": {},
-	"ShipLog": {},
-	"ShockEffect": {}
+	}
 }

@@ -1,0 +1,48 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "LayeredLagoonRaft",
+	"starSystem": "2walker2.OogaBooga",
+	"Base": {
+		"gravityFallOff": "linear"
+	},
+	"Orbit": {},
+	"Props": {
+		"singularities": [
+			{
+				"position": {
+					"y": 50.0
+				},
+				"horizonRadius": 20.0,
+				"distortRadius": 22.0,
+				"type": "whiteHole",
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985
+			}
+		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": {
+					"y": 40
+				},
+				"radius": 30,
+				"reveals": [
+					"jam_key_rumor"
+				]
+			},
+			{
+				"position": {
+					"y": 50
+				},
+				"radius": 5,
+				"reveals": [
+					"jam_key_fact"
+				]
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {}
+}
