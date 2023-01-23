@@ -2172,6 +2172,9 @@
 					"y": 11.0529,
 					"z": 68.6483
 				},
+				"removeChildren": [
+					"ConversationZone"
+				],
 				"rotation": {
 					"x": 48.138,
 					"y": 288.4487,
@@ -2185,6 +2188,9 @@
 					"y": 7.3504,
 					"z": 68.3985
 				},
+				"removeChildren": [
+					"ConversationZone_Tuff"
+				],
 				"rotation": {
 					"x": 21.1821,
 					"y": 85.2421,
@@ -2302,9 +2308,9 @@
 			},
 			{
 				"position": {
-					"x": 9.3714,
-					"y": 10.2529,
-					"z": 68.6483
+					"x": 9.4405,
+					"y": 10.8929,
+					"z": 70.0266
 				},
 				"radius": 0.8,
 				"xmlFile": "planets/Dialogue/Tektite.xml"
