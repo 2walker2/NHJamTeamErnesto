@@ -26,7 +26,7 @@
 	<DialogueNode>
 		<Name>1</Name>
 		<Dialogue>
-			<Page>We're on <![CDATA[<color=orange>Layered Lagoon</color>]]>, located a few kilometers away from the <![CDATA[<color=orange>Outer Wilds</color>]]>.</Page>
+			<Page>We're on <![CDATA[<color=orange>Layered Lagoon</color>]]>, located a few hundred kilometers away from the <![CDATA[<color=orange>Outer Wilds</color>]]>.</Page>
 			<Page>Right now, we are still setting up camp. There's plenty to do if you want to help.</Page>
 		</Dialogue>
 		<DialogueTarget>Start</DialogueTarget>
@@ -36,8 +36,8 @@
 		<Name>2</Name>
 		<Dialogue>
 			<Page>We received a message a few days ago that told us we were in danger, so we had to evacuate here.</Page>
-			<Page>I recommend asking <![CDATA[<color=orange>Chert</color>]]> about it. They heard the message first.</Page>
-			<Page>I think they went to that blue planet. Surely you have an <![CDATA[<color=orange>easy way to locate them</color>]]>?</Page>
+			<Page>I recommend asking <![CDATA[<color=orange>Hal</color>]]> about it. They organized the whole evacuation.</Page>
+			<Page>They should be around camp somewhere.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>jam_glitched_atp_rumor</FactID>

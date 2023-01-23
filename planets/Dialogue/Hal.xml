@@ -28,6 +28,7 @@
 			<Page>You know how to find them.</Page>
 		</Dialogue>
 		<RevealFacts>
+			<FactID>jam_glitched_signal_discovery</FactID>
 			<FactID>jam_glitched_signal_translation</FactID>
 			<FactID>jam_glitched_atp_rumor</FactID>
 		</RevealFacts>

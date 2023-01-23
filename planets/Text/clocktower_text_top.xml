@@ -1,7 +1,7 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>
-		<Text>CEDRUS: We have confirmation. Solar stability is indeed decreasing, albeit at a slow rate.</Text>
+		<Text>CEDRUS: We have confirmation. Solar stability is indeed decreasing, albeit at a slow rate. Spark will go supernova in a few weeks.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
@@ -26,7 +26,11 @@
 	<ShipLogConditions>
 	    <RevealFact>
 	      	<FactID>jam_clocktower_top</FactID>
-	      	<Condition>5</Condition>
+	      	<Condition>2</Condition>
+	    </RevealFact>
+	    <RevealFact>
+	      	<FactID>jam_spark_rumor</FactID>
+	      	<Condition>1</Condition>
 	    </RevealFact>
 	</ShipLogConditions>
 </NomaiObject>

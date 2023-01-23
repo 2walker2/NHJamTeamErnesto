@@ -214,6 +214,14 @@
 				"firstContactDamage": 25,
 				"parentPath": "Sector/Star/Surface"
 			}
+		],
+		"revealVolumes": [
+			{
+				"radius": 600,
+				"reveals": [
+					"jam_spark_fact"
+				]
+			}
 		]
 	}
 }

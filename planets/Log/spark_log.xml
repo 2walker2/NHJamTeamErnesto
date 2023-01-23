@@ -12,11 +12,11 @@
             <ID>jam_spark_rumor</ID>
             <SourceID>jam_clocktower</SourceID>
             <RumorName>Solar Experiment</RumorName>
-            <Text>A Nomai experiment involving this system's sun.</Text>
+            <Text>This system's sun was the subject of a Nomai experiment in stabilizing stars.</Text>
         </RumorFact>
         <ExploreFact>
             <ID>jam_spark_fact</ID> 
-            <Text>There is a large clockwork Nomai structure at the core of the sun. There is a hole where a key would be inserted.</Text>
+            <Text>There is a large clockwork Nomai structure at the core of the sun.</Text>
         </ExploreFact>
     </Entry>
 

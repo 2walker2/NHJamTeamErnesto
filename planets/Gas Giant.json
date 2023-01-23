@@ -2168,7 +2168,7 @@
 		"signals": [
 			{
 				"audio": "NomaiEscapePodDistressSignal_LP",
-				"detectionRadius": 500.0,
+				"detectionRadius": 200.0,
 				"frequency": "Nomai Radio",
 				"identificationRadius": 20.0,
 				"name": "Experiment Results",

@@ -328,6 +328,19 @@
 					"y": 29.9999981,
 					"z": 270.000031
 				}
+			},
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
+				"position": {
+					"x": -2.0505,
+					"y": -14.0981,
+					"z": -3.9677
+				},
+				"rotation": {
+					"x": 336.6023,
+					"y": 30,
+					"z": 270
+				}
 			}
 		],
 		"dialogue": [

@@ -25,8 +25,12 @@
 				<DialogueTarget>3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>I'm going to take a look around.</Text>
+				<Text>What do you know about a warning message?</Text>
 				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'm going to take a look around.</Text>
+				<DialogueTarget>5</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -61,6 +65,15 @@
 
 	<DialogueNode>
 		<Name>4</Name>
+		<Dialogue>
+			<Page>I just know that Chert heard a signal coming from inside Ash Twin. Something about a supernova.</Page>
+			<Page>They landed on Timber Hearth in panic and Hal signaled all of the travelers to come back. Even Feldspar came. We thought they were dead!</Page>
+			<Page>Anyways, you're probably better off asking Chert themselves. I think they're on that <![CDATA[<color=orange>gas giant</color>]]> we're orbiting.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
 		<Dialogue>
 			<Page>Don't fall into the sulfuric acid! I've heard it doesn't feel very good.</Page>
 		</Dialogue>

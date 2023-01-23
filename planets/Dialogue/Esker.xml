@@ -6,8 +6,8 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
 			<Page>Hey, hatchling! Good to see you're finally awake.</Page>
-			<Page>It looks to me like you've forgotten what's going on. A good night's rest will do that to you!</Page>
-			<Page>Try <![CDATA[<color=orange>talking to the others down on the surface</color>]]>. Maybe that will help you remember.</Page>
+			<Page>It looks to me like you're confused about what's going on. A lot happened while you were asleep!</Page>
+			<Page>Try <![CDATA[<color=orange>talking to the others down on the surface</color>]]>. Maybe that will help you catch up on what happened.</Page>
 			<Page>See that large clump of trees at the bottom of the planet? That's where they set up camp.</Page>
 			<Page>Speak to <![CDATA[<color=orange>Rutile</color>]]>, they'll know what to do.</Page>
 		</Dialogue>
