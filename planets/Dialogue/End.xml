@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>The End</NameField>
+
+	<DialogueNode>
+		<Name></Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Thank you for playing <![CDATA[<color=#fffb00>Evacuation!</color>]]></Page>
+			<Page>This mod was developed by Team Ernesto which consists of Texture_Turtle, Samster86, and Walker. It was made as part of the 2023 New Horizons modding jam.</Page>
+			<Page>This is the end of the mod but we hope you had fun!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

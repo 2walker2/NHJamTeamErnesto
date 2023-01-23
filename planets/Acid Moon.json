@@ -26,6 +26,27 @@
 		"surfaceGravity": 8.0,
 		"surfaceSize": 50.0
 	},
+	"Rings": [
+		{
+			"inclination": 5,
+			"fluidType": "water",
+			"innerRadius": 90,
+			"outerRadius": 125,
+			"rotationSpeed": 1,
+			"unlit": true,
+			"scaleCurve":[
+				{
+					"time": 0,
+					"value": 0.8
+				},
+				{
+					"time": 10,
+					"value": 1.5
+				}
+			],
+			"texture": "planets/Assets/rings.png"
+		}
+	],
 	"Lava": {
 		"size": 1.0,
 		"tint": {
@@ -39,7 +60,7 @@
 				"value": 26.4
 			},
 			{
-				"time": 20.0,
+				"time": 10.0,
 				"value": 17.0
 			}
 		]
@@ -1157,7 +1178,7 @@
 				}
 			},
 			{
-				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire/Props_HEA_Campfire",
 				"position": {
 					"x": -0.136230469,
 					"y": -29.3448887,
@@ -1686,7 +1707,7 @@
 				"value": 27.0
 			},
 			{
-				"time": 20.0,
+				"time": 10.0,
 				"value": 19.0
 			}
 		]

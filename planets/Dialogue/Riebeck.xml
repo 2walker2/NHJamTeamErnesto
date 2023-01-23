@@ -35,8 +35,8 @@
 		<Name>2</Name>
 		<Dialogue>
 			<Page>Well, the first thing I learned is that this planet is very scary.</Page>
-			<Page>The second thing I learned is that it is filled with <![CDATA[<color=orange>sulfuric acid</color>]]>, which is also very scary.</Page>
-			<Page>Thirdly, I found an ancient Nomai <![CDATA[<color=orange>clock tower</color>]]> on the other side. Quite fascinating!</Page>
+			<Page>The second thing I learned is that it is filled with <![CDATA[<color=orange>sulfuric acid</color>]]>, which is also very scary. The acid is <![CDATA[<color=orange>falling</color>]]> though, which is nice. Must be all the geysers launching it into orbit.</Page>
+			<Page>Thirdly, I found a Nomai <![CDATA[<color=orange>clock tower</color>]]> on the other side. Quite fascinating!</Page>
 			<Page>I didn't go inside, because... well... it's scary.</Page>
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
@@ -53,8 +53,9 @@
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
 		<RevealFacts>
-			<FactID>jam_glitched_plan_formulation</FactID>
-			<FactID>jam_glitched_plan_execution</FactID>
+			<FactID>jam_glitched_atp_discovery</FactID>
+			<FactID>jam_glitched_atp_details</FactID>
+			<FactID>jam_glitched_plan_rumor</FactID>
 		</RevealFacts>
 	</DialogueNode>
 

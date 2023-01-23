@@ -15,7 +15,10 @@
 		"showOrbitLine": false,
 		"semiMajorAxis": 220.0
 	},
-	"ReferenceFrame": {},
+	"ReferenceFrame": {
+		"enabled": false,
+		"hideInMap": true,
+	},
 	"removeChildren": [
 		"Sector/Star/DestructionFluidVolume",
 		"Sector/Star/PlanetDestructionVolume",

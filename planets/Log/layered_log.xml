@@ -28,7 +28,7 @@
 
         <ExploreFact>
             <ID>jam_layered_ruins_fact</ID> 
-            <Text>A set of Nomai ruins with the entrance blocked by a white hole. A raft floats on the water below.</Text>
+            <Text>A set of Nomai ruins with the entrance blocked by a white hole.</Text>
         </ExploreFact>
         <ExploreFact>
             <ID>jam_layered_ruins_text</ID> 

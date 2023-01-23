@@ -122,6 +122,26 @@
 					"z": 180.0
 				}
 			}
+		],
+		"singularities": [
+			{
+				"uniqueID": "Ending Warp Origin",
+				"pairedSingularity": "Ending Warp Destination",
+				"targetStarSystem": "2walker2.EndingIfYouWarpHereYouAreMean",
+				"hasWarpEffects": false,
+				"type": "blackHole",
+				"horizonRadius": 1,
+				"distortRadius": 2,
+				"position": {"x": -30.3418, "y": 48.2565, "z": 57.1838},
+			}
+		],
+		"nomaiText": [
+			{
+				"type": "preCrashComputer",
+				"xmlFile": "planets/Text/sun_computer.xml",
+				"position": {"x": -13.30349, "y": 59.99868, "z": 60.16279},
+				"normal": {"x": 0, "y": 1, "z": 0}
+			}
 		]
 	},
 	"ReferenceFrame": {},
@@ -145,7 +165,7 @@
 			"b": 25,
 			"a": 0
 		},
-		"lifespan": 15.0,
+		"lifespan": 22.0,
 		"size": 700.0,
 		"solarLuminosity": 0.8,
 		"tint": {

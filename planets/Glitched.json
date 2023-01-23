@@ -7,7 +7,8 @@
 	},
 	"Orbit": {
 		"primaryBody": "Spark",
-		"semiMajorAxis": 10000
+		"semiMajorAxis": 10000,
+		"showOrbitLine": false
 	},
 	"ShipLog": {
 		"mapMode": {
@@ -16,4 +17,8 @@
 		"spriteFolder": "planets/Log/Images",
 		"xmlFile": "planets/Log/glitched_log.xml"
 	},
+	"ReferenceFrame": {
+		"enabled": false,
+		"hideInMap": true,
+	}
 }

@@ -2332,6 +2332,18 @@
 				"acceleration": 1.0,
 				"rename": "LayeredLagoonRaft_Body"
 			}
+		],
+		"signals": [
+			{
+				"audio": "TravelerFeldspar",
+				"position": {
+					"x": -9.413452,
+					"y": 99.36069,
+					"z": 5.774414
+				},
+				"name": "Feldspar",
+				"frequency": "Traveler"
+			}
 		]
 	},
 	"ReferenceFrame": {},

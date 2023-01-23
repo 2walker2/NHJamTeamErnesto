@@ -52,9 +52,7 @@
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
 		<RevealFacts>
-			<FactID>jam_glitched_atp_discovery</FactID>
-			<FactID>jam_glitched_atp_details</FactID>
-			<FactID>jam_glitched_plan_rumor</FactID>
+			<FactID>jam_glitched_plan_execution</FactID>
 		</RevealFacts>
 	</DialogueNode>
 

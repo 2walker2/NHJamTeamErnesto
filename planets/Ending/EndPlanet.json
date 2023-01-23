@@ -26,6 +26,16 @@
 		"semiMajorAxis": 2000.0
 	},
 	"Props": {
+		"singularities": [
+			{
+				"position": {"x": -13.00043, "y": 97.61089, "z": -13.01693},
+				"type": "whiteHole",
+				"uniqueID": "Ending Warp Destination",
+				"horizonRadius": 1,
+				"distortRadius": 2,
+				"hasWarpEffects": false
+			}
+		],
 		"details": [
 			{
 				"assetBundle": "planets/Assets/turtle.jam",
@@ -2198,6 +2208,9 @@
 					"y": -37.348,
 					"z": -20.3551
 				},
+				"removeChildren": [
+					"RadioTower_DLC/Interactibles_RadioTower/Prefab_HEA_Recorder"
+				],
 				"rotation": {
 					"x": 327.6125,
 					"y": 148.833,
@@ -2264,226 +2277,248 @@
 				"scale": 2.7
 			},
 			{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Tektite",
-"position": {
-"x": 40.18657,
-"y": -58.569,
-"z": 4.237966
-},
-"rotation": {
-"x": 340.676147,
-"y": 33.7326736,
-"z": 211.171753
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Rutile",
-"position": {
-"x": 38.18248,
-"y": -59.778183,
-"z": 0.38350296
-},
-"rotation": {
-"x": 5.020577,
-"y": 358.1748,
-"z": 215.839
-}
-},
-{
-"path": "Moon_Body/Sector_THM/Characters_THM/Villager_HEA_Esker",
-"position": {
-"x": 38.96405,
-"y": -61.39193,
-"z": 7.742
-},
-"rotation": {
-"x": 359.1686,
-"y": 183.895584,
-"z": 143.871338
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine",
-"position": {
-"x": 43.6386566,
-"y": -55.90773,
-"z": -0.0734505653
-},
-"rotation": {
-"x": 335.237061,
-"y": 171.658768,
-"z": 139.219162
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_ZeroGCave/Characters_ZeroGCave/Villager_HEA_Tuff",
-"position": {
-"x": 39.7947159,
-"y": -58.7828522,
-"z": 3.12930965
-},
-"rotation": {
-"x": 343.582123,
-"y": 28.8354034,
-"z": 212.6759
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate",
-"position": {
-"x": 38.227108,
-"y": -60.726532,
-"z": 5.08673668
-},
-"rotation": {
-"x": 354.746979,
-"y": 11.3229122,
-"z": 215.735687
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Mica",
-"position": {
-"x": 38.336586,
-"y": -60.047657,
-"z": 6.30311
-},
-"rotation": {
-"x": 10.7037992,
-"y": 200.036835,
-"z": 145.276535
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss",
-"position": {
-"x": 40.4171371,
-"y": -60.7274551,
-"z": 8.717453
-},
-"rotation": {
-"x": 358.78064,
-"y": 183.3782,
-"z": 143.890732
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Spinel",
-"position": {
-"x": 43.4419632,
-"y": -61.3191,
-"z": 2.12648273
-},
-"rotation": {
-"x": 26.4658756,
-"y": 322.730377,
-"z": 205.185852
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Marl",
-"position": {
-"x": 38.3099823,
-"y": -59.82959,
-"z": 2.61044836
-},
-"rotation": {
-"x": 325.750366,
-"y": 73.73933,
-"z": 192.405853
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Porphy",
-"position": {
-"x": 42.16922,
-"y": -56.8974457,
-"z": 0.6540861
-},
-"rotation": {
-"x": 4.5975914,
-"y": 358.71936,
-"z": 215.875244
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Gossan",
-"position": {
-"x": 36.380394,
-"y": -61.1758232,
-"z": 1.70535564
-},
-"rotation": {
-"x": 359.9001,
-"y": 5.17750263,
-"z": 216.138229
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Character_HEA_Hal_Museum",
-"position": {
-"x": 38.6638565,
-"y": -59.72931,
-"z": 5.049968
-},
-"rotation": {
-"x": 331.516357,
-"y": 137.038773,
-"z": 156.757813
-}
-},
-{
-"path": "wwwwwwd w DgMoon_Body/Sector_THM/Lighting_TM/Props_HEA_Lantern",
-"position": {
-"x": 43.93033,
-"y": -55.716095,
-"z": 0.246786118
-},
-"rotation": {
-"x": 39.62852,
-"y": 325.914154,
-"z": 206.78009
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
-"position": {
-"x": 41.6491356,
-"y": -58.6641121,
-"z": 2.640029
-},
-"rotation": {
-"x": 6.870308,
-"y": 57.79982,
-"z": 115.796173
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
-"position": {
-"x": 42.496067,
-"y": -59.4817924,
-"z": 2.90267849
-},
-"rotation": {
-"x": 313.974,
-"y": 263.9193,
-"z": 231.76709
-}
-},
-{
-"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
-"position": {
-"x": 41.9078827,
-"y": -58.5348129,
-"z": 2.6942358
-},
-"rotation": {
-"x": 330.562,
-"y": 249.712463,
-"z": 240.618225
-}
-}
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Tektite",
+			"position": {
+			"x": 40.18657,
+			"y": -58.569,
+			"z": 4.237966
+			},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 340.676147,
+			"y": 33.7326736,
+			"z": 211.171753
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Rutile",
+			"position": {
+			"x": 38.18248,
+			"y": -59.778183,
+			"z": 0.38350296
+			},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 5.020577,
+			"y": 358.1748,
+			"z": 215.839
+			}
+			},
+			{
+			"path": "Moon_Body/Sector_THM/Characters_THM/Villager_HEA_Esker",
+			"position": {
+			"x": 38.96405,
+			"y": -61.39193,
+			"z": 7.742
+			},
+			"removeChildren": [
+					"ConversationZone_Esker"
+			],
+			"rotation": {
+			"x": 359.1686,
+			"y": 183.895584,
+			"z": 143.871338
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine",
+			"position": {
+			"x": 43.6386566,
+			"y": -55.90773,
+			"z": -0.0734505653
+			},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 335.237061,
+			"y": 171.658768,
+			"z": 139.219162
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_ZeroGCave/Characters_ZeroGCave/Villager_HEA_Tuff",
+			"position": {
+			"x": 39.7947159,
+			"y": -58.7828522,
+			"z": 3.12930965
+			},
+			"removeChildren": [
+					"ConversationZone_Tuff"
+				],
+			"rotation": {
+			"x": 343.582123,
+			"y": 28.8354034,
+			"z": 212.6759
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate",
+			"position": {
+			"x": 38.227108,
+			"y": -60.726532,
+			"z": 5.08673668
+			},
+			"removeChildren": [
+					"ConversationZone_RSci"
+				],
+			"rotation": {
+			"x": 354.746979,
+			"y": 11.3229122,
+			"z": 215.735687
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Mica",
+			"position": {
+			"x": 38.336586,
+			"y": -60.047657,
+			"z": 6.30311
+			},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 10.7037992,
+			"y": 200.036835,
+			"z": 145.276535
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Gneiss",
+			"position": {
+			"x": 40.4171371,
+			"y": -60.7274551,
+			"z": 8.717453
+			},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 358.78064,
+			"y": 183.3782,
+			"z": 143.890732
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Spinel",
+			"position": {
+			"x": 43.4419632,
+			"y": -61.3191,
+			"z": 2.12648273
+			},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 26.4658756,
+			"y": 322.730377,
+			"z": 205.185852
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Marl",
+			"position": {
+			"x": 38.3099823,
+			"y": -59.82959,
+			"z": 2.61044836
+			},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 325.750366,
+			"y": 73.73933,
+			"z": 192.405853
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Porphy",
+			"position": {"x": 41.13787, "y": -57.70914, "z": 1.615631},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 4.5975914,
+			"y": 358.71936,
+			"z": 215.875244
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Gossan",
+			"position": {
+			"x": 36.380394,
+			"y": -61.1758232,
+			"z": 1.70535564
+			},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 359.9001,
+			"y": 5.17750263,
+			"z": 216.138229
+			}
+			},
+			{
+			"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Character_HEA_Hal_Museum",
+			"position": {
+			"x": 38.6638565,
+			"y": -59.72931,
+			"z": 5.049968
+			},
+			"removeChildren": [
+					"ConversationZone"
+				],
+			"rotation": {
+			"x": 331.516357,
+			"y": 137.038773,
+			"z": 156.757813
+			}
+			},
+			{
+			"path": "wwwwwwd w DgMoon_Body/Sector_THM/Lighting_TM/Props_HEA_Lantern",
+			"position": {
+			"x": 43.93033,
+			"y": -55.716095,
+			"z": 0.246786118
+			},
+			"rotation": {
+			"x": 39.62852,
+			"y": 325.914154,
+			"z": 206.78009
+			}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/Prefab_HEA_DeepFieldExhibit/DeepFieldNotes_1/plaque_paper_1 (1)",
+				"position": {"x": 37.7175, "y":-61.5656, "z":3.846},
+				"rotation": {"x": 53.7592, "y": 72.78074, "z": 167.7068}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Beast_Anglerfish",
+				"position": {
+					"x": 39.2531,
+					"y": -61.9671,
+					"z": 3.8443
+				},
+				"rotation": {
+					"x": 38.3295,
+					"y": 270.5994,
+					"z": 178.2947
+				},
+				"scale": 0.005
+			}
+		],
+		"dialogue": [
+			{
+				"position": {"x": 37.7175, "y":-61.5656, "z":3.846},
+				"radius": 1,
+				"xmlFile": "planets/Dialogue/End.xml"
+			}
 		]
 	},
 	"ReferenceFrame": {},
@@ -2502,7 +2537,8 @@
 			"x": 5.9497,
 			"y": 98.7477,
 			"z": -15.0245
-		}
+		},
+		"startWithSuit": true
 	},
 	"Water": {
 		"size": 19.0

@@ -3,7 +3,6 @@
 	"destroyStockPlanets": true,
 	"enableTimeLoop": false,
 	"startHere": false,
-	"mapRestricted": true
-	
-
+	"mapRestricted": true,
+	"canEnterViaWarpDrive": false
 }

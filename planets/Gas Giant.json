@@ -2124,7 +2124,7 @@
 				}
 			},
 			{
-				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire/Props_HEA_Campfire",
 				"position": {
 					"x": 30.69629,
 					"y": -137.0939,
@@ -2177,6 +2177,16 @@
 					"y": 135.0865,
 					"z": 7.20143
 				}
+			},
+			{
+				"audio": "TravelerChert",
+				"position": {
+					"x": 28.4724121,
+					"y": -136.9184,
+					"z": 34.69336
+				},
+				"frequency": "Traveler",
+				"name": "Chert"
 			}
 		]
 	},
