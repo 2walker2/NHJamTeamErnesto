@@ -35,6 +35,10 @@
 	"Props": {
 		"details": [
 			{
+                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/ElectricBarrier",
+                "scale": 3.8
+            },
+			{
 				"assetBundle": "planets/Assets/turtle.jameffects",
 				"path": "Assets/Jammer/Dust Ring.prefab",
 				"position": {},
@@ -54,8 +58,7 @@
 				},
 				"rotation": {
 					"y": 260.0
-				},
-				"keepLoaded": true
+				}
 			},
 			{
 				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
@@ -130,8 +133,7 @@
 	"ShipLog": {
 		"mapMode": {
 			"outlineSprite": "planets/Log/Map Icons/UI_Sun_Outline_d.png",
-			"revealedSprite": "planets/Log/Map Icons/UI_Spark_d.png",
-			"scale": 2.0
+			"revealedSprite": "planets/Log/Map Icons/UI_Spark_d.png"
 		},
 		"spriteFolder": "planets/Log/Images",
 		"xmlFile": "planets/Log/spark_log.xml"
@@ -143,10 +145,16 @@
 			"b": 25,
 			"a": 0
 		},
-		"lifespan": 23.0,
+		"lifespan": 15.0,
 		"size": 700.0,
 		"solarLuminosity": 0.8,
 		"tint": {
+			"r": 181,
+			"g": 161,
+			"b": 118,
+			"a": 0
+		},
+		"supernovaTint": {
 			"r": 181,
 			"g": 161,
 			"b": 118,
@@ -184,7 +192,7 @@
 				"firstContactDamageType": "electrical",
 				"radius": 700,
 				"firstContactDamage": 25,
-				"parentPath": "Sector/Star/Supernova"
+				"parentPath": "Sector/Star/Surface"
 			}
 		]
 	}

@@ -2356,6 +2356,24 @@
 		"size": 19.0
 	},
 	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": {
+					"z": 75
+				},
+				"radius": 30,
+				"reveals": [
+					"jam_layered_ruins_fact"
+				]
+			},
+			{
+				"position": {"x": 29.8249, "y": -0.0667, "z": 71.9781},
+				"radius": 5,
+				"reveals": [
+					"jam_key_fact"
+				]
+			}
+		],
 		"audioVolumes": [
 			{
 				"audio": "2516",

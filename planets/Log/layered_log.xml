@@ -9,29 +9,29 @@
 
         <RumorFact>
             <ID>jam_key_rumor</ID>
-            <SourceID>jam_quantum</SourceID>
-            <RumorName>White Hole</RumorName>
-            <Text>A large white hole near Layered Lagoon's north pole. A raft floats on the water below.</Text>
+            <SourceID>jam_layered_ruins</SourceID>
+            <RumorName>Experiment Key</RumorName>
+            <Text>A Nomai key is being charged somewhere by a white hole.</Text>
         </RumorFact>
         <ExploreFact>
             <ID>jam_key_fact</ID> 
-            <Text>A Nomai key of some sort is contained within the white hole.</Text>
+            <Text>A Nomai key of some sort is contained beyond the white hole.</Text>
         </ExploreFact>
         
     </Entry>
 
     <Entry>
-        <ID>jam_quantum</ID>
-        <Name>Quantum Ruins</Name>
+        <ID>jam_layered_ruins</ID>
+        <Name>White Hole Ruins</Name>
 
         <Curiosity>jam_spark</Curiosity>
 
         <ExploreFact>
-            <ID>jam_quantum_fact</ID> 
-            <Text>A set of Nomai ruins with the entrance blocked. Gabbro has set up their quantum poem nearby.</Text>
+            <ID>jam_layered_ruins_fact</ID> 
+            <Text>A set of Nomai ruins with the entrance blocked by a white hole. A raft floats on the water below.</Text>
         </ExploreFact>
         <ExploreFact>
-            <ID>jam_quantum_text</ID> 
+            <ID>jam_layered_ruins_text</ID> 
             <Text>The Nomai constructed a key to charge their experiment. A Nomai named Canarae proposed using a singularity and a raft to do so.</Text>
         </ExploreFact>
     </Entry>

@@ -20,7 +20,11 @@
 	</TextBlock>
 	<ShipLogConditions>
 	    <RevealFact>
-	      	<FactID>jam_quantum_text</FactID>
+	      	<FactID>jam_layered_ruins_text</FactID>
+	      	<Condition>4</Condition>
+	    </RevealFact>
+	    <RevealFact>
+	      	<FactID>jam_key_rumor</FactID>
 	      	<Condition>4</Condition>
 	    </RevealFact>
 	</ShipLogConditions>
