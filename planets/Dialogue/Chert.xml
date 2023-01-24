@@ -52,6 +52,7 @@
 		</Dialogue>
 		<DialogueTarget>1</DialogueTarget>
 		<RevealFacts>
+			<FactID>jam_glitched_plan_formulation</FactID>
 			<FactID>jam_glitched_plan_execution</FactID>
 		</RevealFacts>
 	</DialogueNode>
