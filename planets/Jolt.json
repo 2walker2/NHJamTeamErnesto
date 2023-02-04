@@ -17,7 +17,7 @@
 	},
 	"ReferenceFrame": {
 		"enabled": false,
-		"hideInMap": true,
+		"hideInMap": true
 	},
 	"removeChildren": [
 		"Sector/Star/DestructionFluidVolume",
@@ -53,10 +53,10 @@
 		"hazardVolumes": [
 			{
 				"type": "electricity",
+				"damagePerSecond": 2.0,
 				"firstContactDamageType": "electrical",
-				"radius": 30,
-				"firstContactDamage": 5,
-				"damagePerSecond": 2
+				"firstContactDamage": 5.0,
+				"radius": 30.0
 			}
 		]
 	}

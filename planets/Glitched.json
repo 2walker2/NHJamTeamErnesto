@@ -3,12 +3,16 @@
 	"name": "DATA CORRUPTED",
 	"starSystem": "2walker2.OogaBooga",
 	"Base": {
-		"surfaceGravity": 0
+		"gravityFallOff": "linear"
 	},
 	"Orbit": {
 		"primaryBody": "Spark",
-		"semiMajorAxis": 10000,
-		"showOrbitLine": false
+		"showOrbitLine": false,
+		"semiMajorAxis": 10000.0
+	},
+	"ReferenceFrame": {
+		"enabled": false,
+		"hideInMap": true
 	},
 	"ShipLog": {
 		"mapMode": {
@@ -17,8 +21,5 @@
 		"spriteFolder": "planets/Log/Images",
 		"xmlFile": "planets/Log/glitched_log.xml"
 	},
-	"ReferenceFrame": {
-		"enabled": false,
-		"hideInMap": true,
-	}
+	"ShockEffect": {}
 }

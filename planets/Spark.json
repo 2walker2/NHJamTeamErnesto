@@ -35,16 +35,18 @@
 	"Props": {
 		"details": [
 			{
-                "path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/ElectricBarrier",
-                "scale": 3.8
-            },
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/ElectricBarrier",
+				"position": {},
+				"rotation": {},
+				"scale": 3.8
+			},
 			{
 				"assetBundle": "planets/Assets/turtle.jameffects",
 				"path": "Assets/Jammer/Dust Ring.prefab",
 				"position": {},
 				"rotation": {
 					"x": 270.0,
-					"y": 121.756294
+					"y": 312.694733
 				},
 				"keepLoaded": true
 			},
@@ -63,8 +65,8 @@
 			{
 				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
 				"position": {
-					"x": -55.8612061,
-					"y": 38.75132,
+					"x": -55.86133,
+					"y": 38.7513237,
 					"z": 52.22412
 				},
 				"rotation": {
@@ -75,8 +77,8 @@
 			{
 				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
 				"position": {
-					"x": -55.2271729,
-					"y": 38.75132,
+					"x": -55.22705,
+					"y": 38.7513237,
 					"z": 52.7631836
 				},
 				"rotation": {
@@ -87,8 +89,8 @@
 			{
 				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
 				"position": {
-					"x": -54.4515381,
-					"y": 38.75132,
+					"x": -54.45166,
+					"y": 38.7513237,
 					"z": 52.4072266
 				},
 				"rotation": {
@@ -100,47 +102,46 @@
 			{
 				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
 				"position": {
-					"x": -80.3887939,
-					"y": 38.75132,
+					"x": -80.38867,
+					"y": 38.7513237,
 					"z": 48.3110352
 				},
 				"rotation": {
 					"y": 281.288116,
 					"z": 180.0
 				}
-			},
-			{
-				"path": "StatueIsland_Body/Sector_StatueIsland/DetailPatches_StatueIsland/Foliage_StatueIsland_TopBits/Clutter_NOM_Pottery (1)",
-				"position": {
-					"x": -79.66077,
-					"y": 38.75132,
-					"z": 48.46338
-				},
-				"rotation": {
-					"x": 4.07111E-13,
-					"y": 227.178009,
-					"z": 180.0
-				}
-			}
-		],
-		"singularities": [
-			{
-				"uniqueID": "Ending Warp Origin",
-				"pairedSingularity": "Ending Warp Destination",
-				"targetStarSystem": "2walker2.EndingIfYouWarpHereYouAreMean",
-				"hasWarpEffects": false,
-				"type": "blackHole",
-				"horizonRadius": 1,
-				"distortRadius": 2,
-				"position": {"x": -30.3418, "y": 48.2565, "z": 57.1838},
 			}
 		],
 		"nomaiText": [
 			{
+				"normal": {
+					"y": 1.0
+				},
+				"position": {
+					"x": -13.30349,
+					"y": 59.99868,
+					"z": 60.16279
+				},
+				"rotation": {},
 				"type": "preCrashComputer",
-				"xmlFile": "planets/Text/sun_computer.xml",
-				"position": {"x": -13.30349, "y": 59.99868, "z": 60.16279},
-				"normal": {"x": 0, "y": 1, "z": 0}
+				"location": "unspecified",
+				"xmlFile": "planets/Text/sun_computer.xml"
+			}
+		],
+		"singularities": [
+			{
+				"pairedSingularity": "Ending Warp Destination",
+				"uniqueID": "Ending Warp Origin",
+				"position": {
+					"x": -30.3418,
+					"y": 48.2565,
+					"z": 57.1838
+				},
+				"horizonRadius": 1.0,
+				"distortRadius": 2.0,
+				"targetStarSystem": "2walker2.EndingIfYouWarpHereYouAreMean",
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985
 			}
 		]
 	},
@@ -165,16 +166,15 @@
 			"b": 25,
 			"a": 0
 		},
-		"lifespan": 22.0,
 		"size": 700.0,
 		"solarLuminosity": 0.8,
-		"tint": {
+		"supernovaTint": {
 			"r": 181,
 			"g": 161,
 			"b": 118,
 			"a": 0
 		},
-		"supernovaTint": {
+		"tint": {
 			"r": 181,
 			"g": 161,
 			"b": 118,
@@ -192,35 +192,37 @@
 				"radius": 400.0
 			}
 		],
-		"zeroGravityVolumes": [
-			{
-				"priority": 3,
-				"position": {},
-				"radius": 600.0
-			}
-		],
-		"speedTrapVolumes": [
-			{
-				"radius": 600,
-				"speedLimit": 25,
-				"acceleration": 10	
-			}
-		],
 		"hazardVolumes": [
 			{
 				"type": "electricity",
 				"firstContactDamageType": "electrical",
-				"radius": 700,
-				"firstContactDamage": 25,
+				"firstContactDamage": 25.0,
+				"radius": 700.0,
 				"parentPath": "Sector/Star/Surface"
 			}
 		],
 		"revealVolumes": [
 			{
-				"radius": 600,
+				"revealOn": "enter",
+				"revealFor": "both",
 				"reveals": [
 					"jam_spark_fact"
-				]
+				],
+				"radius": 600.0
+			}
+		],
+		"speedTrapVolumes": [
+			{
+				"speedLimit": 25.0,
+				"acceleration": 10.0,
+				"radius": 600.0
+			}
+		],
+		"zeroGravityVolumes": [
+			{
+				"priority": 3,
+				"position": {},
+				"radius": 600.0
 			}
 		]
 	}
