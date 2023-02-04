@@ -2256,7 +2256,8 @@
 					"x": -2.3052,
 					"y": -31.0771,
 					"z": -1.6567
-				}
+				},
+				"onlyAudibleToScope": false
 			}
 		]
 	},
@@ -2356,6 +2357,18 @@
 					"jam_clocktower_fact"
 				],
 				"radius": 30.0
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"position": {
+					"x": -2.3052,
+					"y": -31.0771,
+					"z": -1.6567
+				},
+				"radius": 20,
+				"playRefillAudio": true,
+				"treeVolume": true
 			}
 		]
 	}
