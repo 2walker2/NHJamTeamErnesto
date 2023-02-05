@@ -2201,26 +2201,17 @@
 				"rename": "SunKeyScroll",
 				"assetBundle": "planets/Assets/jam_bundle",
 				"path": "Assets/Jam Bundle/GenericScroll.prefab",
-				"position": {
-					"x": 0.147995,
-					"y": 0.6089325,
-					"z": 0.224578857
-				},
+				"position": {"x": 29.5272 , "y": 0.52, "z": 71.9673},
 				"rotation": {
-					"x": 317.645,
-					"y": 320.95813,
-					"z": 287.5608
+					"x": 286.6714,
+					"y": 148.5744,
+					"z": 172.8121
 				},
 				"keepLoaded": true
 			},
 			{
 				"assetBundle": "planets/Assets/turtle.giantclock",
 				"path": "Assets/Jammer/Key.prefab",
-				"position": {
-					"x": -86.56412,
-					"y": -3.207405,
-					"z": 32.7798843
-				},
 				"rotation": {
 					"x": 345.7825,
 					"y": 160.559952,
