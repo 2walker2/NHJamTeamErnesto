@@ -200,7 +200,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine",
 				"position": {
 					"x": -22.6806641,
-					"y": -98.5812454,
+					"y": -98.58124,
 					"z": -12.6152344
 				},
 				"removeChildren": [
@@ -216,7 +216,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -21.7490234,
-					"y": -98.75794,
+					"y": -98.7579346,
 					"z": -7.848633
 				},
 				"rotation": {
@@ -229,7 +229,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -22.890625,
-					"y": -97.0340958,
+					"y": -97.03409,
 					"z": -18.4755859
 				},
 				"rotation": {
@@ -242,7 +242,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -27.8994141,
-					"y": -95.8283157,
+					"y": -95.82831,
 					"z": -16.9853516
 				},
 				"rotation": {
@@ -255,7 +255,7 @@
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
 					"x": -31.0019531,
-					"y": -94.5340652,
+					"y": -94.53406,
 					"z": -5.05273438
 				},
 				"rotation": {
@@ -397,7 +397,7 @@
 				"rotation": {
 					"x": 337.907562,
 					"y": 178.161255,
-					"z": 3.32940054
+					"z": 3.32940078
 				}
 			},
 			{
@@ -542,7 +542,7 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Spinel/",
 				"position": {
-					"x": -38.55275,
+					"x": -38.5527344,
 					"y": 89.76996,
 					"z": 20.6738281
 				},
@@ -558,7 +558,7 @@
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
-					"x": -38.6738434,
+					"x": -38.67383,
 					"y": 90.69255,
 					"z": 13.0166016
 				},
@@ -623,7 +623,7 @@
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_Sapling/QSapling (3)/Tree_TH_Sapling/",
 				"position": {
-					"x": -33.6797028,
+					"x": -33.6796875,
 					"y": 94.3584442,
 					"z": -0.106445313
 				},
@@ -667,7 +667,7 @@
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
 					"x": 5.36328125,
-					"y": -5.802971,
+					"y": -5.80297852,
 					"z": 15.6142578
 				},
 				"rotation": {
@@ -681,7 +681,7 @@
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
 					"x": 1.855957,
-					"y": -15.3163376,
+					"y": -15.3163452,
 					"z": 7.13916
 				},
 				"rotation": {
@@ -695,7 +695,7 @@
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
 					"x": -6.91015625,
-					"y": -15.7542343,
+					"y": -15.7542419,
 					"z": -2.61035156
 				},
 				"rotation": {
@@ -709,7 +709,7 @@
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/DetailPatches_Zone1/Z1_Lightside/Foliage_IP_RingWorld_High (4)",
 				"position": {
 					"x": -14.4663086,
-					"y": -9.216042,
+					"y": -9.216034,
 					"z": -1.27636719
 				},
 				"rotation": {
@@ -776,7 +776,7 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
 				"position": {
-					"x": -38.0361481,
+					"x": -38.0361328,
 					"y": 89.88652,
 					"z": 20.9118652
 				},
@@ -789,7 +789,7 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
 				"position": {
-					"x": -36.7715,
+					"x": -36.7714844,
 					"y": 90.37549,
 					"z": 19.6228027
 				},
@@ -802,7 +802,7 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
 				"position": {
-					"x": -34.0688629,
+					"x": -34.0688477,
 					"y": 91.4483,
 					"z": 17.651123
 				},
@@ -895,7 +895,7 @@
 				"position": {
 					"x": -8.143555,
 					"y": 98.77362,
-					"z": 1.14208972
+					"z": 1.14208984
 				},
 				"rotation": {
 					"x": 352.278534,
@@ -924,9 +924,9 @@
 					"z": 7.62792969
 				},
 				"rotation": {
-					"x": 7.19183731,
+					"x": 7.19183826,
 					"y": 210.246414,
-					"z": 1.49851954
+					"z": 1.4985199
 				}
 			},
 			{
@@ -1043,7 +1043,7 @@
 				"rotation": {
 					"x": 339.744049,
 					"y": 176.2071,
-					"z": 7.198158
+					"z": 7.19815874
 				}
 			},
 			{
@@ -1298,7 +1298,7 @@
 				"path": "wasMoon_Body/Sector_THM/Lighting_TM/Props_HEA_Lantern",
 				"position": {
 					"x": -22.9448242,
-					"y": -98.50123,
+					"y": -98.50122,
 					"z": -8.326416
 				},
 				"rotation": {
@@ -1311,7 +1311,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
 				"position": {
 					"x": -22.9326172,
-					"y": -98.58228,
+					"y": -98.5822754,
 					"z": -12.6140137
 				},
 				"rotation": {
@@ -1324,7 +1324,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
 				"position": {
 					"x": -24.5390625,
-					"y": -98.11176,
+					"y": -98.1117554,
 					"z": -12.6496582
 				},
 				"rotation": {
@@ -1337,7 +1337,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
 				"position": {
 					"x": -28.2094727,
-					"y": -96.34458,
+					"y": -96.344574,
 					"z": -12.001709
 				},
 				"rotation": {
@@ -1350,7 +1350,7 @@
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
 				"position": {
 					"x": -32.3994141,
-					"y": -93.91587,
+					"y": -93.91586,
 					"z": -10.6323242
 				},
 				"rotation": {
@@ -1362,8 +1362,8 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Props_Village/OtherComponentsGroup/ObservatoryPath/Prefab_HEA_VillagePlank (39)",
 				"position": {
-					"x": -38.140152,
-					"y": -89.99775,
+					"x": -38.1401367,
+					"y": -89.99774,
 					"z": -8.203613
 				},
 				"rotation": {
@@ -1375,8 +1375,8 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": -42.92433,
-					"y": 62.21966,
+					"x": -42.9243164,
+					"y": 62.2196655,
 					"z": -64.88208
 				},
 				"rotation": {
@@ -1388,7 +1388,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": -86.71046,
+					"x": -86.71045,
 					"y": 25.9280777,
 					"z": -36.411377
 				},
@@ -1401,8 +1401,8 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": -60.5971832,
-					"y": -42.31225,
+					"x": -60.597168,
+					"y": -42.3122559,
 					"z": -69.05249
 				},
 				"rotation": {
@@ -1414,8 +1414,8 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": -59.93312,
-					"y": -78.10752,
+					"x": -59.9331055,
+					"y": -78.10751,
 					"z": -8.340576
 				},
 				"rotation": {
@@ -1428,7 +1428,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
 					"x": 7.955078,
-					"y": -82.26231,
+					"y": -82.2623,
 					"z": 53.4384766
 				},
 				"rotation": {
@@ -1441,11 +1441,11 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
 					"x": -32.8398438,
-					"y": -48.6884537,
+					"y": -48.688446,
 					"z": 80.10376
 				},
 				"rotation": {
-					"x": 55.4568939,
+					"x": 55.45689,
 					"y": 152.715271,
 					"z": 178.071014
 				}
@@ -1453,8 +1453,8 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": 45.3808556,
-					"y": -52.1661758,
+					"x": 45.38086,
+					"y": -52.16617,
 					"z": 73.5834961
 				},
 				"rotation": {
@@ -1466,7 +1466,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": 81.32225,
+					"x": 81.3222656,
 					"y": 16.3700485,
 					"z": 54.64868
 				},
@@ -1479,8 +1479,8 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": 37.87158,
-					"y": 49.17773,
+					"x": 37.871582,
+					"y": 49.1777344,
 					"z": 79.17969
 				},
 				"rotation": {
@@ -1492,8 +1492,8 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": 94.41991,
-					"y": -27.4337234,
+					"x": 94.41992,
+					"y": -27.4337158,
 					"z": -10.9326172
 				},
 				"rotation": {
@@ -1505,8 +1505,8 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": 57.81445,
-					"y": 47.1206169,
+					"x": 57.8144531,
+					"y": 47.12062,
 					"z": -65.6499
 				},
 				"rotation": {
@@ -1518,8 +1518,8 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": 64.59325,
-					"y": -73.40897,
+					"x": 64.59326,
+					"y": -73.4089661,
 					"z": -24.99878
 				},
 				"rotation": {
@@ -1532,7 +1532,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
 					"x": 26.3530273,
-					"y": -6.636116,
+					"y": -6.6361084,
 					"z": -63.8122559
 				},
 				"rotation": {
@@ -1545,7 +1545,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
 					"x": -6.232422,
-					"y": -30.429863,
+					"y": -30.42987,
 					"z": -61.50537
 				},
 				"rotation": {
@@ -1558,7 +1558,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
 					"x": 9.559082,
-					"y": -64.17231,
+					"y": -64.1723,
 					"z": -27.6967773
 				},
 				"rotation": {
@@ -1583,7 +1583,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": -38.19435,
+					"x": -38.1943359,
 					"y": -1.98684692,
 					"z": 55.7334
 				},
@@ -1609,8 +1609,8 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": -65.41603,
-					"y": -20.8052444,
+					"x": -65.4160156,
+					"y": -20.8052368,
 					"z": 2.2265625
 				},
 				"rotation": {
@@ -1622,7 +1622,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": -87.10645,
+					"x": -87.1064453,
 					"y": 39.956337,
 					"z": 21.5361328
 				},
@@ -1649,7 +1649,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": -19.0625,
-					"y": -14.0924,
+					"y": -14.0924072,
 					"z": 65.7839355
 				},
 				"rotation": {
@@ -1674,7 +1674,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"x": 48.40478,
+					"x": 48.4047852,
 					"y": 40.48603,
 					"z": 27.93628
 				},
@@ -1687,7 +1687,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"x": 63.7656059,
+					"x": 63.765625,
 					"y": 25.73684,
 					"z": -6.819092
 				},
@@ -1700,7 +1700,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"x": 66.3832855,
+					"x": 66.3833,
 					"y": -0.6561432,
 					"z": 16.29541
 				},
@@ -1719,7 +1719,7 @@
 				},
 				"rotation": {
 					"x": 325.230957,
-					"y": 36.6195145,
+					"y": 36.61952,
 					"z": 258.266449
 				}
 			},
@@ -1857,7 +1857,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": 9.568359,
-					"y": -21.41996,
+					"y": -21.4199524,
 					"z": 30.85791
 				},
 				"rotation": {
@@ -1870,7 +1870,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": -1.68652344,
-					"y": -35.2759781,
+					"y": -35.27597,
 					"z": 15.0751953
 				},
 				"rotation": {
@@ -1908,7 +1908,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"x": -38.0576324,
+					"x": -38.0576172,
 					"y": 1.73118591,
 					"z": 7.501465
 				},
@@ -1922,7 +1922,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": -32.7197266,
-					"y": -18.9878769,
+					"y": -18.9878845,
 					"z": -9.402344
 				},
 				"rotation": {
@@ -1935,7 +1935,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": -23.75293,
-					"y": -30.8747787,
+					"y": -30.8747864,
 					"z": -0.306640625
 				},
 				"rotation": {
@@ -1948,7 +1948,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": 3.2734375,
-					"y": -33.0934677,
+					"y": -33.0934753,
 					"z": -18.9975586
 				},
 				"rotation": {
@@ -1980,14 +1980,14 @@
 				"rotation": {
 					"x": 326.461548,
 					"y": 229.335327,
-					"z": 53.957695
+					"z": 53.9577
 				}
 			},
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": -6.195801,
-					"y": -14.863945,
+					"y": -14.8639526,
 					"z": 8.042236
 				},
 				"rotation": {
@@ -1999,7 +1999,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"x": -59.6045074,
+					"x": -59.6044922,
 					"y": 34.1231766,
 					"z": 3.4675293
 				},
@@ -2012,7 +2012,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"x": -65.34425,
+					"x": -65.34424,
 					"y": 12.7685776,
 					"z": -21.7409668
 				},
@@ -2025,7 +2025,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"x": -49.6103668,
+					"x": -49.61035,
 					"y": 33.99729,
 					"z": -35.8203125
 				},
@@ -2038,7 +2038,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"x": -52.358902,
+					"x": -52.3588867,
 					"y": 7.25157166,
 					"z": -45.39087
 				},
@@ -2071,7 +2071,7 @@
 				"rotation": {
 					"x": 331.363373,
 					"y": 79.55175,
-					"z": 6.90532827
+					"z": 6.905327
 				}
 			},
 			{
@@ -2091,7 +2091,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": -28.6992188,
-					"y": 62.1253166,
+					"y": 62.12532,
 					"z": -16.4743652
 				},
 				"rotation": {
@@ -2104,7 +2104,7 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": -21.11914,
-					"y": 60.36732,
+					"y": 60.3673248,
 					"z": -28.8918457
 				},
 				"rotation": {
@@ -2117,19 +2117,19 @@
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
 					"x": -19.875,
-					"y": 49.8153954,
+					"y": 49.8154,
 					"z": -43.7214355
 				},
 				"rotation": {
 					"x": 332.964081,
 					"y": 321.736542,
-					"z": 29.6324043
+					"z": 29.6324081
 				}
 			},
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"x": -33.5166168,
+					"x": -33.5166,
 					"y": 22.5489578,
 					"z": -56.5085449
 				},
@@ -2147,7 +2147,7 @@
 					"z": -68.8693848
 				},
 				"rotation": {
-					"x": 44.5892868,
+					"x": 44.58928,
 					"y": 295.665344,
 					"z": 94.7161
 				}
@@ -2155,7 +2155,7 @@
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
 				"position": {
-					"x": -37.5200348,
+					"x": -37.52002,
 					"y": 0.8579712,
 					"z": -58.57715
 				},
@@ -2201,9 +2201,13 @@
 				"rename": "SunKeyScroll",
 				"assetBundle": "planets/Assets/jam_bundle",
 				"path": "Assets/Jam Bundle/GenericScroll.prefab",
-				"position": {"x": 29.5272 , "y": 0.52, "z": 71.9673},
+				"position": {
+					"x": 29.5273438,
+					"y": 0.5200043,
+					"z": 71.9673
+				},
 				"rotation": {
-					"x": 286.6714,
+					"x": 286.671356,
 					"y": 148.5744,
 					"z": 172.8121
 				},
@@ -2212,12 +2216,17 @@
 			{
 				"assetBundle": "planets/Assets/turtle.giantclock",
 				"path": "Assets/Jammer/Key.prefab",
-				"rotation": {
-					"x": 345.7825,
-					"y": 160.559952,
-					"z": 51.447403
+				"position": {
+					"x": 29.5273438,
+					"y": 0.5200043,
+					"z": 71.9673
 				},
-				"scale": 0.999999642,
+				"rotation": {
+					"x": 69.06843,
+					"y": 47.6864128,
+					"z": 312.2703
+				},
+				"scale": 0.9999996,
 				"parentPath": "Sector/SunKeyScroll",
 				"isRelativeToParent": true,
 				"keepLoaded": true
@@ -2225,14 +2234,14 @@
 			{
 				"path": "Moon_Body/Sector_THM/Props_THM/OtherComponentsGroup/Props_HEA_LunarFlag",
 				"position": {
-					"x": -26.7819176,
+					"x": -26.7817383,
 					"y": 94.67151,
-					"z": -7.53799629
+					"z": -7.53799438
 				},
 				"rotation": {
-					"x": 24.21618,
+					"x": 24.2161865,
 					"y": 242.029037,
-					"z": 2.15895534
+					"z": 2.15895629
 				}
 			}
 		],

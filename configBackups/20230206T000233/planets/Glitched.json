@@ -1,0 +1,25 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "DATA CORRUPTED",
+	"starSystem": "2walker2.OogaBooga",
+	"Base": {
+		"gravityFallOff": "linear"
+	},
+	"Orbit": {
+		"primaryBody": "Spark",
+		"showOrbitLine": false,
+		"semiMajorAxis": 10000.0
+	},
+	"ReferenceFrame": {
+		"enabled": false,
+		"hideInMap": true
+	},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "planets/Log/Map Icons/UI_Glitch.png"
+		},
+		"spriteFolder": "planets/Log/Images",
+		"xmlFile": "planets/Log/glitched_log.xml"
+	},
+	"ShockEffect": {}
+}

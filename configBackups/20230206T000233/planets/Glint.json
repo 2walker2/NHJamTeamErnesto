@@ -1,0 +1,65 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Glint",
+	"starSystem": "2walker2.OogaBooga",
+	"Base": {
+		"gravityFallOff": "inverseSquared",
+		"invulnerableToSun": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 30.0
+	},
+	"canShowOnTitle": false,
+	"Orbit": {
+		"primaryBody": "Twilight Frost",
+		"isMoon": true,
+		"showOrbitLine": false,
+		"semiMajorAxis": 220.0,
+		"inclination": 60.0,
+		"trueAnomaly": 240.0
+	},
+	"ReferenceFrame": {
+		"enabled": false,
+		"hideInMap": true
+	},
+	"removeChildren": [
+		"Sector/Star/DestructionFluidVolume",
+		"Sector/Star/PlanetDestructionVolume",
+		"Sector/Star/HeatVolume"
+	],
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	},
+	"Star": {
+		"endTint": {
+			"r": 30,
+			"g": 28,
+			"b": 25,
+			"a": 0
+		},
+		"lifespan": 1000.0,
+		"hasStarController": false,
+		"size": 30.0,
+		"solarLuminosity": 0.4,
+		"tint": {
+			"r": 181,
+			"g": 161,
+			"b": 118,
+			"a": 0
+		},
+		"stellarDeathType": "default",
+		"stellarRemnantType": "default"
+	},
+	"Volumes": {
+		"hazardVolumes": [
+			{
+				"type": "electricity",
+				"damagePerSecond": 2.0,
+				"firstContactDamageType": "electrical",
+				"firstContactDamage": 5.0,
+				"radius": 30.0
+			}
+		]
+	}
+}

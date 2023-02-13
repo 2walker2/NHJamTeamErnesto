@@ -46,7 +46,7 @@
 				"position": {},
 				"rotation": {
 					"x": 270.0,
-					"y": 355.399048
+					"y": 335.809937
 				},
 				"keepLoaded": true
 			},
@@ -55,7 +55,7 @@
 				"path": "Assets/Jammer/SunClock.prefab",
 				"position": {
 					"x": -20.0,
-					"y": 59.9999962,
+					"y": 60.0,
 					"z": 65.0
 				},
 				"rotation": {
@@ -115,11 +115,11 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
 				"position": {
 					"x": -177.075684,
-					"y": 60.5394936,
+					"y": 60.53949,
 					"z": 26.0661621
 				},
 				"rotation": {
-					"x": 38.6937866,
+					"x": 38.69379,
 					"y": 349.9846,
 					"z": 269.9757
 				}
@@ -140,12 +140,12 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
 				"position": {
-					"x": -178.814209,
-					"y": 60.64989,
+					"x": -178.814453,
+					"y": 60.6498871,
 					"z": 35.9260254
 				},
 				"rotation": {
-					"x": 52.55056,
+					"x": 52.5505524,
 					"y": 170.024612,
 					"z": 90.0312347
 				}
@@ -153,7 +153,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
 				"position": {
-					"x": -178.671143,
+					"x": -178.6709,
 					"y": 51.2158661,
 					"z": 35.0974121
 				},
@@ -171,16 +171,16 @@
 					"z": 23.7888184
 				},
 				"rotation": {
-					"x": 0.000218397385,
+					"x": 0.0002183974,
 					"y": 39.62926,
-					"z": 0.000257583539
+					"z": 0.0002575835
 				}
 			},
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
 				"position": {
-					"x": -192.584717,
-					"y": 58.7951,
+					"x": -192.584961,
+					"y": 58.795105,
 					"z": 45.1792
 				},
 				"rotation": {
@@ -192,14 +192,14 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
 				"position": {
-					"x": -186.578857,
+					"x": -186.5791,
 					"y": 51.0704651,
 					"z": 12.8642578
 				},
 				"rotation": {
 					"x": 320.3719,
 					"y": 260.050323,
-					"z": 89.92117
+					"z": 89.92118
 				}
 			},
 			{
@@ -218,7 +218,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_NomaiTree_Var_1",
 				"position": {
-					"x": -210.582764,
+					"x": -210.583008,
 					"y": 59.7543945,
 					"z": 30.26538
 				},
@@ -231,8 +231,8 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
 				"position": {
-					"x": -210.573,
-					"y": 53.49364,
+					"x": -210.573242,
+					"y": 53.4936371,
 					"z": 30.17041
 				},
 				"rotation": {
@@ -244,7 +244,7 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
 				"position": {
-					"x": -201.061279,
+					"x": -201.061523,
 					"y": 54.7137756,
 					"z": 43.6832275
 				},
@@ -257,8 +257,8 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
 				"position": {
-					"x": -177.651611,
-					"y": 50.97127,
+					"x": -177.651367,
+					"y": 50.9712677,
 					"z": 29.3140869
 				},
 				"rotation": {
@@ -270,14 +270,14 @@
 			{
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
 				"position": {
-					"x": -189.838623,
+					"x": -189.838867,
 					"y": 71.91863,
 					"z": 33.72107
 				},
 				"rotation": {
-					"x": -0.000206749,
+					"x": -0.000206749028,
 					"y": 221.9471,
-					"z": -0.000266229676
+					"z": -0.0002662297
 				}
 			},
 			{
@@ -297,13 +297,13 @@
 				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_SimpleChair_NoSkeleton (1)",
 				"position": {
 					"x": -195.750977,
-					"y": 60.2964363,
+					"y": 60.2964325,
 					"z": 11.2568359
 				},
 				"rotation": {
 					"x": 43.42377,
-					"y": 80.0575,
-					"z": 270.083649
+					"y": 80.05752,
+					"z": 270.083679
 				}
 			},
 			{
@@ -317,19 +317,6 @@
 					"x": 314.0888,
 					"y": 79.93734,
 					"z": 270.08728
-				}
-			},
-			{
-				"path": "Comet_Body/Sector_CO/Sector_CometInterior/Props_CometInterior/Prefab_NOM_BoxBroken",
-				"position": {
-					"x": -176.522217,
-					"y": 51.0218353,
-					"z": 29.0119629
-				},
-				"rotation": {
-					"x": 16.7239017,
-					"y": 349.994141,
-					"z": 269.9802
 				}
 			}
 		],
