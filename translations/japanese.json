@@ -32,7 +32,7 @@
     "Where are we?": "私たちはどこにいる？",
     "What's going on?": "何が起きているんだ？",
     "I'm going to go look around.": "周りを見てくるよ。",
-    "We're on <![CDATA[<color=orange>Layered Lagoon</color>]]>, located a few hundred kilometers away from the <![CDATA[<color=orange>Outer Wilds</color>]]>.": "私たちは<![CDATA[<color=orange>水上の浮島</color>]]>にいる。ここは私たちのOuterWildsから数百キロメートル離れたところだ。",
+    "We're on <![CDATA[<color=orange>Layered Lagoon</color>]]>, located a few hundred kilometers away from the <![CDATA[<color=orange>Outer Wilds</color>]]>.": "私たちは<![CDATA[<color=orange>水上の浮島</color>]]>にいる。ここは私たちのOuter Wildsから数百キロメートル離れたところだ。",
     "Right now, we are still setting up camp. There's plenty to do if you want to help.": "今はまだキャンプの準備をしているところだ。手伝いたいならやることはたくさんある。",
     "We received a message a few days ago that told us we were in danger, so we had to evacuate here.": "数日前、私たちは危機に直面しているというメッセージを受け取ったんだ。だからここへ避難してきた。",
     "I recommend asking <![CDATA[<color=orange>Hal</color>]]> about it. They organized the whole evacuation.": "<![CDATA[<color=orange>Hal</color>]]>に尋ねてみるといい。あいつがこの避難のすべての計画を立案したんだ。",
@@ -56,7 +56,7 @@
     // Feldspar
     "Heya, hatchling. Yes, it's me, the famous Feldspar. Everything you've heard about is true.": "やあ、ひよっ子。そう、私だ。あの有名なFeldsparだ。お前が聞いたことはすべて本当のことだ。",
     "Except for the things that aren't.": "そうでないことを除いて。",
-    "I'll be honest, it's weird being back here with all of you. I've spent so long flying around the Outer Wilds that I forgot how nice it is to share a song with Gneiss.": "正直に言うと、ここに戻って皆と一緒にいるのは変な感じがする。OuterWildsで長いこと飛び回っていたから、Gneissと曲を分かち合うことがどんなに素敵なことか忘れていたよ。",
+    "I'll be honest, it's weird being back here with all of you. I've spent so long flying around the Outer Wilds that I forgot how nice it is to share a song with Gneiss.": "正直に言うと、ここに戻って皆と一緒にいるのは変な感じがする。Outer Wildsで長いこと飛び回っていたから、Gneissと曲を分かち合うことがどんなに素敵なことか忘れていたよ。",
     "Or a marshmallow with Slate.": "それに、Slateとともに囲むマシュマロも、だな。",
     "I'll rest for a while, but then I'll be ready to take off again.": "それでも、少しの間休んだらまた飛び立とうと思う。",
     "After all, it's not every day the sun rises on a new horizon.": "結局のところ、新たな地平線から太陽が昇るのは毎日というわけではないということだ。",
