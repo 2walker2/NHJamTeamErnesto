@@ -7,6 +7,10 @@ namespace Evacuation {
     public class Evacuation : ModBehaviour {
         public static Evacuation Instance;
 
+        public static void Log(string text) {
+            Instance.ModHelper.Console.WriteLine(text);
+        }
+
         void Awake() {
             Instance = this;
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
