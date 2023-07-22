@@ -20,6 +20,8 @@ namespace Evacuation {
             var newHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             newHorizonsAPI.LoadConfigs(this);
             ModHelper.Console.WriteLine($"{nameof(Evacuation)} is loaded!", MessageType.Success);
+
+            FixPatch.Initialize();
         }
     }
 }
