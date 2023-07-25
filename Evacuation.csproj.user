@@ -1,0 +1,5 @@
+﻿<Project>
+  <PropertyGroup>
+    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\2walker2.Evacuation</OutputPath>
+  </PropertyGroup>
+</Project>

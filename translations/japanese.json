@@ -1,0 +1,210 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+  "UIDictionary": {
+    "The Campground": "キャンプ衛星",
+    "Layered Lagoon": "水上の浮島",
+    "Spark": "閃光",
+    "Twilight Frost": "薄明の氷柱",
+    "Smoldering Gulch": "煙る谷",
+    "DATA CORRUPTED": "破損したデータ",
+
+    "WARNING: SULFURIC ACID DETECTED": "注意：付近で硫酸を検出",
+    "Nomai Radio": "NOMAI信号",
+    "Experiment Results": "実験結果",
+    "Thank you for downloading Evacuation, a mod made for the 2023 New Horizons modding jam! Please play on an existing save file.": "2023 New Horizons modding jamで作られたMOD、Evacuationをダウンロードしていただきありがとうございます！既存のセーブデータでそのままプレイしてください。"
+  },
+  "DialogueDictionary": {
+    // Esker
+    "Hey, hatchling! Good to see you're finally awake.": "おはよう、ひよっ子！やっと目を覚ましたか。",
+    "It looks to me like you're confused about what's going on. A lot happened while you were asleep!": "何が起きているのか混乱しているな。お前が寝ている間に本当にたくさんのことがあったんだ！",
+    "Try <![CDATA[<color=orange>talking to the others down on the surface</color>]]>. Maybe that will help you catch up on what happened.": "<![CDATA[<color=orange>地上で皆と話しておいで</color>]]>。何が起きたのか色々教えてくれるだろう。",
+    "See that large clump of trees at the bottom of the planet? That's where they set up camp.": "あの惑星の北側に大きな木立が見えるな？あそこが私たちのキャンプ地だ。",
+    "Speak to <![CDATA[<color=orange>Rutile</color>]]>, they'll know what to do.": "<![CDATA[<color=orange>Rutile</color>]]>と話すといい。村長なら何をすべきか知っているさ。",
+
+    // Gossan
+    "We borrowed your ship while you were sleeping, hatchling. Hope you don't mind.": "ひよっ子、寝ている間にお前の探査艇を借りさせてもらっていた。悪く思わないでくれよ。",
+    "Don't worry! Slate is keeping an eye on it at the <![CDATA[<color=orange>north pole camp</color>]]>.": "それに心配はいらない！<![CDATA[<color=orange>北極にあるキャンプ地</color>]]>でSlateがそいつを見張ってる。",
+    "The ship you're in now was made out of old mining equipment back on Timber Hearth. I have no idea how Slate made this thing fly.": "私たちが今乗っているこの船は木の炉辺のあの古い鉱山装置から作られた。まったくSlateはどうやってこいつを飛ばしたのか、私には見当がつかないよ。",
+    "Anyway, the others are probably waiting on you. The camp is just a <![CDATA[<color=orange>quick spacewalk</color>]]> away!": "ともかく、皆、お前を待っているだろう。キャンプ地までは<![CDATA[<color=orange>ちょっとした宇宙散歩</color>]]>ですぐだ！",
+
+    // Rutile
+    "Hello, hatchling!": "やあ、ひよっ子！",
+    "Where are we?": "私たちはどこにいる？",
+    "What's going on?": "何が起きているんだ？",
+    "I'm going to go look around.": "周りを見てくるよ。",
+    "We're on <![CDATA[<color=orange>Layered Lagoon</color>]]>, located a few hundred kilometers away from the <![CDATA[<color=orange>Outer Wilds</color>]]>.": "私たちは<![CDATA[<color=orange>水上の浮島</color>]]>にいる。ここは私たちのOuter Wildsから数百キロメートル離れたところだ。",
+    "Right now, we are still setting up camp. There's plenty to do if you want to help.": "今はまだキャンプの準備をしているところだ。手伝いたいならやることはたくさんある。",
+    "We received a message a few days ago that told us we were in danger, so we had to evacuate here.": "数日前、私たちは危機に直面しているというメッセージを受け取ったんだ。だからここへ避難してきた。",
+    "I recommend asking <![CDATA[<color=orange>Hal</color>]]> about it. They organized the whole evacuation.": "<![CDATA[<color=orange>Hal</color>]]>に尋ねてみるといい。あいつがこの避難のすべての計画を立案したんだ。",
+    "They should be around camp somewhere.": "このキャンプのどこか近くにいるはずだ。",
+    "Don't stray too far!": "あまり遠くへ行かないでくれよ！",
+
+    // Marl
+    "Rutile put me in charge of planting the trees around our camp.": "Rutileが私にキャンプ周辺の植樹を任せてきたんだ。",
+    "It's not really my kind of thing, but that's alright. More trees means more chances to chop them down!": "そんなことまったく私の好みじゃないが、まあいいか。木が増えれば、それだけ切り倒すチャンスも増えるというものだ！",
+
+    // Gneiss
+    "Don't tell anyone I told you this, but I'm working on a new instrument for you.": "このことはまだ他の者には内緒だけれど、ひよっ子用の新しい楽器を作っているんだ。",
+    "I'm not going to tell you what it is, though. You'll just have to wait and see!": "どんな楽器かはまだお前にも内緒だ。ただ待っていればいい！",
+
+    // Slate
+    "Hey, hatchling. Sorry you never had your grand launch day. I know how important that was to you.": "やあ、ひよっ子。盛大な打ち上げの日を迎えられなかったのは残念に思っている。お前にとってどれだけ大切なことだったか知っているからな。",
+    "But with how frantic Chert was yelling, we decided we had to leave pretty quick.": "だが、Chertがまるで緊張病になったかのように叫ぶものだから、私たちはすぐに出発することにしたんだ。",
+    "But hey, I just finished repairing and cleaning your ship. It's ready to fly!": "それにこの通り、お前の探査艇の修理と手入れはちょうど終わったところだ。いつでも飛び立てる！",
+    "I did notice that there were some oddities with your ship log, though. I couldn't make heads or tails of it. Have you been modifying the ship without telling me?": "ところでお前の航行記録に奇妙な点があった。私にはどうにも理解できなかった。私に黙って探査艇を改造していたのか？",
+
+    // Feldspar
+    "Heya, hatchling. Yes, it's me, the famous Feldspar. Everything you've heard about is true.": "やあ、ひよっ子。そう、私だ。あの有名なFeldsparだ。お前が聞いたことはすべて本当のことだ。",
+    "Except for the things that aren't.": "そうでないことを除いて。",
+    "I'll be honest, it's weird being back here with all of you. I've spent so long flying around the Outer Wilds that I forgot how nice it is to share a song with Gneiss.": "正直に言うと、ここに戻って皆と一緒にいるのは変な感じがする。Outer Wildsで長いこと飛び回っていたから、Gneissと曲を分かち合うことがどんなに素敵なことか忘れていたよ。",
+    "Or a marshmallow with Slate.": "それに、Slateとともに囲むマシュマロも、だな。",
+    "I'll rest for a while, but then I'll be ready to take off again.": "それでも、少しの間休んだらまた飛び立とうと思う。",
+    "After all, it's not every day the sun rises on a new horizon.": "結局のところ、新たな地平線から太陽が昇るのは毎日というわけではないということだ。",
+
+    // Hal
+    "Hey, hatchling! We've detected an unusual signal from a nearby celestial body, so we sent Riebeck to investigate.": "やあ、お前か！先ほど近くの天体から異常な信号が検出されたから、Riebeckを調査に行かせたところなんだ。",
+    "What is it?": "それは何だろう？",
+    "Where is it coming from?": "どの天体から検出されたんだ？",
+    "We don't know yet, but what we DO know is that it's Nomai in origin! Isn't that wild?": "まだ不明だが、わかっているのはNomai由来ということだ！ワイルドじゃないか？",
+    "Here we are in a completely different solar system, and still the Nomai have left their mark.": "ここで私たちはまったく別の星系にいるが、それでもNomaiはその痕跡を残している。",
+    "Do you still have that translator tool? Perhaps you could <![CDATA[<color=orange>go give Riebeck a hand</color>]]>?": "まだあの翻訳機は持っているよな？もしかしたら<![CDATA[<color=orange>Riebeckに手を貸せる</color>]]>かもしれない。",
+    "You know how to find them.": "あいつを見つける方法は知っているだろうし。",
+    "It seems to be coming from the <![CDATA[<color=orange>large blue planet</color>]]>. We can't seem to pinpoint it closer than that.": "<![CDATA[<color=orange>大きなあの白い惑星</color>]]>からだ。それ以上はここからだと特定できないな。",
+
+    // Porphy
+    "The children wouldn't stop pestering me about dinner, so I told them to play the quiet game.": "子どもたちが夜ごはんのことでうるさいから、静かにするゲームをするように言ってるんだ。",
+    "Works every time.": "これが毎回うまくいくんだよ。",
+
+    // Hornfels
+    "Good to see you, hatchling.": "会えてよかった、ひよっ子。",
+    "I'm pretty exhausted. Slate and I have been trying to keep an entire fleet of ships flying all day.": "私は本当に疲れてしまった。Slateと私でずっとすべての船を飛ばし続けていたんだ。",
+    "I'll work on this for a little while longer, then I'll find a nice sleeping bag to crawl into.": "あともう少しこれに取り組んだら、いい寝袋を見つけて潜り込むことにするよ。",
+
+    // Moraine
+    "I've been pointing my Signalscope at different objects in this solar system. They don't sing like any of the planets at home do.": "この星系の色々なものにシグナルスコープを向けてみたけれど、私たちの星系の惑星のように歌うことはなかったんだ。",
+    "Although, Hal found a strange signal coming from another planet earlier.": "でも、Halがさっきどこかの惑星から変な信号が出てるのを見つけたんだ。",
+    "You can go ask them about it.": "聞けば教えてくれると思う。",
+
+    // Spinel
+    "I'll be honest with you, hatchling, I did not bring enough fishing line to reach the water below.": "正直に言おう、ひよっ子よ、私は下の水面に届くほどの釣り糸を持ってきていなかったんだ。",
+    "I just don't want to help set up camp.": "つまり、キャンプの準備を手伝いたくないだけだ。",
+
+    // Tektite
+    "Don't bother Tuff. They're trying to get into these ruins.": "Tuffの邪魔をしないでやってくれ。あいつはこの遺跡に何とか入ろうとしているんだ。",
+
+    // Riebeck
+    "Hello! Good to see you in the air!": "やあ！空の下で会えて嬉しいよ！",
+    "I've explored this moon... a little...": "私はこの衛星を探索してる…少し…",
+    "What have you learned about this planet?": "この惑星について何かわかった？",
+    "What do you think that tower is used for?": "あの塔は何に使われているのだろう？",
+    "What do you know about a warning message?": "あの警告メッセージについて何か知ってる？",
+    "I'm going to take a look around.": "周りを見てくるよ。",
+    "Well, the first thing I learned is that this planet is very scary.": "ええと、まずわかったことは、この惑星はとても恐ろしいということだ。",
+    "The second thing I learned is that it is filled with <![CDATA[<color=orange>sulfuric acid</color>]]>, which is also very scary. The acid is <![CDATA[<color=orange>falling</color>]]> though, which is nice. Must be all the geysers launching it into orbit.": "2番目にわかったことは、ここは<![CDATA[<color=orange>硫酸</color>]]>で満たされているということだ。これは本当に恐ろしい。それでも、この酸が<![CDATA[<color=orange>下がってきている</color>]]>のはいいことだ。間欠泉が酸を軌道上に乗せているに違いない。",
+    "Thirdly, I found a Nomai <![CDATA[<color=orange>clock tower</color>]]> on the other side. Quite fascinating!": "3番目に、Nomaiの<![CDATA[<color=orange>時計塔</color>]]>を反対側に見つけた。すごく魅力的だ！",
+    "I didn't go inside, because... well... it's scary.": "中には入ってない…だって…恐いから。",
+    "The tower on the other side of the moon? Obviously it's designed to keep time.": "この星の反対側にある塔だね？明らかにあれは時を刻むように設計されている。",
+    "The real question is this: WHY did they need to keep track of the time? Was it just to measure the passage of time? Were they counting down to something?": "すると真に次の疑問が浮かぶ:&lt;i&gt;なぜ&lt;/i&gt;彼らは時間を計測する必要があったのだろう？単に時間の経過を知りたかっただけなのか？それとも、何かをカウントダウンしていたのだろうか？",
+    "That's the funny thing about the passage of time, <![CDATA[<color=orange>it makes it easy to forget</color>]]>. I know I never remember anything unless I <![CDATA[<color=orange>write it down</color>]]>.": "時間の経過というのは面白いもので、<![CDATA[<color=orange>簡単に忘れてしまう</color>]]>。<![CDATA[<color=orange>書き残しておかない限り</color>]]>、何も思い出せなくなるものなんだ。",
+    "Wow, that sounded very profound.": "うわぁ、とても深遠な響きだ。",
+    "Maybe I should write that down...": "書き残しておこうかな…。",
+    "I just know that Chert heard a signal coming from inside Ash Twin. Something about a supernova.": "私が知っているのは、Chertが灰の双子星の内部から信号を聞いたことだ。超新星についての何かだったらしい。",
+    "They landed on Timber Hearth in panic and Hal signaled all of the travelers to come back. Even Feldspar came. We thought they were dead!": "Chertはパニックになって木の炉辺へ向かい、それからHalはすべての旅人に戻ってくるよう信号を送った。なんとFeldsparさえも戻ってきた。死んでしまったのだと思ってた！",
+    "Anyways, you're probably better off asking Chert themselves. I think they're on that <![CDATA[<color=orange>gas giant</color>]]> we're orbiting.": "とりあえず、Chert本人に聞くのがいいと思う。私たちが周回しているあの<![CDATA[<color=orange>巨大ガス惑星</color>]]>にいるはずだから。",
+    "Don't fall into the sulfuric acid! I've heard it doesn't feel very good.": "硫酸には落ちないで！あんまり気分のいいものではないはずだから。",
+
+    // Chert
+    "Hatchling, you're awake! I'm a bit surprised you found me all the way out here.": "ひよっ子、起きたか！こんなところまで来て私を見つけるとは、少し驚いたよ。",
+    "Anything I can do for you?": "何か用があるのか？",
+    "Why are you out here?": "なぜここに？",
+    "Do you know anything about a warning message?": "あの警告メッセージについて知ってる？",
+    //"I'm going to take a look around.": "周りを見てくるよ。", // duplicated
+    "I know! Pretty crazy planet, isn't it? I personally prefer somewhere with a better view of the night sky.": "そうだな！かなり狂った惑星だろう？個人的には夜空がもっとよく見える場所がよかった。",
+    "Although, it's not every day that I get to <![CDATA[<color=orange>study a star this closely</color>]]>.": "とはいえ、これほど<![CDATA[<color=orange>間近に恒星を研究できる</color>]]>機会はそうそうないんだ。",
+    "Look around if you don't know what I'm talking about.": "もし私の言っているものが何なのかわからないなら、周りを見てくるといい。",
+    "A warning message? You could say that. I received a garbled message that seemed to be coming from <![CDATA[<color=orange>inside of Ash Twin</color>]]>.": "警告メッセージ？そうとも言えるな。おそらく<![CDATA[<color=orange>灰の双子星内部</color>]]>から来たのであろう要領を得ないメッセージを私は受信した。",
+    "A lot of the transmission was lost, but I heard one thing in particular:": "伝送された内容の多くは失われていたものの、そのうち特に1つのことが聞こえた:",
+    "\"Our sun is about to go supernova!\"": "\"我々の太陽が超新星になろうとしている！\"",
+    "Chilling, I know. Whoever sent that message must be able to see into the future, because after I ran the tests I discovered that the warning was true.": "ゾッとした。そのメッセージを送った人物は未来を見通せるに違いない。なぜなら、私が検査してみたところ、その警告が事実であるとわかったからだ。",
+    "I just hope the same doesn't happen here.": "ここで同じことが起こらないことを願うばかりだよ。",
+    "Stay safe!": "気をつけて！",
+
+    // layered_ruins_text
+    "CEDRUS: We require some means of imparting energy to the experiment to establish initial stability. A key to wind it up of per-say.": "CEDRUS:初期安定性を確立するために、その実験にはエネルギーを与えるための何らかの手段が必要。つまり、ブーストするためのカギよ。",
+    "MIACEAE: That key will need to be charged. What means of doing so would function best?": "MIACEAE:そのカギはチャージしなくてはならない。どのような方法が最適だろうか？",
+    "CANARAE: A singularity would work. However, we would need some means of moving it to and from the desired location.": "CANARAE:特異点が使えるかもしれないぞ。ただし、そいつをどうにかして望んだ場所へ移動させなくちゃならない。",
+    "MIACEAE: Hypothesis: the raft we found on our previous warp would function well for this purpose.": "MIACEAE:仮説:前のワープで見つけたイカダがその目的に使えるかもしれない。",
+
+    // clocktower_text_outside
+    "CANARAE: I have unfortunate news my friends, the experiment has failed.": "CANARAE:残念な知らせだ。実験は失敗した。",
+    "CANARAE: My measurements indicate that stability is decreasing but my instruments lack accuracy. We need some means of more accurately measuring the time remaining.": "CANARAE:俺の測定は安定性の低下を示している。もっとも、この計測器では精度が足りない。残り時間をより正確に測れるものが必要だ。",
+    "CEDRUS: I can begin construction of such a measuring device immediately. Perhaps a clock tower would be aesthetically pleasing.": "CEDRUS:そういう計測器ならすぐにでも建設を始められるわ。時計塔のような見た目にすると美しさの観点からもいいかもしれない。",
+    "MIACEAE: While I appreciate your eye for aesthetics Cedrus, remember that speed of construction is key. Helian and the rest of the clan are eager to move on, particularly if there is a risk of destabilization.": "MIACEAE:Cedrusの美的センスには感謝しているが、建設スピードが重要であることはどうか忘れないでほしい。Helianをはじめとして私たちの部族の他の者たちは、特に不安定化のリスクがある場合には、ここを離れることを望んでいる。",
+
+    // clocktower_text_top
+    "CEDRUS: We have confirmation. Solar stability is indeed decreasing, albeit at a slow rate. Spark will go supernova in a few weeks.": "CEDRUS:確認できたわ。太陽としての安定性はゆっくりとした速さではあるけれど、確実に低下してる。閃光は数週間以内に超新星になるわ。",
+    "MIACEAE: Perhaps we could restabilize the system at regular intervals. However, doing so would require the clan to remain here indefinitely.": "MIACEAE:定期的にシステムを再安定化させることはできるかもしれない。だけど、そうするにはこの部族はずっとここにとどまることになってしまう。",
+    "MIACEAE: We would do well to broadcast our results to the other clans, Bromi. Though we may not have succeeded, what we have learned here may still be of some use. If we do restabilize the system, electromagnetic interference will prevent signals from being sent or received while we remain nearby.": "MIACEAE:私たちの成果は他の部族に広めるべきだろう、Bromiのところとか。成功したとはいえないかもしれないが、ここで学んだことはまだ役に立つかもしれない。それにもしシステムを再安定化させたとしても、電磁波の干渉によってこの近くにいる限り、信号を送受信することはできなくなってしまう。",
+    "CANARAE: The rate at which supernovas are occuring continues to increase. Solar stabilization must be solved quickly before no more suitable stars remain.": "CANARAE:超新星の発生率は増加の一途をたどっている。適切な星がなくなる前に、太陽の安定化は早急に解決しなければならない。",
+    "MIACEAE: It is time to move onwards. There is a festival shortly in the Blackrock system. Perhaps one of the other clans has found a solution.": "MIACEAE:そろそろ先へ進むときだ。もうすぐ黒き岩の星系で祝祭が行われる。もしかしたら他の部族で何か解決策が見つかっているかもしれない。",
+
+    // gas_giant_text
+    "CANARAE: These small-scale prototypes are proving promising. There is barely a sensation of heat when approaching them, although there is quite an electrical shock if not properly insulated.": "CANARAE:この小型プロトタイプは有望だ。しっかり絶縁されてなければかなりの電気ショックを食らうことになるが、近づいてもほとんど熱を感じない。",
+    "HELIAN: Cedrus will ensure the key provides the needed insulation, though it will not protect an entire shuttle. Will we soon be ready to apply the same properties to Spark itself?": "HELIAN:カギはシャトル全体を保護することはできないものの、必要な絶縁は保証してくれるとCedrusが言っていた。閃光自体に同じ特性を適用することはすぐにできるのか？",
+    "CANARAE: Very likely. Though I do not envy the one of us who will have to make the first trip into its core.": "CANARAE:ああおそらくな。とはいえ、俺たちのうち、あのコアへ初めての旅行をするようなヤツをうらやましいと思うことはないだろう。",
+
+    // sun_computer
+    "Solar key detected. Transferring energy...": "太陽のカギを検出しました。エネルギー転送中…",
+    "Energy transferred. Solar stability restored. Estimated duration until destabilization: 57 years.": "エネルギー転送完了しました。太陽の安定性が回復しました。不安定化までの推定期間:57年",
+    "Proceed forwards and enter the singularity to return to Layered Lagoon.": "そのまま前進して特異点に入り、水上の浮島へお帰りください。",
+
+    // End
+    "Thank you for playing <![CDATA[<color=#fffb00>Evacuation!</color>]]>": "Thank you for playing <![CDATA[<color=#fffb00>Evacuation!</color>]]>",
+    "This mod was developed by Team Ernesto which consists of Texture_Turtle, Samster86, and Walker. It was made as part of the 2023 New Horizons modding jam.": "このMODは、Texture_Turtle、Samster86、WalkerからなるチームErnestoにより開発されました。これは2023 New Horizons modding jamの中で作られたものです。",
+    "This is the end of the mod. We hope you had fun!": "このMODはここで終了です。楽しんでいただけたなら幸いです！"
+  },
+  "ShipLogDictionary": {
+    // layered_log
+    "Solar Key": "太陽のカギ",
+    "Experiment Key": "実験のカギ",
+    "A Nomai key is being charged somewhere by a white hole.": "ホワイトホールを通してどこからかチャージされているNomaiのカギ。",
+    "A Nomai key of some sort is contained beyond the white hole.": "ホワイトホールの向こうにはNomaiのカギのようなものがある。",
+    "White Hole Ruins": "ホワイトホールの遺跡",
+    "A set of Nomai ruins with the entrance blocked by a white hole.": "入口がホワイトホールでふさがれたNomaiの遺跡。",
+    "The Nomai constructed a key to charge their experiment. A Nomai named Canarae proposed using a singularity moved using a raft to do so.": "Nomaiは彼らの実験にチャージするためのカギを作った。Canaraeという名のNomaiは、イカダを使って特異点を移動させることを提案した。",
+
+    // acid_log
+    "Clock Tower": "時計塔",
+    "A large Nomai clock tower jutting out of the acidic surface.": "大きなNomaiの時計塔が酸の表面から突き出るように建っている。",
+    "A Nomai experiment failed. A Nomai named Cedrus constructed a clock tower to track the time until the experiment's stability was lost.": "Nomaiの実験は失敗した。Cedrusという名のNomaiは、実験の安定性が失われるまでの時間を計測するために時計塔を建設した。",
+    "The purpose of the experiment was to stabilize this system's star. A Nomai named Miaceae believed they could manually restore stability at regular intervals but that doing so would require constant vigilance.": "実験の目的はこの星系の太陽を安定化させることだった。Miaceaeという名のNomaiは、定期的に手動で安定性を回復させることができると信じていた。しかし、そのためには常に注意している必要があるという。",
+
+    // gas_log
+    "Sun Models": "太陽の模型",
+    "Three small suns orbit beneath the cloud layer.": "雲の下を3つの小さな太陽が周回している。",
+    "A Nomai named Canarae claimed that the small suns are safe to approach if one is insulated against electricity. A Nomai named Cedrus would construct a key with insulating properties but it would not protect an entire ship. The Nomai intended to soon apply this process to Spark itself.": "Canaraeという名のNomaiは、絶縁すれば小さな太陽に近づいても安全だと主張した。Cedrusという名のNomaiは、船全体を守ることはできないものの絶縁効果のあるカギを作った。Nomaiはこの方法を閃光自体にもすぐ適用するつもりだった。",
+
+    // glitched_log
+    "Unknown Signal": "未知の信号",
+    "Forgetful": "忘失",
+    "Esker said I should talk to other Hearthians at the north pole camp to jog my memory.": "記憶を呼び覚ますために北極のキャンプ地にいる他のHearthianたちと話すべきだとEskerは言った。",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> I detected a signal on an unknown frequency when I pointed my signalscope at a particular section of the sky. The signal is in nomaian. I'm taking it to Hal to translate.": "<![CDATA[<Color=#00ff43>]]>回復したデータ:<![CDATA[</Color>]]>シグナルスコープを空のある部分に向けたとき、私は未知の周波数の信号を検知した。その信号はNomaiのものであった。Halに翻訳してもらうよう頼んだ。",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> The message carried by the signal describes a Nomai experiment in another solar system. Something about stabilizing stars!": "<![CDATA[<Color=#00ff43>]]>回復したデータ:<![CDATA[</Color>]]>その信号が伝えるメッセージには、別の太陽系でのNomaiの実験について記述されていた。太陽を安定化させる何かについてだ！",
+    "ATP Manipulation": "灰の双子星プロジェクトを操作",
+    "Confused": "困惑",
+    "I seem to be remembering. I think something happened at the Hourglass Twins but what?": "私は思い出してきている。砂時計の双子星で何かあったような気がするが、何だろうか？",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> I found some controls for the Ash Twin Project accessible using a Nomai staff. They contain options for the quantity of information sent back in time.": "<![CDATA[<Color=#00ff43>]]>回復したデータ:<![CDATA[</Color>]]>Nomaiのつえを使ってアクセスできる灰の双子星プロジェクトの制御装置を見つけた。そこには、過去に送る情報の量を決めるオプションがあった。",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> By reducing the amount of information sent by the Ash Twin Project, I can increase the amount of time it is sent back by!": "<![CDATA[<Color=#00ff43>]]>回復したデータ:<![CDATA[</Color>]]>灰の双子星プロジェクトから送られる情報の量を減らすことで、より遠い過去へ情報を送ることが可能となる！",
+    "A Plan": "プラン",
+    "What did I do?": "私は何をした？",
+    "I remember that I sent the message to Chert, but why can't I remember other details?": "私はメッセージをChertに送ったことは思い出した。だが、なぜ他の詳細を思い出せないのだろうか？",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> I have come up with a plan. I don't know how intact these logs will remain but I'm writing them anyways because if my plan succeeds, I will almost certainly forget what happened.": "<![CDATA[<Color=#00ff43>]]>回復したデータ:<![CDATA[</Color>]]>私はあるプランを思いついた。このログがどの程度無傷で残るかはわからない。だが、このプランが成功すれば、私は何が起きたのかほぼ間違いなく忘れてしまうだろうから、とにかくここに書いておく。",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> I'm going to set the Ash Twin Project to send as strong a signal as I can make as far back in time as possible, warning about the sun's explosion. In order to get that extra energy, I'm not going to be able to remember that last few loops. Hopefully Chert will pick up the signal and warn the others. Maybe they can evacuate towards that Nomai signal I picked up. I hope...": "<![CDATA[<Color=#00ff43>]]>回復したデータ:<![CDATA[</Color>]]>可能な限り遠い過去へ、可能な限り強い信号を、灰の双子星プロジェクトが送るようセットするつもりだ。そのための超過したエネルギーを得られるように、直前の数ループ分を思い出せないようにする。うまくいけば、Chertが信号を拾って他の者たちに警告してくれるだろう。もしかしたら、私が拾ったNomaiの信号に向かって避難してくれるかもしれない。そう願っている…。",
+
+    // spark_log
+    "Clockwork Sun": "時計じかけの太陽",
+    "Solar Experiment": "太陽実験",
+    "This system's sun was the subject of a Nomai experiment in stabilizing stars.": "この星系の太陽は、恒星を安定化させるためのNomaiの実験対象だった。",
+    "There is a large clockwork Nomai structure at the core of the sun.": "太陽のコアには巨大な時計じかけのNomaiの構造物が存在する。"
+  }
+}

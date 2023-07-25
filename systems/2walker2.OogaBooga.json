@@ -4,6 +4,7 @@
 	"enableTimeLoop": true,
 	"loopDuration": 22,
 	"startHere": true,
+	"canEnterViaWarpDrive": false,
 	"entryPositions": [
 		{
 		  "id": "jam_spark",

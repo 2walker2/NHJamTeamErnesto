@@ -921,15 +921,9 @@
 	"ShockEffect": {},
 	"Spawn": {
 		"playerSpawn": {
-			"position": {
-				"x": 1.043517,
-				"y": -9.68112,
-				"z": -1.513971
-			},
-			"rotation": {
-				"x": 90.0,
-				"y": 30.0
-			},
+			"position": {"x": -0.1275925, "y": -9.622151, "z": -0.6371303},
+			"rotation": {"x": 88.98586, "y": 30.00028, "z": 270.0002},
+			"offset": {"x": 0, "y": 0.5, "z": 0},
 			"startWithSuit": true
 		}
 	},
