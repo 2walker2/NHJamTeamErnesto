@@ -1,0 +1,210 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+  "UIDictionary": {
+    "The Campground": "营地",
+    "Layered Lagoon": "层盐湖星",
+    "Spark": "闪光星",
+    "Twilight Frost": "暮林星",
+    "Smoldering Gulch": "阴燃谷星",
+    "DATA CORRUPTED": "数据损坏",
+
+    "WARNING: SULFURIC ACID DETECTED": "警告：检测到硫酸",
+    "Nomai Radio": "挪麦电台",
+    "Experiment Results": "实验结果",
+    "Thank you for downloading Evacuation, a mod made for the 2023 New Horizons modding jam! Please play on an existing save file.": "感谢你下载Evacuation（撤离），这个模组是为2023年New Horizons模组即兴制作赛开发的！请在已有存档上游玩本模组。"
+  },
+  "DialogueDictionary": {
+    // Esker
+    "Hey, hatchling! Good to see you're finally awake.": "嘿，年轻人！很高兴你终于醒了。",
+    "It looks to me like you're confused about what's going on. A lot happened while you were asleep!": "我能看出来你现在对于到底发生了什么感到疑惑。你睡着的时候发生了好些事情呢！",
+    "Try <![CDATA[<color=orange>talking to the others down on the surface</color>]]>. Maybe that will help you catch up on what happened.": "去<![CDATA[<color=orange>和地面上的大伙说说话</color>]]>吧。这也许能帮你了解发生了什么。",
+    "See that large clump of trees at the bottom of the planet? That's where they set up camp.": "看到那颗星球底部的一大丛树了吗？大伙在那里扎了营。",
+    "Speak to <![CDATA[<color=orange>Rutile</color>]]>, they'll know what to do.": "和<![CDATA[<color=orange>鲁迪尔</color>]]>谈谈吧，他会知道要做什么的。",
+
+    // Gossan
+    "We borrowed your ship while you were sleeping, hatchling. Hope you don't mind.": "我们在你睡着的时候借用了你的飞船，年轻人。希望你不介意。",
+    "Don't worry! Slate is keeping an eye on it at the <![CDATA[<color=orange>north pole camp</color>]]>.": "不用担心！斯雷特在<![CDATA[<color=orange>北极营地</color>]]>那里照看你的飞船",
+    "The ship you're in now was made out of old mining equipment back on Timber Hearth. I have no idea how Slate made this thing fly.": "你现在身处的飞船是用之前木炉星上的老挖矿机器做的。我真想不到斯雷特是怎么让这玩意儿飞上天的。",
+    "Anyway, the others are probably waiting on you. The camp is just a <![CDATA[<color=orange>quick spacewalk</color>]]> away!": "顺带一提，大伙应该还在等你。营地不远，<![CDATA[<color=orange>在太空中飘一段距离</color>]]>就到了！",
+
+    // Rutile
+    "Hello, hatchling!": "你好啊年轻人！",
+    "Where are we?": "我们在哪儿？",
+    "What's going on?": "发生了什么？",
+    "I'm going to go look around.": "我去周围看看。",
+    "We're on <![CDATA[<color=orange>Layered Lagoon</color>]]>, located a few hundred kilometers away from the <![CDATA[<color=orange>Outer Wilds</color>]]>.": "我们在<![CDATA[<color=orange>层盐湖星</color>]]>上。离Outer Wilds有几百公里远吧。",
+    "Right now, we are still setting up camp. There's plenty to do if you want to help.": "现在我们正在搭建营地。如果你想帮忙的话还有很多能做的。",
+    "We received a message a few days ago that told us we were in danger, so we had to evacuate here.": "几天前我们收到了一条消息，它说我们正处于危险之中。于是我们撤离到了这里。",
+    "I recommend asking <![CDATA[<color=orange>Hal</color>]]> about it. They organized the whole evacuation.": "我建议你问问<![CDATA[<color=orange>哈尔</color>]]>。是他组织了整个撤离计划。",
+    "They should be around camp somewhere.": "他应该就在营地附近。",
+    "Don't stray too far!": "别走太远！",
+
+    // Marl
+    "Rutile put me in charge of planting the trees around our camp.": "鲁迪尔让我负责在营地附近种树。",
+    "It's not really my kind of thing, but that's alright. More trees means more chances to chop them down!": "我不喜欢这么做，不过也没事。树越多，砍树的机会就越多 ！",
+
+    // Gneiss
+    "Don't tell anyone I told you this, but I'm working on a new instrument for you.": "别告诉任何人我和你讲了这个。我在做一个新乐器，给你的。",
+    "I'm not going to tell you what it is, though. You'll just have to wait and see!": "但我不会告诉你是什么乐器的。等着瞧瞧吧！",
+
+    // Slate
+    "Hey, hatchling. Sorry you never had your grand launch day. I know how important that was to you.": "嘿，年轻人。很抱歉你没能拥有你的发射日。我知道这对你来说有多重要。",
+    "But with how frantic Chert was yelling, we decided we had to leave pretty quick.": "但切特喊得那叫一个疯，所以我们决定必须尽快离开。",
+    "But hey, I just finished repairing and cleaning your ship. It's ready to fly!": "但是，嘿，我刚修好你的飞船，还清洁了一遍。它随时都能起飞！",
+    "I did notice that there were some oddities with your ship log, though. I couldn't make heads or tails of it. Have you been modifying the ship without telling me?": "不过，我注意到你的飞船日志有些异常。我完全搞不懂是为什么。你是不是瞒着我改造了飞船？",
+
+    // Feldspar
+    "Heya, hatchling. Yes, it's me, the famous Feldspar. Everything you've heard about is true.": "嘿呀，年轻人！是的，是我，大名鼎鼎的费尔德斯巴。你听到的那些事情都是真的。",
+    "Except for the things that aren't.": "除了那些假的不是。",
+    "I'll be honest, it's weird being back here with all of you. I've spent so long flying around the Outer Wilds that I forgot how nice it is to share a song with Gneiss.": "实话实说，回到这儿和大伙在一起感觉好奇怪。我花了太多时间在Outer Wilds到处飞，都忘了和奈斯一起分享一首歌是多棒的事。",
+    "Or a marshmallow with Slate.": "还有和斯雷特一起分享一支棉花糖。",
+    "I'll rest for a while, but then I'll be ready to take off again.": "我先休息一会儿，但我很快就会准备好再次起飞。",
+    "After all, it's not every day the sun rises on a new horizon.": "毕竟，不是每天都有太阳在崭新的地平线上升起。",
+
+    // Hal
+    "Hey, hatchling! We've detected an unusual signal from a nearby celestial body, so we sent Riebeck to investigate.": "嘿，年轻人！我们检测到附近的一颗天体发出了异常信号，于是我们派遣了瑞拜克去调查。",
+    "What is it?": "什么信号？",
+    "Where is it coming from?": "那信号从哪儿来的？",
+    "We don't know yet, but what we DO know is that it's Nomai in origin! Isn't that wild?": "我们还不知道，但能确定的是它来自挪麦人！这不是很疯狂吗？",
+    "Here we are in a completely different solar system, and still the Nomai have left their mark.": "我们正处于一个完全不同的太阳系，但即使是这儿都能发现挪麦人的踪迹。",
+    "Do you still have that translator tool? Perhaps you could <![CDATA[<color=orange>go give Riebeck a hand</color>]]>?": "翻译器还在你手上吧？也许你能去<![CDATA[<color=orange>帮瑞拜克一把</color>]]>？",
+    "You know how to find them.": "你知道怎么找到他。",
+    "It seems to be coming from the <![CDATA[<color=orange>large blue planet</color>]]>. We can't seem to pinpoint it closer than that.": "它貌似来自那颗<![CDATA[<color=orange>蓝色的大行星</color>]]>。我们只能定位到那个位置了。",
+
+    // Porphy
+    "The children wouldn't stop pestering me about dinner, so I told them to play the quiet game.": "孩子们一直缠着我要吃饭，所以我让他们玩“谁最安静”的游戏。",
+    "Works every time.": "屡试不爽。",
+
+    // Hornfels
+    "Good to see you, hatchling.": "很高兴见到你，年轻人。",
+    "I'm pretty exhausted. Slate and I have been trying to keep an entire fleet of ships flying all day.": "我真的好累。斯雷特和我一整天都在开船。",
+    "I'll work on this for a little while longer, then I'll find a nice sleeping bag to crawl into.": "我要再工作一会儿，然后去找个舒服的睡袋好好睡一觉。",
+
+    // Moraine
+    "I've been pointing my Signalscope at different objects in this solar system. They don't sing like any of the planets at home do.": "我一直在用信号镜观测这个星系里的其他天体。它们不像我们家那边的星球一样会唱歌。",
+    "Although, Hal found a strange signal coming from another planet earlier.": "但是，哈尔早些时候发现了一段来自另一颗星球的奇怪信号。",
+    "You can go ask them about it.": "你可以去问问他。",
+
+    // Spinel
+    "I'll be honest with you, hatchling, I did not bring enough fishing line to reach the water below.": "老实跟你说，年轻人。我带的鱼线够不到下面的水。",
+    "I just don't want to help set up camp.": "我只是不想去帮忙搭建营地。",
+
+    // Tektite
+    "Don't bother Tuff. They're trying to get into these ruins.": "不要打扰塔夫。他正在尝试进入这些遗迹。",
+
+    // Riebeck
+    "Hello! Good to see you in the air!": "你好！很高兴在太空中见到你！",
+    "I've explored this moon... a little...": "我已经探索了这颗卫星…一点点吧…",
+    "What have you learned about this planet?": "你对这颗星球了解多少？",
+    "What do you think that tower is used for?": "你觉得那座塔是做什么用的？",
+    "What do you know about a warning message?": "关于警告消息你知道多少？",
+    "I'm going to take a look around.": "我去附近看看。",
+    "Well, the first thing I learned is that this planet is very scary.": "那么，我了解到的第一件事就是这颗星球非常吓人。",
+    "The second thing I learned is that it is filled with <![CDATA[<color=orange>sulfuric acid</color>]]>, which is also very scary. The acid is <![CDATA[<color=orange>falling</color>]]> though, which is nice. Must be all the geysers launching it into orbit.": "第二件事就是这颗星球上充满了<![CDATA[<color=orange>硫酸</color>]]>，这也很吓人。不过酸液深度在<![CDATA[<color=orange>下降</color>]]>，这是好事。应该是因为间歇泉在向卫星轨道喷发酸液。",
+    "Thirdly, I found a Nomai <![CDATA[<color=orange>clock tower</color>]]> on the other side. Quite fascinating!": "第三，我在另一端发现了一座挪麦<![CDATA[<color=orange>钟塔</color>]]>，这相当吸引人！",
+    "I didn't go inside, because... well... it's scary.": "我没进去，因为…好吧…这很吓人。",
+    "The tower on the other side of the moon? Obviously it's designed to keep time.": "你说在卫星另一端的那座塔？很显然它是用来计时的。",
+    "The real question is this: WHY did they need to keep track of the time? Was it just to measure the passage of time? Were they counting down to something?": "真正的问题是：&lt;i&gt;为什么&lt;/i&gt;他们要记录时间？仅仅是为了测量时间的流逝吗？他们是在为了什么倒计时吗？",
+    "That's the funny thing about the passage of time, <![CDATA[<color=orange>it makes it easy to forget</color>]]>. I know I never remember anything unless I <![CDATA[<color=orange>write it down</color>]]>.": "这就是时间流逝的有趣之处，<![CDATA[<color=orange>它让遗忘就这么发生了</color>]]>。我知道除非我把东西<![CDATA[<color=orange>写下来</color>]]>，否则我什么都记不住。",
+    "Wow, that sounded very profound.": "哇哦，这听起来好深奥。",
+    "Maybe I should write that down...": "也许我应该把它写下来…",
+    "I just know that Chert heard a signal coming from inside Ash Twin. Something about a supernova.": "我只知道切特接收到一段来自灰烬双星内部的信号。关于什么超新星的。",
+    "They landed on Timber Hearth in panic and Hal signaled all of the travelers to come back. Even Feldspar came. We thought they were dead!": "他惊慌失措地降落到木炉星上，然后哈尔发信号召回所有旅行者。连费尔德斯巴都回来了。我们还以为他已经死了！",
+    "Anyways, you're probably better off asking Chert themselves. I think they're on that <![CDATA[<color=orange>gas giant</color>]]> we're orbiting.": "不管怎样，你最好去问切特本人。我觉得他就在这颗我们绕着转的<![CDATA[<color=orange>气态大行星</color>]]>上。",
+    "Don't fall into the sulfuric acid! I've heard it doesn't feel very good.": "别掉进硫酸里哦！我听说那滋味可不好受。",
+
+    // Chert
+    "Hatchling, you're awake! I'm a bit surprised you found me all the way out here.": "年轻人，你醒了啊！我有点惊讶你大老远地找到我。",
+    "Anything I can do for you?": "我能为你做点什么？",
+    "Why are you out here?": "你为什么在这儿？",
+    "Do you know anything about a warning message?": "关于警告信息你知道些什么？",
+    //"I'm going to take a look around.": "我去附近看看。", // duplicated
+    "I know! Pretty crazy planet, isn't it? I personally prefer somewhere with a better view of the night sky.": "我明白！这颗星球真是疯狂，不是吗？我个人而言更喜欢视野开阔能看见夜空的地方。",
+    "Although, it's not every day that I get to <![CDATA[<color=orange>study a star this closely</color>]]>.": "虽然但是，不是每天都有机会能<![CDATA[<color=orange>这么近距离地研究一颗恒星</color>]]>。",
+    "Look around if you don't know what I'm talking about.": "如果你不知道我在说什么，看看周围。",
+    "A warning message? You could say that. I received a garbled message that seemed to be coming from <![CDATA[<color=orange>inside of Ash Twin</color>]]>.": "警告信息？你也可以这么说。我接收到一段混乱的信息，它好像来自<![CDATA[<color=orange>灰烬双星内部</color>]]>。",
+    "A lot of the transmission was lost, but I heard one thing in particular:": "很大一部分信息内容丢失了，但我清楚地听到了一件事情：",
+    "\"Our sun is about to go supernova!\"": "“我们的太阳要超新星爆发了！”",
+    "Chilling, I know. Whoever sent that message must be able to see into the future, because after I ran the tests I discovered that the warning was true.": "我明白，真是令人毛骨悚然啊。不管发送这条消息的人是谁，他一定能预知未来。因为我的测试结果证明，那条警告信息说的是真的。",
+    "I just hope the same doesn't happen here.": "我只希望同样的事不要发生在这里。",
+    "Stay safe!": "注意安全！",
+
+    // layered_ruins_text
+    "CEDRUS: We require some means of imparting energy to the experiment to establish initial stability. A key to wind it up of per-say.": "赛德斯:我们需要一个输送能量的方式，将能量运送到“稳定性初始化”的实验中。还要一把能每天给实验上发条的钥匙。",
+    "MIACEAE: That key will need to be charged. What means of doing so would function best?": "米埃希:那把钥匙需要充能。哪种充能方式会最有效？",
+    "CANARAE: A singularity would work. However, we would need some means of moving it to and from the desired location.": "卡纳拉:一个奇点就行。不过，我们要找个方法把奇点移动到指定地点。",
+    "MIACEAE: Hypothesis: the raft we found on our previous warp would function well for this purpose.": "米埃希:假设：在上次跃迁中发现的那个木筏能达到目标效果。",
+
+    // clocktower_text_outside
+    "CANARAE: I have unfortunate news my friends, the experiment has failed.": "卡纳拉:我有个坏消息，朋友们。实验失败了。",
+    "CANARAE: My measurements indicate that stability is decreasing but my instruments lack accuracy. We need some means of more accurately measuring the time remaining.": "卡纳拉:我的测量结果表明实验对象的稳定性在衰减，但我的仪器还缺乏精度。我们需要更加精确的方法来测量剩下多少时间。",
+    "CEDRUS: I can begin construction of such a measuring device immediately. Perhaps a clock tower would be aesthetically pleasing.": "赛德斯:我可以立刻开始建造一台这样的测量仪器。也许一座钟塔会更美观。",
+    "MIACEAE: While I appreciate your eye for aesthetics Cedrus, remember that speed of construction is key. Helian and the rest of the clan are eager to move on, particularly if there is a risk of destabilization.": "米埃希:我很欣赏你的审美眼光，赛德斯，同时也要记住，建造的速度才是关键。海利安和家族的其他成员希望继续前进，尤其是现在实验对象可能不稳定化的情况下。",
+
+    // clocktower_text_top
+    "CEDRUS: We have confirmation. Solar stability is indeed decreasing, albeit at a slow rate. Spark will go supernova in a few weeks.": "赛德斯:我们已经确认了。虽然速度缓慢，但是太阳的稳定性真的在下降。闪光星将会在几周后爆发为超新星。",
+    "MIACEAE: Perhaps we could restabilize the system at regular intervals. However, doing so would require the clan to remain here indefinitely.": "米埃希:也许我们能定期稳定系统。但是这么做就需要族群永远留在这里。",
+    "MIACEAE: We would do well to broadcast our results to the other clans, Bromi. Though we may not have succeeded, what we have learned here may still be of some use. If we do restabilize the system, electromagnetic interference will prevent signals from being sent or received while we remain nearby.": "米埃希:我们最好还是将研究成果发送给其他家族，比如布罗米家族。虽然我们的实验可能会失败，但我们在这儿学到的知识或许还有用。如果我们真的能重新稳定整个系统，系统重启后产生的电磁干扰会阻止我们向外发送或接受任何信号。",
+    "CANARAE: The rate at which supernovas are occuring continues to increase. Solar stabilization must be solved quickly before no more suitable stars remain.": "卡纳拉:超新星出现的速率在不断增长。在没有合适的恒星剩下之前，我们必须尽快解决太阳稳定性的问题。",
+    "MIACEAE: It is time to move onwards. There is a festival shortly in the Blackrock system. Perhaps one of the other clans has found a solution.": "米埃希:是时候向前进了。很快在黑石星系会有一次知识节。也许其他家族已经找到了解决方案。",
+
+    // gas_giant_text
+    "CANARAE: These small-scale prototypes are proving promising. There is barely a sensation of heat when approaching them, although there is quite an electrical shock if not properly insulated.": "卡纳拉:这些小型原型体很有希望。接近它们时几乎感觉不到热量。但是如果接近原型体时没有适当的绝缘措施，会遭受较强的电击。",
+    "HELIAN: Cedrus will ensure the key provides the needed insulation, though it will not protect an entire shuttle. Will we soon be ready to apply the same properties to Spark itself?": "海利安:赛德斯会保证钥匙上有满足需要的绝缘措施，不过钥匙无法保护整艘飞船。我们能尽快将这些原型体的特性应用到闪光星上吗？",
+    "CANARAE: Very likely. Though I do not envy the one of us who will have to make the first trip into its core.": "卡纳拉:很有可能。不过我可不嫉妒我们中那个能第一个进入闪光星核心的人。",
+
+    // sun_computer
+    "Solar key detected. Transferring energy...": "检测到太阳钥匙，能量传输中…",
+    "Energy transferred. Solar stability restored. Estimated duration until destabilization: 57 years.": "能量传输已完成。太阳稳定性已恢复。预计下次不稳定时间：57年后。",
+    "Proceed forwards and enter the singularity to return to Layered Lagoon.": "往前走进入奇点以返回层盐湖星。",
+
+    // End
+    "Thank you for playing <![CDATA[<color=#fffb00>Evacuation!</color>]]>": "感谢你游玩 <![CDATA[<color=#fffb00>Evacuation!</color>]]>",
+    "This mod was developed by Team Ernesto which consists of Texture_Turtle, Samster86, and Walker. It was made as part of the 2023 New Horizons modding jam.": "这个模组由Ernesto团队开发，团队成员有Texture_Turtle，Samster86以及Walker。此模组参加了2023年New Horizons模组即兴制作赛。",
+    "This is the end of the mod. We hope you had fun!": "本模组到此结束。我们希望你玩得开心！"
+  },
+  "ShipLogDictionary": {
+    // layered_log
+    "Solar Key": "太阳钥匙",
+    "Experiment Key": "实验钥匙",
+    "A Nomai key is being charged somewhere by a white hole.": "某处有一把通过白洞充能的挪麦钥匙。",
+    "A Nomai key of some sort is contained beyond the white hole.": "一把挪麦钥匙藏在白洞后面",
+    "White Hole Ruins": "白洞遗迹",
+    "A set of Nomai ruins with the entrance blocked by a white hole.": "一段入口被白洞堵住的挪麦废墟。",
+    "The Nomai constructed a key to charge their experiment. A Nomai named Canarae proposed using a singularity moved using a raft to do so.": "挪麦人制造了一把钥匙来为他们的实验充能。一个名叫卡纳拉的挪麦人提议使用一个跟着木筏移动的奇点来传送能量。",
+
+    // acid_log
+    "Clock Tower": "钟塔",
+    "A large Nomai clock tower jutting out of the acidic surface.": "一座巨大的挪麦钟塔在酸性地表上拔地而起。",
+    "A Nomai experiment failed. A Nomai named CEDRUS constructed a clock tower to track the time until the experiment's stability was lost.": "一场挪麦实验失败了。一个名叫赛德斯的挪麦人建造了一座钟塔来记录时间，直到他们丧失实验的稳定性。",
+    "The purpose of the experiment was to stabilize this system's star. A Nomai named Miaceae believed they could manually restore stability at regular intervals but that doing so would require constant vigilance.": "实验的目的是重新稳定这个星系的太阳。一个名叫米埃希的挪麦人认为他们可以人工定期恢复太阳的稳定性，但这就意味着需要有人时刻留在这里，维护系统。",
+
+    // gas_log
+    "Sun Models": "太阳模型",
+    "Three small suns orbit beneath the cloud layer.": "三颗小型太阳在云层下绕星球运行。",
+    "A Nomai named Canarae claimed that the small suns are safe to approach if one is insulated against electricity. A Nomai named CEDRUS would construct a key with insulating properties but it would not protect an entire ship. The Nomai intended to soon apply this process to Spark itself.": "一个名叫卡纳拉的挪麦人声称只要做了绝缘措施，接近这些小太阳是安全的。一个名叫赛德斯的挪麦人会制作一把附带绝缘属性的钥匙，但钥匙没法保护一整艘飞船。又一个挪麦人想要立刻将成果应用于闪光星。",
+
+    // glitched_log
+    "Unknown Signal": "未知信号",
+    "Forgetful": "遗忘",
+    "Esker said I should talk to other Hearthians at the north pole camp to jog my memory.": "埃斯科说我应该到北极营地去和其他哈斯人聊聊，也许能唤起我的记忆。",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> I detected a signal on an unknown frequency when I pointed my signalscope at a particular section of the sky. The signal is in nomaian. I'm taking it to Hal to translate.": "<![CDATA[<Color=#00ff43>]]>输入数据已恢复：<![CDATA[</Color>]]>在我把信号镜对准天空中某个方位时，我在一个未知的频率上检测到一段挪麦语信号。我要把它拿给哈尔翻译。",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> The message carried by the signal describes a Nomai experiment in another solar system. Something about stabilizing stars!": "<![CDATA[<Color=#00ff43>]]>输入数据已恢复：<![CDATA[</Color>]]>那段信号携带携带的信息描述了挪麦人在另一个恒星系里进行的实验。关于什么稳定恒星状态！",
+    "ATP Manipulation": "灰烬双星计划控制权夺取",
+    "Confused": "困惑",
+    "I seem to be remembering. I think something happened at the Hourglass Twins but what?": "我好像记起来什么。我记得沙漏双星上发生了一些事，但具体是什么？",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> I found some controls for the Ash Twin Project accessible using a Nomai staff. They contain options for the quantity of information sent back in time.": "<![CDATA[<Color=#00ff43>]]>输入数据已恢复：<![CDATA[</Color>]]>我发现使用挪麦手杖可以访问灰烬双星计划的控制单元。有一个选项可以更改传送回过去的信息量。",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> By reducing the amount of information sent by the Ash Twin Project, I can increase the amount of time it is sent back by!": "<![CDATA[<Color=#00ff43>]]>输入数据已恢复：<![CDATA[</Color>]]>只要减少灰烬双星计划传送到过去的信息量，我就能将信息传送到更早的时间！",
+    "A Plan": "一个计划",
+    "What did I do?": "我做了什么？",
+    "I remember that I sent the message to Chert, but why can't I remember other details?": "我记得我把消息发送给了切特，但为什么我想不起其他细节了？",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> I have come up with a plan. I don't know how intact these logs will remain but I'm writing them anyways because if my plan succeeds, I will almost certainly forget what happened.": "<![CDATA[<Color=#00ff43>]]>输入数据已恢复：<![CDATA[</Color>]]>我有一个计划。我不知道这些日志能保存下来多少，但是不管了，我要记录下来。因为假如我的计划成功了，我将完全忘记发生的事。",
+    "<![CDATA[<Color=#00ff43>]]>Data Entry Restored:<![CDATA[</Color>]]> I'm going to set the Ash Twin Project to send as strong a signal as I can make as far back in time as possible, warning about the sun's explosion. In order to get that extra energy, I'm not going to be able to remember that last few loops. Hopefully Chert will pick up the signal and warn the others. Maybe they can evacuate towards that Nomai signal I picked up. I hope...": "<![CDATA[<Color=#00ff43>]]>输入数据已恢复：<![CDATA[</Color>]]>我将重设灰烬双星计划，让它以最大功率向最远的过去发送信号，警告大伙太阳要爆发了。为了得到足够的能量，我会遗忘前几次循环的记忆。希望切特能接收到信号并警告大家。也许他们能向我挑选出来的那个挪麦信号撤离，希望吧…",
+
+    // spark_log
+    "Clockwork Sun": "发条太阳",
+    "Solar Experiment": "太阳实验",
+    "This system's sun was the subject of a Nomai experiment in stabilizing stars.": "这个星系的太阳是挪麦人恢复恒星稳定性的实验对象。",
+    "There is a large clockwork Nomai structure at the core of the sun.": "在太阳的核心位置有一个巨大的挪麦发条装置。"
+  }
+}
