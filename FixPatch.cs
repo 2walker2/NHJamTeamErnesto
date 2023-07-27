@@ -25,7 +25,13 @@ namespace Evacuation {
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) => {
                 if (loadScene == OWScene.SolarSystem) {
                     Evacuation.Log("SolarSystem is loaded");
+
+                    if(_fixRaftCoroutine != null) {
+                        Evacuation.Instance.StopCoroutine(_fixRaftCoroutine);
+                        _fixRaftCoroutine = null;
+                    }
                     _fixRaftCoroutine = Evacuation.Instance.StartCoroutine(FixRaft());
+
                     _fixPlayerSpawnPosition = Evacuation.Instance.StartCoroutine(FixPlayerSpawnPosition());
                 }
                 else if(loadScene == OWScene.TitleScreen) {
@@ -112,7 +118,7 @@ namespace Evacuation {
                 //velocity = (playerTransform.position - prevPosOfPlayer) / Time.fixedDeltaTime;
                 velocity = (playerTransform.position - prevPosOfPlayer) / Time.deltaTime;
                 prevPosOfPlayer = playerTransform.position;
-                Evacuation.Log($"velocity: {velocity}");
+                //Evacuation.Log($"velocity: {velocity}");
 
                 //playerRigidbody.isKinematic = true;
                 if(!float.IsInfinity(velocity.x) && !float.IsNaN(velocity.x)) {
@@ -205,8 +211,10 @@ namespace Evacuation {
             _isRaftPushed = false;
             _wakeUp = false;
             _initialWakeUp = false;
-            Evacuation.Instance.StopCoroutine(_fixRaftCoroutine);
-            _fixRaftCoroutine = null;
+
+            //Evacuation.Instance.StopCoroutine(_fixRaftCoroutine); // this would move the raft when death (you can see it with closing your eyes)
+            //_fixRaftCoroutine = null;
+
             Evacuation.Instance.StopCoroutine(_fixPlayerSpawnPosition);
             _fixPlayerSpawnPosition = null;
         }
