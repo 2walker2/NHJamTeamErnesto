@@ -83,13 +83,11 @@ namespace Evacuation {
             Transform playerTransform = null;
             Rigidbody playerRigidbody = null;
             OWRigidbody playerOWRigidbody = null;
-            Transform sleepingBagTransform = null;
             SpawnPoint spawnPoint = null;
 
             float timeFromWakingUp = 0;
 
             Vector3 velocity = Vector3.zero;
-            //Vector3 prevPosOfSleepingBag = Vector3.zero;
             Vector3 prevPosOfPlayer = Vector3.zero;
 
             while(true) {
@@ -105,14 +103,6 @@ namespace Evacuation {
                         Evacuation.Log("player is found");
                     }
                 }
-                if(!sleepingBagTransform) {
-                    var sleepingBag = GameObject.Find(SLEEPING_BAG_PATH);
-                    if(sleepingBag) {
-                        sleepingBagTransform = sleepingBag.transform;
-                        //prevPosOfSleepingBag = sleepingBagTransform.position;
-                        Evacuation.Log("sleeping bag is found");
-                    }
-                }
                 if(!spawnPoint) {
                     var campground_body = GameObject.Find(CAMPGROUND_PATH);
                     if(campground_body) {
@@ -123,24 +113,8 @@ namespace Evacuation {
                         }
                     }
                 }
-                if(!playerTransform || !sleepingBagTransform || !spawnPoint) {
+                if(!playerTransform || !spawnPoint) {
                     continue;
-                }
-
-                //playerRigidbody.freezeRotation = true;
-                //velocity = (sleepingBagTransform.position - prevPosOfSleepingBag) / Time.deltaTime;
-                //velocity = (playerTransform.position - prevPosOfPlayer) / Time.fixedDeltaTime;
-                //velocity = (playerTransform.position - prevPosOfPlayer) / Time.deltaTime;
-                //prevPosOfPlayer = playerTransform.position;
-                //Evacuation.Log($"velocity: {velocity}");
-
-                //playerRigidbody.isKinematic = true;
-                if(!float.IsInfinity(velocity.x) && !float.IsNaN(velocity.x)) {
-                    //playerRigidbody.velocity = velocity;
-                    //playerOWRigidbody.SetVelocity(velocity);
-                    //if(!Physics.autoSyncTransforms) {
-                    //    Physics.SyncTransforms();
-                    //}
                 }
 
                 var pos = spawnPoint.transform.position;
@@ -148,25 +122,10 @@ namespace Evacuation {
                 velocity = spawnPoint._attachedBody.GetVelocity() + spawnPoint._attachedBody.GetPointTangentialVelocity(pos);
                 playerOWRigidbody.SetVelocity(velocity);
 
-                float coefficient;
-                //playerTransform.transform.eulerAngles = new Vector3(0, 0, 0);
-                if(_initialWakeUp) {
-                    coefficient = 0.85f;
-                }
-                else {
-                    coefficient = 0.9f;
-                }
-                //playerTransform.position = sleepingBagTransform.transform.position + sleepingBagTransform.transform.up * coefficient;
-                //playerTransform.parent = sleepingBagTransform;
-
                 if(timeFromWakingUp > _wakeLength * 0.8f) {
-                    //playerTransform.parent = null;
-                    //playerRigidbody.isKinematic = false;
-                    //playerRigidbody.freezeRotation = false;
                     yield break;
                 }
                 if(_wakeUp) {
-                    //timeFromWakingUp += Time.fixedDeltaTime;
                     timeFromWakingUp += Time.deltaTime;
                 }
             }
