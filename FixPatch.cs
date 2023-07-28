@@ -20,6 +20,7 @@ namespace Evacuation {
         const string RAFT_PLATFORM_PATH = "LayeredLagoon_Body/Sector/Prefab_NOM_SimpleChair_NoSkeleton (1)";
         const string RAFT_PATH = "LayeredLagoonRaft_Body";
         const string SLEEPING_BAG_PATH = "TheCampground_Body/Sector/Props_HEA_CampsiteSleepingBag";
+        const string CAMPGROUND_PATH = "TheCampground_Body";
 
         public static void Initialize() {
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) => {
@@ -81,7 +82,9 @@ namespace Evacuation {
         static IEnumerator FixPlayerSpawnPosition() {
             Transform playerTransform = null;
             Rigidbody playerRigidbody = null;
+            OWRigidbody playerOWRigidbody = null;
             Transform sleepingBagTransform = null;
+            SpawnPoint spawnPoint = null;
 
             float timeFromWakingUp = 0;
 
@@ -97,6 +100,7 @@ namespace Evacuation {
                     if(player) {
                         playerTransform = player.transform;
                         playerRigidbody = player.GetComponent<Rigidbody>();
+                        playerOWRigidbody = player.GetComponent<OWRigidbody>();
                         prevPosOfPlayer = player.transform.position;
                         Evacuation.Log("player is found");
                     }
@@ -109,21 +113,40 @@ namespace Evacuation {
                         Evacuation.Log("sleeping bag is found");
                     }
                 }
-                if(!playerTransform || !sleepingBagTransform) {
+                if(!spawnPoint) {
+                    var campground_body = GameObject.Find(CAMPGROUND_PATH);
+                    if(campground_body) {
+                        var spawnPointTransform = campground_body.transform.Find("PlayerSpawnPoint");
+                        if(spawnPointTransform) {
+                            spawnPoint = spawnPointTransform.GetComponent<SpawnPoint>();
+                            Evacuation.Log("spawn point is found");
+                        }
+                    }
+                }
+                if(!playerTransform || !sleepingBagTransform || !spawnPoint) {
                     continue;
                 }
 
                 //playerRigidbody.freezeRotation = true;
                 //velocity = (sleepingBagTransform.position - prevPosOfSleepingBag) / Time.deltaTime;
                 //velocity = (playerTransform.position - prevPosOfPlayer) / Time.fixedDeltaTime;
-                velocity = (playerTransform.position - prevPosOfPlayer) / Time.deltaTime;
-                prevPosOfPlayer = playerTransform.position;
+                //velocity = (playerTransform.position - prevPosOfPlayer) / Time.deltaTime;
+                //prevPosOfPlayer = playerTransform.position;
                 //Evacuation.Log($"velocity: {velocity}");
 
                 //playerRigidbody.isKinematic = true;
                 if(!float.IsInfinity(velocity.x) && !float.IsNaN(velocity.x)) {
-                    playerRigidbody.velocity = velocity;
+                    //playerRigidbody.velocity = velocity;
+                    //playerOWRigidbody.SetVelocity(velocity);
+                    //if(!Physics.autoSyncTransforms) {
+                    //    Physics.SyncTransforms();
+                    //}
                 }
+
+                var pos = spawnPoint.transform.position;
+                playerOWRigidbody.WarpToPositionRotation(pos, spawnPoint.transform.rotation);
+                velocity = spawnPoint._attachedBody.GetVelocity() + spawnPoint._attachedBody.GetPointTangentialVelocity(pos);
+                playerOWRigidbody.SetVelocity(velocity);
 
                 float coefficient;
                 //playerTransform.transform.eulerAngles = new Vector3(0, 0, 0);
@@ -133,7 +156,7 @@ namespace Evacuation {
                 else {
                     coefficient = 0.9f;
                 }
-                playerTransform.position = sleepingBagTransform.transform.position + sleepingBagTransform.transform.up * coefficient;
+                //playerTransform.position = sleepingBagTransform.transform.position + sleepingBagTransform.transform.up * coefficient;
                 //playerTransform.parent = sleepingBagTransform;
 
                 if(timeFromWakingUp > _wakeLength * 0.8f) {
