@@ -11,16 +11,32 @@ namespace Evacuation {
     public static class FixPatch {
         static bool _canBeDamaged = false;
         static bool _isRaftPushed = false;
+        static bool _wakeUp = false;
+        static float _wakeLength = 1f;
+        static bool _initialWakeUp = true;
         static Coroutine _fixRaftCoroutine;
+        static Coroutine _fixPlayerSpawnPosition;
 
         const string RAFT_PLATFORM_PATH = "LayeredLagoon_Body/Sector/Prefab_NOM_SimpleChair_NoSkeleton (1)";
         const string RAFT_PATH = "LayeredLagoonRaft_Body";
+        const string SLEEPING_BAG_PATH = "TheCampground_Body/Sector/Props_HEA_CampsiteSleepingBag";
+        const string CAMPGROUND_PATH = "TheCampground_Body";
 
         public static void Initialize() {
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) => {
                 if (loadScene == OWScene.SolarSystem) {
                     Evacuation.Log("SolarSystem is loaded");
+
+                    if(_fixRaftCoroutine != null) {
+                        Evacuation.Instance.StopCoroutine(_fixRaftCoroutine);
+                        _fixRaftCoroutine = null;
+                    }
                     _fixRaftCoroutine = Evacuation.Instance.StartCoroutine(FixRaft());
+
+                    _fixPlayerSpawnPosition = Evacuation.Instance.StartCoroutine(FixPlayerSpawnPosition());
+                }
+                else if(loadScene == OWScene.TitleScreen) {
+                    _initialWakeUp = true;
                 }
             };
         }
@@ -63,11 +79,71 @@ namespace Evacuation {
             }
         }
 
+        static IEnumerator FixPlayerSpawnPosition() {
+            Transform playerTransform = null;
+            Rigidbody playerRigidbody = null;
+            OWRigidbody playerOWRigidbody = null;
+            SpawnPoint spawnPoint = null;
+
+            float timeFromWakingUp = 0;
+
+            Vector3 velocity = Vector3.zero;
+            Vector3 prevPosOfPlayer = Vector3.zero;
+
+            while(true) {
+                //yield return new WaitForEndOfFrame();
+                yield return null;
+                if(!playerTransform) {
+                    var player = GameObject.FindObjectOfType<PlayerCharacterController>();
+                    if(player) {
+                        playerTransform = player.transform;
+                        playerRigidbody = player.GetComponent<Rigidbody>();
+                        playerOWRigidbody = player.GetComponent<OWRigidbody>();
+                        prevPosOfPlayer = player.transform.position;
+                        Evacuation.Log("player is found");
+                    }
+                }
+                if(!spawnPoint) {
+                    var campground_body = GameObject.Find(CAMPGROUND_PATH);
+                    if(campground_body) {
+                        var spawnPointTransform = campground_body.transform.Find("PlayerSpawnPoint");
+                        if(spawnPointTransform) {
+                            spawnPoint = spawnPointTransform.GetComponent<SpawnPoint>();
+                            Evacuation.Log("spawn point is found");
+                        }
+                    }
+                }
+                if(!playerTransform || !spawnPoint) {
+                    continue;
+                }
+
+                var pos = spawnPoint.transform.position;
+                playerOWRigidbody.WarpToPositionRotation(pos, spawnPoint.transform.rotation);
+                velocity = spawnPoint._attachedBody.GetVelocity() + spawnPoint._attachedBody.GetPointTangentialVelocity(pos);
+                playerOWRigidbody.SetVelocity(velocity);
+
+                if(timeFromWakingUp > _wakeLength * 0.8f) {
+                    yield break;
+                }
+                if(_wakeUp) {
+                    timeFromWakingUp += Time.deltaTime;
+                }
+            }
+        }
+
         [HarmonyPrefix]
         [HarmonyPatch(typeof(RaftController), nameof(RaftController.OnPressInteract))]
         public static void RaftController_OnPressInteract_Prefix() {
-            Evacuation.Log("Raft is pushed");
+            //Evacuation.Log("Raft is pushed");
             _isRaftPushed = true;
+        }
+
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(PlayerCameraEffectController), nameof(PlayerCameraEffectController.WakeUp))]
+        public static void PlayerCameraEffectController_WakeUp_Prefix(PlayerCameraEffectController __instance) {
+            _wakeUp = true;
+            _wakeLength = __instance._wakeLength;
+            Evacuation.Log($"Player is wake up. wakeLength: {_wakeLength}");
         }
 
         // Player does not get damaged before using their jetpack.
@@ -115,8 +191,26 @@ namespace Evacuation {
             //Evacuation.Log("Player is dead now");
             _canBeDamaged = false;
             _isRaftPushed = false;
-            Evacuation.Instance.StopCoroutine(_fixRaftCoroutine);
-            _fixRaftCoroutine = null;
+            _wakeUp = false;
+            _initialWakeUp = false;
+
+            //Evacuation.Instance.StopCoroutine(_fixRaftCoroutine); // this would move the raft when death (you can see it with closing your eyes)
+            //_fixRaftCoroutine = null;
+
+            Evacuation.Instance.StopCoroutine(_fixPlayerSpawnPosition);
+            _fixPlayerSpawnPosition = null;
+        }
+
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(DeathManager), nameof(DeathManager.KillPlayer))]
+        public static bool DeathManager_KillPlayer_Prefix(DeathType deathType) {
+            if(deathType == DeathType.Meditation) {
+                return true;
+            }
+            if(_canBeDamaged) {
+                return true;
+            }
+            return false;
         }
     }
 }

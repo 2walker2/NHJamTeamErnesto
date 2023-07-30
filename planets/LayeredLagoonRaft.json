@@ -10,7 +10,8 @@
 		"singularities": [
 			{
 				"position": {
-					"y": 50.0
+					"x": -5.0,
+					"y": 55.0
 				},
 				"horizonRadius": 10.0,
 				"distortRadius": 11.0,
